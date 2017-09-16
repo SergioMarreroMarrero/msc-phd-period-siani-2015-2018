@@ -1,0 +1,8 @@
+From Local Similarities to Global Coding: A Framework for Coding Applications,
+
+# Feature coding has received great attention in recent years as a building block of many image processing algorithms. In particular, the importance of the locality assumption in coding approaches has been studied in many previous works. We review this assumption and claim that using the similarity of data points to a more global set of anchor points does not necessarily weaken the coding method, as long as the underlying structure of the anchor points is considered. We propose to capture the underlying structure by assuming a random walker over the anchor points. We also show that our method is a fast approximation to the diffusion map kernel. Experiments on various data sets show that with a knowledge of the underlying structure of anchor points, different state-of-the-art coding algorithms may boost their performance in different learning tasks by utilizing the proposed method.
+
+{approximation theory;image coding;anchor points;coding applications;data points similarity;diffusion map kernel;fast approximation;global coding;image processing;learning tasks;local similarities;random walker;underlying structure;Dictionaries;Encoding;Image coding;Image reconstruction;Kernel;Manifolds;Support vector machines;Sparse coding;diffusion kernel;image classification;image clustering;local coordinate coding},
+
+
+

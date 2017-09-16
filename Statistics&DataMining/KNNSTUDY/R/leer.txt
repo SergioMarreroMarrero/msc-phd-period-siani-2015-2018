@@ -1,0 +1,15 @@
+Archivo:
+
+inspeccionarDatos.R:
+#Este archivo se uso para inspeccionar los datos y
+# hacer algunas pruebas.
+
+generaciondeACC.R:
+# Este script genera dos archivos llamados resultsEuclidea.csv y
+# resultsManhattan.csv y tablaAccuracyknn20rep.csv Estos archivos contendran los resultados 
+#de los experimentos.Los datos estan guardados en la carpeta data.
+
+
+testEstadisticos.R:
+# En este archivo se llevan a cabo los test estadisticos
+

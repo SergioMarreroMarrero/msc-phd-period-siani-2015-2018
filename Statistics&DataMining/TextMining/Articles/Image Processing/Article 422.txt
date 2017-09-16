@@ -1,0 +1,8 @@
+Image Segmentation With Cage Active Contours,
+
+# In this paper, we present a framework for image segmentation based on parametrized active contours. The evolving contour is parametrized according to a reduced set of control points that form a closed polygon and have a clear visual interpretation. The parametrization, called mean value coordinates, stems from the techniques used in computer graphics to animate virtual models. Our framework allows to easily formulate region-based energies to segment an image. In particular, we present three different local region-based energy terms: 1) the mean model; 2) the Gaussian model; 3) and the histogram model. We show the behavior of our method on synthetic and real images and compare the performance with state-of-the-art level set methods.
+
+{Gaussian processes;computer graphics;image segmentation;Gaussian model;cage active contours;closed polygon;computer graphics;histogram model;image segmentation;mean model;mean value coordinates;parametrized active contour;region-based energy terms;state-of-the-art level set method;virtual animation model;Active contours;Computational modeling;Histograms;Image color analysis;Image segmentation;Level set;Probability distribution;Level sets;Mean value coordinates;Parametrized active contours;level sets;mean value coordinates},
+
+
+

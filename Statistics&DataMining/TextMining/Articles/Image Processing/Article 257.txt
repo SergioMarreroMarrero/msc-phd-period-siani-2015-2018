@@ -1,0 +1,8 @@
+Object-Based Multiple Foreground Video Co-Segmentation via Multi-State Selection Graph,
+
+# We present a technique for multiple foreground video co-segmentation in a set of videos. This technique is based on category-independent object proposals. To identify the foreground objects in each frame, we examine the properties of the various regions that reflect the characteristics of foregrounds, considering the intra-video coherence of the foreground as well as the foreground consistency among the different videos in the set. Multiple foregrounds are handled via a multi-state selection graph in which a node representing a video frame can take multiple labels that correspond to different objects. In addition, our method incorporates an indicator matrix that for the first time allows accurate handling of cases with common foreground objects missing in some videos, thus preventing irrelevant regions from being misclassified as foreground objects. An iterative procedure is proposed to optimize our new objective function. As demonstrated through comprehensive experiments, this object-based multiple foreground video co-segmentation method compares well with related techniques that co-segment multiple foregrounds.
+
+{graph theory;image representation;image segmentation;iterative methods;matrix algebra;video signal processing;category-independent object proposal;indicator matrix;iterative procedure;multistate selection graph;object-based multiple foreground video cosegmentation;video frame represention;Electronic mail;Feature extraction;Image segmentation;Learning systems;Proposals;TV;Training;Video co-segmentation;multiple foregrounds;object-based segmentation;video co-segmentation},
+
+
+

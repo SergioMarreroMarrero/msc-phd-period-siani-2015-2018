@@ -1,0 +1,8 @@
+Edges and Corners With Shearlets,
+
+# Shearlets are a relatively new and very effective multi-scale framework for signal analysis. Contrary to the traditional wavelets, shearlets are capable to efficiently capture the anisotropic information in multivariate problem classes. Therefore, shearlets can be seen as the valid choice for multi-scale analysis and detection of directional sensitive visual features like edges and corners. In this paper, we start by reviewing the main properties of shearlets that are important for edge and corner detection. Then, we study algorithms for multi-scale edge and corner detection based on the shearlet representation. We provide an extensive experimental assessment on benchmark data sets which empirically confirms the potential of shearlets feature detection.
+
+{edge detection;feature extraction;image representation;transforms;benchmark data sets;directional sensitive visual feature detection;multiscale corner detection;multiscale edge detection;multiscale framework;multivariate problem classes;shearlet representation;signal analysis;Computational complexity;Feature extraction;Frequency-domain analysis;Image edge detection;Shearing;Wavelet transforms;Shearlets;corner detection;edge detection;image features;multi-scale image analysis},
+
+
+

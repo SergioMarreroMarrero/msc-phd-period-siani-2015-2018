@@ -1,0 +1,8 @@
+Segmentation of Overlapping Elliptical Objects in Silhouette Images,
+
+# Segmentation of partially overlapping objects with a known shape is needed in an increasing amount of various machine vision applications. This paper presents a method for segmentation of clustered partially overlapping objects with a shape that can be approximated using an ellipse. The method utilizes silhouette images, which means that it requires only that the foreground (objects) and background can be distinguished from each other. The method starts with seedpoint extraction using bounded erosion and fast radial symmetry transform. Extracted seedpoints are then utilized to associate edge points to objects in order to create contour evidence. Finally, contours of the objects are estimated by fitting ellipses to the contour evidence. The experiments on one synthetic and two different real data sets showed that the proposed method outperforms two current state-of-art approaches in overlapping objects segmentation.
+
+{computer vision;image segmentation;bounded erosion;contour evidence;fast radial symmetry transform;machine vision application;overlapping elliptical object segmentation;seedpoint extraction;silhouette image;Estimation;Image edge detection;Image segmentation;Object segmentation;Shape;Transforms;Segmentation;convex objects;image processing;machine vision;overlapping objects;segmentation},
+
+
+

@@ -1,0 +1,8 @@
+A Multiscale Wavelet-Based Test for Isotropy of Random Fields on a Regular Lattice,
+
+# A test for isotropy of images modeled as stationary or intrinsically stationary random fields on a lattice is developed. The test is based on the wavelet theory, and can operate on the horizontal and vertical scale of choice, or on any combination of scales. Scale is introduced through the wavelet variances (sometimes called as the wavelet power spectrum), which decompose the variance over different horizontal and vertical spatial scales. The method is more general than existing tests for isotropy, since it handles intrinsically stationary random fields as well as second-order stationary fields. The performance of the method is demonstrated on samples from different random fields, and compared with three existing methods. It is competitive with or outperforms existing methods since it consistently rejects close to the nominal level for isotropic fields while having a rejection rate for anisotropic fields comparable with the existing methods in the stationary case, and superior in the intrinsic case. As practical examples, paper density images of handsheets and mammogram images are analyzed.
+
+{image processing;wavelet transforms;anisotropic fields;handsheets;horizontal spatial scales;image isotropy;isotropic fields;mammogram images;multiscale wavelet-based test;paper density images;random field isotropy;regular lattice;second-order stationary fields;vertical spatial scales;wavelet power spectrum;wavelet theory;wavelet variances;Anisotropic magnetoresistance;Covariance matrices;Discrete wavelet transforms;Equations;Lattices;Standards;Vectors;Maximal overlap discrete wavelet transform;anisotropy;isotropy;random fields;wavelet variance},
+
+
+

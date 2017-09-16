@@ -1,0 +1,8 @@
+Including Signal Intensity Increases the Performance of Blind Source Separation on Brain Imaging Data,
+
+# When analyzing brain imaging data, blind source separation (BSS) techniques critically depend on the level of dimensional reduction. If the reduction level is too slight, the BSS model would be overfitted and become unavailable. Thus, the reduction level must be set relatively heavy. This approach risks discarding useful information and crucially limits the performance of BSS techniques. In this study, a new BSS method that can work well even at a slight reduction level is presented. We proposed the concept of “signal intensity” which measures the significance of the source. Only picking the sources with significant intensity, the new method can avoid the overfitted solutions which are nonexistent artifacts. This approach enables the reduction level to be set slight and retains more useful dimensions in the preliminary reduction. Comparisons between the new and conventional algorithms were performed on both simulated and real data.
+
+{biomedical MRI;blind source separation;brain;data analysis;medical signal processing;BSS model;blind source separation;brain imaging data analysis;conventional algorithms;dimensional reduction level;nonexistent artifacts;signal intensity;Algorithm design and analysis;Brain;Correlation;Imaging;Signal to noise ratio;Source separation;Vectors;Blind source separation (BSS);brain imaging;canonical correlation analysis;overfitting;signal intensity},
+
+
+

@@ -1,0 +1,8 @@
+Query-Adaptive Multiple Instance Learning for Video Instance Retrieval,
+
+# Given a query image containing the object of interest (OOI), we propose a novel learning framework for retrieving relevant frames from the input video sequence. While techniques based on object matching have been applied to solve this task, their performance would be typically limited due to the lack of capabilities in handling variations in visual appearances of the OOI across video frames. Our proposed framework can be viewed as a weakly supervised approach, which only requires a small number of (randomly selected) relevant and irrelevant frames from the input video for performing satisfactory retrieval performance. By utilizing frame-level label information of such video frames together with the query image, we propose a novel query-adaptive multiple instance learning algorithm, which exploits the visual appearance information of the OOI from the query and that of the aforementioned video frames. As a result, the derived learning model would exhibit additional discriminating abilities while retrieving relevant instances. Experiments on two real-world video data sets would confirm the effectiveness and robustness of our proposed approach.
+
+{image matching;object detection;query processing;video retrieval;video signal processing;OOI;input video;object matching;object of interest;query adaptive multiple instance learning;query image;video frames;video instance retrieval;video sequence;visual appearance information;Detectors;Feature extraction;Image segmentation;Proposals;Search problems;Training;Visualization;Object detection;multiple instance learning;object matching;weakly supervised learning},
+
+
+

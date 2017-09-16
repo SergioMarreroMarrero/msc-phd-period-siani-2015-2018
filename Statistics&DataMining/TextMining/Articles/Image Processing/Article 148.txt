@@ -1,0 +1,8 @@
+Recursive Approximation of the Bilateral Filter,
+
+# This paper presents a complete proof that the bilateral filter can be implemented recursively, as long as: 1) the spatial filter can be implemented recursively and 2) the range filter can be decomposed into a recursive product. As a result, an O(ND) solution can be obtained for bilateral filtering, where N is the image size and D is the dimensionality.
+
+{approximation theory;image filtering;spatial filters;O(ND) solution;bilateral filter;image size;range filter;recursive approximation;recursive product;spatial filter;Approximation methods;Computational complexity;Equations;Filtering;Gray-scale;Kernel;Bilateral Filtering;Bilateral filtering;Edge-Preserving Smoothing;Recursive Filtering;edge-preserving smoothing;recursive filtering},
+
+
+

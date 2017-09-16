@@ -1,0 +1,697 @@
+---
+title: 'Algoritmos de clasificación : K-NN, Árboles de decisión simples y múltiples
+  (random forest)'
+author: "UOC - Master BI - Business Analytics (Nombre Estudiante)"
+date: "Marzo del 2017"
+output:
+  word_document: default
+  pdf_document:
+    toc: yes
+  html_document:
+    fig_height: 5
+    fig_width: 7
+    number_sections: yes
+    theme: journal
+    toc: yes
+    toc_depth: 1
+---
+
+******
+# Base teórica
+******
+
+Esta práctica se basa en una de las aplicaciones de **algoritmos de clasificación**, desarrolladas con **K-NN** y **árboles de decisión**.  
+
+**K-NN (o k-vecinos)** es un sistema de clasificación basado en la comparación de instancias nuevas con instancias presentes en el juego de datos de entrenamiento. La construcción de grupos se realiza a partir del propio juego de datos de entrenamiento, tomando como referencia el parámetro *k* indicado por el investigador.
+El algoritmo de los K vecinos más cercanos es uno de los algoritmos más simples que existen que muestran la esencia del aprendizaje basado en instancias. Este algoritmo asume que todas las instancias corresponden a puntos que se encuentran en un espacio de dimensión *n*. El vecino más cercano de una instancia es definido en términos de la distancia Euclidiana estándar.
+
+Los **árboles de decisión** son algoritmos que construyen modelos de decisión que forman estructuras similares a los diagramas de flujo donde los nodos internos suelen ser puntos de decisión sobre un atributo del juego de datos. Son muy dependientes del concepto de ganancia
+de la información ya que es el criterio que utilizan para construir las ramificaciones del
+árbol.
+A grandes rasgos existen dos tipos de árboles de decisión:
+* _Árboles de decisión simples_: el resultado se construye mediante un proceso de clasificación.
+* _Árboles de decisión múltiples (random forest)_: el resultado se construye mediante el desarrollo iterativo de *n* procesos de clasificación.
+ 
+
+**Recursos en la web:**  
+
+* [Wikipedia: K-NN (k-vecinos más cercanos)](https://es.wikipedia.org/wiki/K-vecinos_m%C3%A1s_cercanos)  
+* [Wikipedia: Árbol de decisión simple](https://es.wikipedia.org/wiki/%C3%81rbol_de_decisi%C3%B3n)  
+* [Wikipedia: Árbol de decisión múltiple (Random forest)](https://es.wikipedia.org/wiki/Random_forest))  
+
+* [A Detailed Introduction to K-Nearest Neighbor (K-NN) Algorithm](https://saravananthirumuruganathan.wordpress.com/2010/05/17/a-detailed-introduction-to-k-nearest-neighbor-knn-algorithm/)  
+
+* [A Brief Tour of the Trees and Forests](http://www.r-bloggers.com/a-brief-tour-of-the-trees-and-forests/)  
+
+
+
+******
+# Caso de estudio: ---  Clasificación red de ventas Bodegas Mureda  ---
+******
+Formamos parte de la Dirección Comercial de la Bodega de vinos **Mureda** y queremos analizar la actividad de nuestra red de ventas, formada por tres categorías de comerciales (A, B y C). Para ello, estamos interesados en conocer si existen diferencias en la actividad generada por cada uno de los comerciales y, en caso afirmativo, identificar cuáles son las variables que más contribuyen a dichas diferencias y si podemos predecir a qué categoría de comercial pertenece un nuevo empleado en función de su actividad. 
+
+Para ello, nuestro equipo de análisis dispone de un fichero con información de 150 clientes que recoge estadísticas de actividad de los tres grupos de Comerciales, a razón de 50 registros por grupo de comercial. El fichero contiene información de las siguientes variables:  
+
+* _Importe_: Volumen de Facturación en el Cliente (vinculado a una categoría de Comercial)  
+
+* _Margen_: Margen por Cliente (vinculado a una categoría de Comercial)  
+
+* _Km_: Kilómetros recorridos para visitar al Cliente.
+
+* _Visitas_: Visitas realizadas al Cliente.
+
+* _Comercial_: Categoría de comercial asignada al cliente (Toma valores A, B ó C)  
+
+
+
+Una vez definidos los objetivos de nuestra investigación, nuestro departamento de análisis nos propone desarrollar un proceso de clasificación que aplique tres tipos de algoritmos complementarios: K-NN, Árboles de decisión simples y Árboles de clasificación múltiples (random forest) sobre nuestro fichero de datos.
+
+
+******
+# Apartados de la práctica
+******
+El código R que utilizaremos en la práctica se divide en apartados según las tareas que iremos realizando:  
+
+**Apartados práctica:**  
+
+* Carga de paquetes necesarios y fichero  
+
+* Análisis univariable y bivariable del fichero _K-NN_  
+
+    + Descriptivos de las variables del fichero  
+    
+    + Estudio de la relación entre variables  
+    
+    + Comparación de las variables por tipo de Comercial  
+    
+* Clasificación de los clientes con _K-NN_  
+
+    + Construcción del Modelo de clasificación con _K-NN_  
+    
+    + Validación del Modelo de clasificación con _K-NN_  
+    
+* Clasificación de los clientes con árboles de decisión simples  
+
+    + Construcción del Modelo de clasificación con el paquete _rpart_  
+    
+    + Validación del Modelo de clasificación con el paquete _rpart_  
+    
+* Clasificación de los clientes con árboles de decisión múltiples (_random forest_)  
+
+    + Construcción del Modelo de clasificación con el paquete _randomForest_  
+    
+    + Validación del Modelo de clasificación con el paquete _randomForest_  
+    
+
+******
+# Carga de paquetes y del fichero de datos
+******
+Empezaremos por cargar los packages R que necesitaremos tener en memoria.
+
+Cargamos también los datos ubicados en el fichero PEC2.csv 
+
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE}
+#revisamos si es necesario instalar los paquetes necesarios para desarrollar la PEC 2
+#install.packages("ggplot2")
+#install.packages("rpart.plot")
+#install.packages("useful")
+#install.packages("randomForest")
+
+#cargamos los paquetes necesarios para desarrollar la PEC 2
+
+# Para representar gráficamente la relación entre variables
+library("ggplot2")
+# Para clasificar con K-NN
+library("class")
+# Para clasificar con rpart
+library("rpart")
+library("rpart.plot")
+# Para clasificar con randomForest
+library("useful")
+library("randomForest")
+
+#cargamos el fichero de datos que utilizamos para desarrollar la PEC 2
+nombreruta_PEC2 <- paste(getwd(),"/PEC2.csv", sep = "")
+
+Data_PEC2 <- read.csv(nombreruta_PEC2, encoding="UTF-8",
+                     header=TRUE, sep=",", na.strings="NA", dec=".", strip.white=TRUE)
+```
+
+******
+******
+# Análisis univariable y bivariable del fichero
+******
+
+La primera fase del análisis consiste siempre en un análisis descriptivo de las variables incluidas en el fichero y de la relación existente entre ellas. Para ello, aplicamos la siguiente secuencia de cálculos y representaciones gráficas.
+
+1. Estadísticos descriptivos de las variables
+2. Representación gráfica de cada una de las variables 
+3. Estudio de la relación entre las variables cuantitativas
+4. Estudio de la existencia de diferencias por comercial
+
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE}
+# 1.Calculamos los descriptivos univariables de las variables del fichero
+summary(Data_PEC2) #Estadísticos descriptivos básicos de las variables
+```
+
+Algunos de los estadísticos descriptivos de posición que caracterizan a las 5 variables son: 
+
+* _Importe_: Promedio de 5.843€, Máximo 7.900€, Mínimo 4.300€  
+
+* _Margen_: Promedio de 305,4€, Máximo 440€, Mínimo 200€  
+
+* _Km_: Promedio de 37,59€, Máximo 69€, Mínimo 10€  
+
+* _Visitas_: Promedio de 11,99€, Máximo 25€, Mínimo 1€  
+
+* _Comercial_: 50 observaciones por comercial  
+
+
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE}
+
+# 2.Representamos gráficamente las variables del fichero mediante histogramas
+
+#Histograma Ingresos
+f1 <- hist(Data_PEC2$Ingresos, main="Histograma Ingresos", col = "gray", labels = TRUE) 
+f1
+#Histograma Margen
+f2 <- hist(Data_PEC2$Margen, main="Histograma Margen", col = "gray", labels = TRUE) 
+f2
+#Histograma Km
+f3 <- hist(Data_PEC2$Km, main="Histograma Km", col = "gray", labels = TRUE)
+f3
+#Histograma Visitas
+f4 <- hist(Data_PEC2$Visitas, main="Histograma Visitas", col = "gray", labels = TRUE)
+f4
+#Histograma Comercial
+f5 <- plot(Data_PEC2$Comercial)
+f5
+```
+
+Las variables cuantitativas presentan dos distribuciones diferenciadas:  
+
+* _Importe_ y _Margen_ presentan una distribución similar a una campana de _Gauss_, algo más concentrada en el caso de _Margen_  
+
+* _Km_ y _Visitas_ presentan una distribución muy similar. Con una alta concentración para valores bajos que desciende rápidamente para volver a crecer siguiendo una campana de _Gauss_ a partir del tercer valor de la serie.  
+
+
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE}
+# 3.Estudiamos la relación existente entre las variables del fichero
+
+# Estudiamos la relación entre variables mediante gráficos de dispersión
+f6<- plot(Data_PEC2)                                              
+f6
+# Estudiamos la relación entre variables cuantitativas mediante correlaciones
+cor(Data_PEC2[,c("Ingresos","Margen","Km","Visitas")], use="complete")
+```
+
+Analizando los gráficos de dispersión, apuntamos una fuerte relación entre _Visitas_-_Km_, _Ingresos_-_Km_, _Margen_-_Km_ e _Ingresos_-_Visitas_ que podemos validar con el coeficiente de correlación, estadístico que toma valores entre -1 y 1 y que mide la fuerza con la que dos variables quedan interrelacionadas (próximo a 1 cuando la relación es fuertemente directa y próximo a -1 cuando la relación es fuertemente inversa)  
+
+
+* Coeficiente de Correlación _Visitas_-_Km_ -> (0,96)  
+
+* Coeficiente de Correlación _Ingresos_-_Km_ -> (0,87)  
+
+* Coeficiente de Correlación _Ingresos_-_Visitas_ -> (0,82)  
+
+* Coeficiente de Correlación _Margen_-_Km_ -> (-0,42)  
+
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE}
+# Estudiamos la relación entre variables Km y Visitas
+f7<-ggplot(Data_PEC2, aes(x=Km, y=Visitas)) + geom_point()
+f7
+# Estudiamos la relación entre variables Km y Visitas con tamaño ingresos
+f8<-ggplot(Data_PEC2, aes(x=Km, y=Visitas)) + geom_point(aes(size=Ingresos))
+f8
+# Relación entre variables Km y Visitas con tamaño margen
+f9<-ggplot(Data_PEC2, aes(x=Km, y=Visitas)) + geom_point(aes(size=Margen))
+f9
+# Relación entre variables Km y Visitas con tamaño margen
+fA<-ggplot(Data_PEC2, aes(x=Km, y=Margen)) + geom_point(aes(size=Ingresos))
+fA
+
+# 3.Estudiamos la existencia de diferencias por Comercial
+
+# promedio variables por comercial 
+tapply(Data_PEC2$Ingresos,Data_PEC2$Comercial,mean)
+tapply(Data_PEC2$Margen,Data_PEC2$Comercial,mean)
+tapply(Data_PEC2$Km,Data_PEC2$Comercial,mean)
+tapply(Data_PEC2$Visitas,Data_PEC2$Comercial,mean)
+```
+
+Vemos que existen diferencias remarcables en el promedio de cada una de las variables para cada Comercial:  
+
+* El Comercial C es el Comercial con un _Importe_ promedio mayor, con una valor ligeramente superior al de B  
+
+* El Comercial A es el Comercial con un _Margen_ promedio mayor  
+
+* El Comercial C es el Comercial que hace más _Visitas_ en promedio  
+
+* El Comercial C es el Comercial que hace más _Km_ en promedio, con un valor que es prácticamente el doble que el del B  
+
+
+Graficamos a continuación las variables cuantitativas diferenciando por Comercial.
+
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE}
+# Relación entre variables Km y Visitas con tamaño ingresos y Color según Comercial
+f10<-ggplot(Data_PEC2, aes(x=Km, y=Visitas, color=Comercial)) + geom_point(aes(size=Ingresos))
+f10
+# Relación entre variables Km y Visitas con tamaño ingresos y Color según Comercial, línea tendencia y elipse
+f11<-ggplot(Data_PEC2, aes(x=Km, y=Visitas, color=Comercial)) + geom_point(aes(size=Ingresos)) + 
+  geom_smooth(method=lm, aes(fill=Comercial))+ stat_ellipse(type = "norm")
+f11
+```
+
+Identificamos un comportamiento diferenciado donde _Km_ y _Visitas_ ya que son las variables que presentan una mayor capacidad de diferenciación.
+
+******
+******
+# Proceso de clasificación mediante K-NN.
+******
+
+Una vez analizado descriptivamente el fichero, consideramos necesario evaluar la capacidad predictiva de tres modelos predictivos: 
+
+* K-Vecino próximo (_K-NN_)  
+
+* Árboles de decisión simples  
+
+* Árboles de decisión múltiples (random forest)  
+
+
+Con dicho objetivo, aplicaremos los algoritmos siguiendo la siguiente secuencia:  
+
+
+6 Clasificación de los clientes con _K-NN_  
+
+     6.1 Construcción del Modelo de clasificación con _K-NN_  
+     
+     6.2 Validación del Modelo de clasificación con _K-NN_  
+     
+7 Clasificación de los clientes con árboles de decisión simples
+
+     7.1 Construcción del Modelo de clasificación con el paquete _rpart_  
+     
+     7.2 Validación del Modelo de clasificación con el paquete _rpart_  
+     
+8 Clasificación de los clientes con árboles de decisión múltiples (_random forest_)  
+
+     8.1 Construcción del Modelo de clasificación con el paquete _randomForest_  
+     
+     8.2 Validación del Modelo de clasificación con el paquete _randomForest_  
+     
+
+******
+## Construcción del juego de datos de entrenamiento
+******
+
+Construimos un **juego de datos de entrenamiento** con el 70% de registros para construir los modelos y un **juego de datos de pruebas** con el 30% de registros restantes para validar los modelos.  
+
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE}
+# Dividimos el fichero en 70% entreno y 30% validación  #
+set.seed(1234)
+ind <- sample(2, nrow(Data_PEC2), replace=TRUE, prob=c(0.7, 0.3))
+trainData <- Data_PEC2[ind==1,]
+testData <- Data_PEC2[ind==2,]
+```
+
+******
+## Clasificación de los Comerciales con _K-NN_
+******
+
+**Aplicamos el modelo K-NN**, pasándole como parámetros la matriz de entrenamiento compuesta por las 4 variables cuantitativas : _Importe_, _Margen_, _Km_ y _Visitas_. No le pasamos el campo _Comercial_ porque precisamente es el campo que el algoritmo debe predecir.  
+
+Dado que el modelo *K-NN* permite replicar el modelo para _n_ valores diferentes de _k_, repetimos el análisis para _k_=1,2,3 y 4.
+
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE}
+# Aplicamos el algoritmo K-NN seleccionando 1 como k inicial
+KnnTestPrediccion_k1 <- knn(trainData[,1:4],testData[,1:4], trainData$Comercial , k = 1, prob = TRUE )
+# Visualizamos una matriz de confusión
+table ( testData$Comercial , KnnTestPrediccion_k1 )
+# Calculamos el % de aciertos para k=1
+sum(KnnTestPrediccion_k1 == testData$Comercial)/ length(testData$Comercial)*100
+
+# Aplicamos el algoritmo K-NN seleccionando 2 como k inicial
+KnnTestPrediccion_k2 <- knn(trainData[,1:4],testData[,1:4], trainData$Comercial , k = 2, prob = TRUE )
+# Visualizamos una matriz de confusión
+table ( testData$Comercial , KnnTestPrediccion_k2 )
+# Calculamos el % de aciertos para k=2
+sum(KnnTestPrediccion_k2 == testData$Comercial)/ length(testData$Comercial)*100
+
+# Aplicamos el algoritmo K-NN seleccionando 3 como k inicial
+KnnTestPrediccion_k3 <- knn(trainData[,1:4],testData[,1:4], trainData$Comercial , k = 3, prob = TRUE )
+# Visualizamos una matriz de confusión
+table ( testData$Comercial , KnnTestPrediccion_k3 )
+# Calculamos el % de aciertos para k=3
+sum(KnnTestPrediccion_k3 == testData$Comercial)/ length(testData$Comercial)*100
+
+# Aplicamos el algoritmo K-NN seleccionando 4 como k inicial
+KnnTestPrediccion_k4 <- knn(trainData[,1:4],testData[,1:4], trainData$Comercial , k = 4, prob = TRUE )
+# Visualizamos una matriz de confusión
+table ( testData$Comercial , KnnTestPrediccion_k4 )
+# Calculamos el % de aciertos para k=4
+sum(KnnTestPrediccion_k4 == testData$Comercial)/ length(testData$Comercial)*100
+```
+
+Una vez aplicados el algoritmo para _k_=1,2,3 y 4. Mediante la **matriz de confusión** valoramos el nivel de acierto del modelo. Con dicho objetivo, estudiamos el % de acierto de cada uno de ellos con el objetivo de escoger el valor de _k_ que permite obtener un % de clasificación correcta más alto:  
+
+* para _k_=1 el porcentaje de aciertos es 76%  
+
+* para _k_=2 el porcentaje de aciertos es 71%  
+
+* para _k_=3 el porcentaje de aciertos es 66%  
+
+* para _k_=4 el porcentaje de aciertos es 66%  
+
+
+En consecuencia tomamos el valor _k_=1 con un 76% de clasificación correcta.
+
+******
+******
+# Proceso de clasificación mediante árboles de decisión simples
+******
+
+Para construir un árbol de decisión es necesario definir una función que relaciona una variable categórica dependiente (factor) con _n_ variables independientes que pueden ser categóricas o numéricas. En nuestro caso trabajaremos con:  
+
+* 1 variable factor dependiente -> _Comercial_  
+
+* 4 variables independientes -> _Ingresos_, _Margen_, _Km_ y _Visitas_  
+
+
+El algoritmo de clasificación busca cuál es la variable que permite obtener una submuestra más diferenciada para la variable dependiente (_Comercial_ en nuestro caso) e identifica también qué intervalos (si la variable es cuantitativa) ó agrupación de categorías de la/s variable/s independiente/s permitiría/n maximizar dicha división. 
+
+Una vez identificada la variable independiente que permite obtener la clasificación con una mayor capacidad de diferenciación, el proceso se repite reiterativamente en cada uno de los nodos obtenidos hasta que el algoritmo no encuentra diferencias significativas que le permitan seguir profundizando en los nodos. 
+
+Una vez obtenido una primera versión del árbol, existen algoritmos que permiten hacer un podado del árbol (_prunning_), eliminando aquellas ramas que no acaban de justificar su presencia de acuerdo con algunos parámetros preestablecidos.  
+
+En todos los casos seguiremos la siguiente secuencia de pasos para obtener los árboles de clasificación:  
+
+1. Definir la muestra de entrenamiento y la muestra de prueba  
+
+2. Definir la función que relaciona la variable dependiente con las variables independientes  
+
+3. Estimar el árbol de decisión  
+
+4. Representar gráficamente una primera versión del árbol  
+
+  + Estudiar la aplicación práctica del resultado obtenido  
+  
+  + Podar el árbol (si el algoritmo admite podado)  
+  
+5. Estudiar la capacidad predictiva del árbol  
+
+******
+## Clasificación de los Comerciales con árboles de decisión simples (paquete rpart)
+******
+
+Estudiamos a continuación la capacidad predictiva del árbol de decisión simple obtenido mediante el paquete *rpart*
+
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE}
+# Dividimos el fichero en 70% entreno y 30% validación  (parte recurrente en todo experimento)
+set.seed(1234)
+ind <- sample(2, nrow(Data_PEC2), replace=TRUE, prob=c(0.7, 0.3))
+trainData <- Data_PEC2[ind==1,]
+testData <- Data_PEC2[ind==2,]
+#Declaramos función del árbol
+ArbolRpart <- Comercial ~ Ingresos + Margen + Km + Visitas
+#Aplicamos algoritmo
+ArbolRpart_ctree <- rpart(ArbolRpart, method="class", data=trainData)
+#Obtenemos la relación de reglas de asociación del árbol en formato listado
+print(ArbolRpart_ctree) # estadísticas detalladas de cada nodo
+#Obtenemos el árbol con un diseño gráfico cuidado
+f13<-rpart.plot(ArbolRpart_ctree,extra=4) #visualizamos el árbol
+f13
+# Estudiamos la evolución del error a medida que el árbol va creciendo
+summary(ArbolRpart_ctree) # estadísticas detalladas de cada nodo
+printcp(ArbolRpart_ctree) # estadísticas de resultados
+plotcp(ArbolRpart_ctree) # evolución del error a medida que se incrementan los nodos
+# Validamos la capacidad de predicción del árbol con el fichero de validación
+testPredRpart <- predict(ArbolRpart_ctree, newdata = testData, type = "class")
+# Visualizamos una matriz de confusión
+table(testPredRpart, testData$Comercial)
+# Calculamos el % de aciertos 
+sum(testPredRpart == testData$Comercial)/ length(testData$Comercial)*100
+```
+
+El árbol de decisión obtenido mediante el paquete *rpart* clasifica correctamente un 94,73% de los registros. Un resultado bastante alto y aceptable.  
+  
+Una vez construida una primera versión del árbol, estudiamos la viabilidad de un podado de árbol.
+
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE}
+# Podado del árbol
+pArbolRpart_ctree<- prune(ArbolRpart_ctree, cp= ArbolRpart_ctree$cptable[which.min(ArbolRpart_ctree$cptable[,"xerror"]),"CP"])
+  pArbolRpart_ctree<- prune(ArbolRpart_ctree, cp= 0.02)
+# Representación del árbol podado
+f14<-rpart.plot(pArbolRpart_ctree,extra=4) #visualizamos el árbol
+f14
+```
+  
+Dado que el árbol original es muy simple. El podado no devuelve ninguna versión nueva reducida.
+  
+******
+# Proceso de clasificación mediante árboles de decisión múltimples (paquete randomForest)
+******
+
+Una vez evaluada la capacidad predictiva del algoritmo *K-NN*, y los árboles de decisión simples obtenidos mediante el paquete *rpart*, estimamos el modelo que obtendríamos si ejecutásemos _n_ árboles de decisión simultáneamente (para _n_=100 en nuestro caso) mediante el algoritmo *randomForest*.
+
+El algoritmo *randomForest* es un método de estimación combinado, donde el resultado de la estimación se construye a partir de los resultados obtenidos mediante el cálculo de _n_ árboles donde los predictores son incluidos al azar. 
+
+Es un método complejo con ventajas e inconvenientes respecto a los árboles de clasificación simples:  
+
+*Ventajas*  
+
+* Es uno de los algoritmos de aprendizaje más precisos  
+
+* Se ejecuta eficientemente en grandes bases de datos  
+
+* Permite trabajar con cientos de variables independientes sin excluir ninguna  
+
+* Determina la importancia en la clasificación de cada variable  
+
+* Recupera eficazmente los valores perdidos de un dataset (_missings_)  
+
+* Permite evaluar la ganancia en clasificación obtenida a medida que incrementamos el número de árboles generados en el modelo.  
+
+
+*Inconvenientes*  
+
+* A diferencia de los árboles de decisión, la clasificación hecha por _random forests_ es difícil de interpretar  
+
+* Favorece las variables categóricas que tienen un mayor número de niveles por encima de aquéllas que tienen un número de categoría más reducido. Comprometiendo la fiabilidad del modelo para este tipo de datos.  
+
+* Favorece los grupos más pequeños cuando las variables están correlacionadas  
+
+* randomForest sobreajusta en ciertos grupos de datos con tareas de clasificación/regresión ruidosas  
+
+
+
+  
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE}
+# Dividimos el fichero en 70% entreno y 30% validación  (parte recurrente en todo experimento)
+set.seed(1234)
+ind <- sample(2, nrow(Data_PEC2), replace=TRUE, prob=c(0.7, 0.3))
+trainData <- Data_PEC2[ind==1,]
+testData <- Data_PEC2[ind==2,]
+#Declaramos función del árbol
+ArbolRF <- Comercial ~ Ingresos + Margen + Km + Visitas
+#Aplicamos algoritmo
+ArbolRF_ctree <- randomForest(ArbolRF, data=trainData, ntree=100,proximity=T) #indicamos el número de árboles mediante ntree=100
+#Obtenemos la importancia de cada variable en el proceso de clasificación
+importance(ArbolRF_ctree)      #Importancia de las variables en formato text
+f15<-varImpPlot(ArbolRF_ctree) #Importancia de las variables en formato gráfico
+f15
+#evolución del error según el número de árboles
+f16<-plot(ArbolRF_ctree, main = "")  
+head(f16)
+# Validamos la capacidad de predicción del árbol con el fichero de validación
+  testPredRF <- predict(ArbolRF_ctree, newdata = testData)
+  table(testPredRF, testData$Comercial)
+# Calculamos el % de aciertos 
+sum(testPredRF == testData$Comercial)/ length(testData$Comercial)*100
+```
+
+El árbol de decisión obtenido mediante el paquete *randomForest* clasifica correctamente un 94,73% de los registros. Un resultado bastante alto y aceptable.  
+
+
+
+******  
+******
+# Ejercicios
+******
+
+
+## Pregunta 1. ¿El algoritmo KNN es un algoritmo determinístico o probabilistico? Razona la respuesta.
+
+> Ejecuta el algoritmo KNN con k=4 utilizando las semillas distintas 12, 1234 y 12345. ¿Qué ocurre? ¿Cuál crees que es el motivo?
+
+ Tal y como está implementada la función knn(), se trata de un algoritmo *probabilístico*. Sin embargo hay que denotar algunos matices. Cuando el número de vecinos es *impar* el algoritmo de clasificación se comporta de forma determinística. Sin embargo, cuando el algoritmo es *par*, debido a la posibilidad de empate, este se deshace a través del azar, convirtiendolo en probabilístico.
+ A continuación se expone el código que se ha realizado. Se realiza una clasficación para las 3 semillas y para los siguientes vecinos: 4 y 5 (para e impar).
+ 
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE} 
+ # Algoritmo
+ 
+ # Knn probabilistico o deterministico
+set.seed(1234)
+ind <- sample(2, nrow(Data_PEC2), replace = TRUE, prob = c(0.7, 0.3))
+trainData <- Data_PEC2[ind == 1,]
+testData <- Data_PEC2[ind == 2,]
+
+acc <- matrix(0, 2,3)
+vecinos = c(4,5)
+semillas = c(12, 1234, 12345)
+contador_vecinos = 0
+for (vecino in vecinos) {
+  contador_vecinos = contador_vecinos + 1
+  contador_semillas = 0
+  for (semilla in semillas){
+    contador_semillas = contador_semillas + 1
+    set.seed(semilla)
+    # Clasificacion de los comerciales con K-NN
+    KnnTestPrediccion_k1 <- knn(trainData[,1:4],testData[,1:4], trainData$Comercial , k = vecino, prob = TRUE )
+    #print(table( testData$Comercial , KnnTestPrediccion_k1 ))
+    # Calculamos el % de aciertos para k = 1
+    # Calculamos el % de aciertos para k=  1
+    acc[contador_vecinos, contador_semillas] <- sum(KnnTestPrediccion_k1 == testData$Comercial)/ length(testData$Comercial)*100
+    
+  }
+}
+```
+Se observa en la siguiente tabla que cuando se usa un número de vecinos impares, al no darse la situación de empate, el número de aciertos es independiente de la semilla.
+
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE}
+# Imprimimos los distintos valores de acc
+value_col <- c("sA", "sB", "sC")
+value_row <- c("even", "odd")
+rownames(acc) <- value_row
+colnames(acc) <- value_col
+
+print(acc) 
+```
+## Pregunta 2. El algoritmo KNN se basa en buscar los vecinos utilizando la distancia euclídea entre los puntos. ¿Se obtendrían los mismos resultados si se utilizasen otro tipo de métricas? 
+> Razone la respuesta. (No es necesario ejemplo numérico ya que el algoritmo knn de R no permite cambiar la distancia aunque hay otros paquetes que incluyen algoritmos de k-nearest neighbough que si permiten el uso de otras distancias)
+
+La métrica determina por completo las distancias entre los vecinos. Por este motivo, el tipo de métrica usado es un hiperparámetro del algoritmo de clasificación.
+
+
+
+## Pregunta 3. En el gráfico f10 mostramos la relación entre las variables Visitas, KM e Ingresos diferenciando por colores entre las categorias. Realice 2 gráficos similares que muestren las mismas variables y cuyos colores sean las categorías estimadas en el primero y los aciertos y errores en el segundo. Utilice el modelo ArbolRpart_ctree entrenado anteriormente
+
+
+
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE}
+prediccionComercial <- predict(ArbolRpart_ctree, newdata = testData, type = "class")
+
+f20<-ggplot(testData, aes(x=Km, y=Visitas, color=prediccionComercial)) + geom_point(aes(size=Ingresos))
+
+f20
+```
+
+
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE}
+f21<-ggplot(testData, aes(x=Km, y=Visitas, color= testData$Comercial == prediccionComercial)) + geom_point(aes(size=Ingresos))
+f21
+```
+
+
+
+## Pregunta 4. El algoritmo KNN utiliza la distancia euclídea. Si se normaliza las variables. ¿Mejora el algortimo al normalizar la información?. 
+> Razone la respuesta y entrene un modelo con k=1 utilizando la información normalizada y comparelo con el modelo KNN con k=1 entrenado anteriormente. 
+
+Realizamos la clasificación sin los datos normalizados.
+Al tratarse de k = 1 no hace falta fijar la semilla.
+
+
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE}
+
+# Prediccion con datos sin normalizar
+prediccionNotNormalized <- knn(trainData[, 1:4],testData[, 1:4], trainData$Comercial , k = 1, prob = TRUE )
+
+
+```
+
+
+Realizamos la clasificación con los datos normalizados
+
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE}
+
+dataTrainNormalized <- scale(trainData[, 1:4], center = TRUE, scale = TRUE)
+dataTestNormalized <- scale(testData[, 1:4], center = TRUE, scale = TRUE)
+
+# Prediccion con datos normalizados
+prediccionNormalized<- knn(dataTrainNormalized,dataTestNormalized, trainData$Comercial , k = 1, prob = TRUE )
+
+```
+
+
+La matriz de confusion y la tasa de aciertos para los datos sin normalizar es: 
+
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE}
+
+table ( testData$Comercial , prediccionNotNormalized )
+
+# Calculamos el % de aciertos para k=1
+sum(KnnTestPrediccion_k1 == prediccionNotNormalized)/ length(testData$Comercial)*100
+
+```
+
+
+La matriz de confusion y la tasa de aciertos para los datos normalizados es:
+
+
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE}
+
+table ( testData$Comercial , prediccionNormalized )
+
+# Calculamos el % de aciertos para k=1
+sum(prediccionNormalized == testData$Comercial)/ length(testData$Comercial)*100
+
+```
+
+Se observa en este experimento que hay una ligera mejora al normalizar los datos. Con lo cual la respuesta es que efectivamente la normalización mejora el rendimiento del algoritmo. El motivo de esto es que la normalización altera las distancias entre las muestras, ya que el espacio en el que se encuentran representadas ha sido modificado al restar la media y dividise por la disperción.
+
+
+## Pregunta 5. De los modelos construidos consideremos el modelo KNN con k=1 y el árbol. Compare el acierto de ambos modelos. ¿Se equivocan en los mismos registros?. 
+
+Las predicciones serían las siguientes:
+
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE}
+prediccionComercialArbol <- predict(ArbolRpart_ctree, newdata = testData, type = "class")
+
+
+```
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE}
+prediccionComercialknn <- KnnTestPrediccion_k1 <- knn(trainData[,1:4],testData[,1:4], trainData$Comercial , k = 1, prob = TRUE )
+
+
+```
+
+Una vez tenemos los registros predichos, simplemente los comparamos.
+
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE}
+prediccionComercialknn == prediccionComercialArbol
+
+```
+
+Aquellos campos en los que vemos "TRUE" significa que la predicción es identica y en caso contrario "FALSE", la predicción no coincide.
+
+## Pregunta 6. De los modelos construidos consideremos el modelo KNN con k=1, el arbol y el randomForest. Contruya un modelo ensambalndo los tres anteriores
+
+
+
+> Construya un modelo ensamblado, es decir, para cada registro, cada modelo realiza una predicción para la categoria. El modelo ensamblado debe asignar a cada registro la categoría más repetida de las tres. Calcule el acierto del modelo resultante.
+
+```{r,eval=TRUE,echo=TRUE,warning=FALSE, message=FALSE}
+
+testPredRF <- predict(ArbolRF_ctree, newdata = testData)
+
+ensembleFinal <- data.frame(prediccionComercialknn, prediccionComercialArbol, testPredRF)
+
+solution <-ifelse(ensembleFinal$prediccionComercialknn==ensembleFinal$prediccionComercialArbol,ensembleFinal$prediccionComercialknn,ensembleFinal$prediccionComercialArbol)
+
+solutionLetter <-ifelse(solution==1,"A",ifelse(solution==2,"B","C"))
+solutionLetter
+# EL rendimiento sería:
+sum(solutionLetter == testData$Comercial)/ length(testData$Comercial)*100
+
+```
+
+Podemos observar que el resultado es bastante bueno.

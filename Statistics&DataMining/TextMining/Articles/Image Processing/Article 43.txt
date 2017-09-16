@@ -1,0 +1,8 @@
+A Methodology for Visually Lossless JPEG2000 Compression of Monochrome Stereo Images,
+
+# A methodology for visually lossless compression of monochrome stereoscopic 3D images is proposed. Visibility thresholds are measured for quantization distortion in JPEG2000. These thresholds are found to be functions of not only spatial frequency, but also of wavelet coefficient variance, as well as the gray level in both the left and right images. To avoid a daunting number of measurements during subjective experiments, a model for visibility thresholds is developed. The left image and right image of a stereo pair are then compressed jointly using the visibility thresholds obtained from the proposed model to ensure that quantization errors in each image are imperceptible to both eyes. This methodology is then demonstrated via a particular 3D stereoscopic display system with an associated viewing condition. The resulting images are visually lossless when displayed individually as 2D images, and also when displayed in stereoscopic 3D mode.
+
+{data compression;image coding;stereo image processing;3D stereoscopic display system;monochrome stereoscopic 3D images;quantization errors;visibility thresholds;visually lossless JPEG2000 compression;Crosstalk;Glass;Image coding;Noise;Quantization (signal);Stereo image processing;Transform coding;JPEG2000;Stereoscopic images;crosstalk;human visual system;visually lossless coding},
+
+
+

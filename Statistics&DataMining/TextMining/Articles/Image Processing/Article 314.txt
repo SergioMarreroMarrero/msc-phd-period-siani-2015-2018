@@ -1,0 +1,8 @@
+Color Image Denoising via Discriminatively Learned Iterative Shrinkage,
+
+# In this paper, we propose a novel model, a discriminatively learned iterative shrinkage (DLIS) model, for color image denoising. The DLIS is a generaliFA01-B5010-A071zation of wavelet shrinkage by iteratively performing shrinkage over patch groups and whole image aggregation. We discriminatively learn the shrinkage functions and basis from the training pairs of noisy/noise-free images, which can adaptively handle different noise characteristics in luminance/chrominance channels, and the unknown structured noise in real-captured color images. Furthermore, to remove the splotchy real color noises, we design a Laplacian pyramid-based denoising framework to progressively recover the clean image from the coarsest scale to the finest scale by the DLIS model learned from the real color noises. Experiments show that our proposed approach can achieve the state-of-the-art denoising results on both synthetic denoising benchmark and real-captured color images.
+
+{image colour analysis;image denoising;DLIS model;Laplacian pyramid-based denoising framework;chrominance channel;color image denoising;discriminatively learned iterative shrinkage;image aggregation;luminance channel;noisy image;shrinkage function;splotchy real color noise;synthetic denoising;wavelet shrinkage;Adaptation models;Colored noise;Mathematical model;Noise measurement;Noise reduction;Three-dimensional displays;Color image denoising;discriminative learning;discriminative learning.;shrinkage},
+
+
+

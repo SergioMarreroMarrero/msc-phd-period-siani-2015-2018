@@ -1,0 +1,8 @@
+Estimation of Illuminants From Projections on the Planckian Locus,
+
+# This paper introduces a new approach for the automatic estimation of illuminants in a digital color image. The method relies on two assumptions. First, the image is supposed to contain at least a small set of achromatic pixels. The second assumption is physical and concerns the set of possible illuminants, assumed to be well approximated by black body radiators. The proposed scheme is based on a projection of selected pixels on the Planckian locus in a well chosen chromaticity space, followed by a voting procedure yielding the estimation of the illuminant. This approach is very simple and learning-free. The voting procedure can be extended for the detection of multiple illuminants when necessary. Experiments on various databases show that the performances of this approach are similar to those of the best learning-based state-of-the-art algorithms.
+
+{blackbody radiation;image colour analysis;Planckian Locus;achromatic pixels;black body radiators;digital color image;illuminants;Approximation methods;Cameras;Estimation;Histograms;Image color analysis;Light sources;Temperature measurement;Multi-illuminant estimation;color constancy;planckian locus},
+
+
+

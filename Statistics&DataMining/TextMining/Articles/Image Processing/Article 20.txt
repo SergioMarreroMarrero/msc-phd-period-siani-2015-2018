@@ -1,0 +1,8 @@
+A Doubly Degenerate Diffusion Model Based on the Gray Level Indicator for Multiplicative Noise Removal,
+
+# Multiplicative noise removal is a challenging task in image processing. Inspired by the impressive performance of nonlinear diffusion models in additive noise removal, we address this problem in the view of nonlinear diffusion equation theories rather than the traditional variation methods. We develop a nonlinear diffusion filter denoising framework, which considers not only the information of the gradient of the image, but also the information of gray levels of the image. Furthermore, under this framework, we propose a doubly degenerate diffusion model for multiplicative noise removal, which is analyzed with respect to some of its properties and behavior in denoising process. In numerical aspects, we present an efficient scheme which uses a stabilization by fast explicit diffusion for the implementation of the multiplicative noise removal model. Finally, the experimental results illustrate effectiveness and efficiency of the proposed model.
+
+{image denoising;indicators;nonlinear filters;additive noise removal;doubly degenerate diffusion;gray level indicator;image gradient;image processing;multiplicative noise removal;nonlinear diffusion equation;nonlinear diffusion filter denoising framework;Additive noise;Equations;Mathematical model;Noise measurement;Noise reduction;Numerical models;Doubly degenerate diffusion;FED;doubly degenerate diffusion;multiplicative noise removal},
+
+
+

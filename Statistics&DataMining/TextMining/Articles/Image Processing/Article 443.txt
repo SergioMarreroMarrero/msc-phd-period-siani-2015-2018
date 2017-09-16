@@ -1,0 +1,8 @@
+Joint Sparse Representation and Robust Feature-Level Fusion for Multi-Cue Visual Tracking,
+
+# Visual tracking using multiple features has been proved as a robust approach because features could complement each other. Since different types of variations such as illumination, occlusion, and pose may occur in a video sequence, especially long sequence videos, how to properly select and fuse appropriate features has become one of the key problems in this approach. To address this issue, this paper proposes a new joint sparse representation model for robust feature-level fusion. The proposed method dynamically removes unreliable features to be fused for tracking by using the advantages of sparse representation. In order to capture the non-linear similarity of features, we extend the proposed method into a general kernelized framework, which is able to perform feature fusion on various kernel spaces. As a result, robust tracking performance is obtained. Both the qualitative and quantitative experimental results on publicly available videos show that the proposed method outperforms both sparse representation-based and fusion based-trackers.
+
+{feature extraction;image capture;image fusion;image representation;image sequences;object tracking;video signal processing;fusion based-tracker;joint sparse representation model;kernel space;multicue visual tracking;nonlinear similarity capture;robust feature level fusion;video sequence;Feature extraction;Joints;Kernel;Robustness;Target tracking;Visualization;Visual tracking;feature fusion;joint sparse representation},
+
+
+

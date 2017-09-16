@@ -1,0 +1,8 @@
+Efficient Shape Priors for Spline-Based Snakes,
+
+# Parametric active contours are an attractive approach for image segmentation, thanks to their computational efficiency. They are driven by application-dependent energies that reflect the prior knowledge on the object to be segmented. We propose an energy involving shape priors acting in a regularization-like manner. Thereby, the shape of the snake is orthogonally projected onto the space that spans the affine transformations of a given shape prior. The formulation of the curves is continuous, which provides computational benefits when compared with landmark-based (discrete) methods. We show that this approach improves the robustness and quality of spline-based segmentation algorithms, while its computational overhead is negligible. An interactive and ready-to-use implementation of the proposed algorithm is available and was successfully tested on real data in order to segment Drosophila flies and yeast cells in microscopic images.
+
+{affine transforms;image segmentation;shape recognition;splines (mathematics);Drosophila flies;affine transformation;computational efficiency;image segmentation;microscopic image;negligible computational overhead;parametric active contour;regularization manner;shape prior;spline-based segmentation algorithm;spline-based snake;yeast cells;Active contours;Aerospace electronics;Image segmentation;Interpolation;Minimization;Shape;Splines (mathematics);Active contours;B-spline;deformable template;model-based segmentation;parametric snake;shape space},
+
+
+

@@ -1,0 +1,8 @@
+Continuous Depth Map Reconstruction From Light Fields,
+
+# In this paper, we investigate how the recently emerged photography technology - the light field - can benefit depth map estimation, a challenging computer vision problem. A novel framework is proposed to reconstruct continuous depth maps from light field data. Unlike many traditional methods for the stereo matching problem, the proposed method does not need to quantize the depth range. By making use of the structure information amongst the densely sampled views in light field data, we can obtain dense and relatively reliable local estimations. Starting from initial estimations, we go on to propose an optimization method based on solving a sparse linear system iteratively with a conjugate gradient method. Two different affinity matrices for the linear system are employed to balance the efficiency and quality of the optimization. Then, a depth-assisted segmentation method is introduced so that different segments can employ different affinity matrices. Experiment results on both synthetic and real light fields demonstrate that our continuous results are more accurate, efficient, and able to preserve more details compared with discrete approaches.
+
+{computer vision;conjugate gradient methods;image segmentation;optimisation;stereo image processing;affinity matrices;computer vision problem;conjugate gradient method;continuous depth map reconstruction;depth map estimation;depth-assisted segmentation method;light fields;sparse linear system;stereo matching problem;structure information;Estimation;Image color analysis;Image segmentation;Linear systems;Optimization;Reliability;Tensile stress;Depth estimation;light fields;sparse linear systems},
+
+
+

@@ -1,0 +1,8 @@
+Steganography Using Reversible Texture Synthesis,
+
+# We propose a novel approach for steganography using a reversible texture synthesis. A texture synthesis process resamples a smaller texture image, which synthesizes a new texture image with a similar local appearance and an arbitrary size. We weave the texture synthesis process into steganography to conceal secret messages. In contrast to using an existing cover image to hide messages, our algorithm conceals the source texture image and embeds secret messages through the process of texture synthesis. This allows us to extract the secret messages and source texture from a stego synthetic texture. Our approach offers three distinct advantages. First, our scheme offers the embedding capacity that is proportional to the size of the stego texture image. Second, a steganalytic algorithm is not likely to defeat our steganographic approach. Third, the reversible capability inherited from our scheme provides functionality, which allows recovery of the source texture. Experimental results have verified that our proposed algorithm can provide various numbers of embedding capacities, produce a visually plausible texture images, and recover the source texture.
+
+{image texture;steganography;arbitrary size;conceal secret messages;reversible texture synthesis;source texture image;steganalytic algorithm;steganographic approach;steganography;stego synthetic texture;stego texture image;texture image;texture synthesis process;Digital images;Image quality;Indexes;Kernel;Media;Shape;Weaving;Data embedding;example-based approach;reversible;steganography;texture synthesis},
+
+
+

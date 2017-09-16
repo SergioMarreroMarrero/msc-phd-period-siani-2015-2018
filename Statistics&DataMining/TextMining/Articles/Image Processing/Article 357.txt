@@ -1,0 +1,8 @@
+Robust and Non-Negative Collective Matrix Factorization for Text-to-Image Transfer Learning,
+
+# Heterogeneous transfer learning has recently gained much attention as a new machine learning paradigm in which the knowledge can be transferred from source domains to target domains in different feature spaces. Existing works usually assume that source domains can provide accurate and useful knowledge to be transferred to target domains for learning. In practice, there may be noise appearing in given source (text) and target (image) domains data, and thus, the performance of transfer learning can be seriously degraded. In this paper, we propose a robust and non-negative collective matrix factorization model to handle noise in text-to-image transfer learning, and make a reliable bridge to transfer accurate and useful knowledge from the text domain to the image domain. The proposed matrix factorization model can be solved by an efficient iterative method, and the convergence of the iterative method can be shown. Extensive experiments on real data sets suggest that the proposed model is able to effectively perform transfer learning in noisy text and image domains, and it is superior to the popular existing methods for text-to-image transfer learning.
+
+{convergence of numerical methods;iterative methods;learning (artificial intelligence);matrix decomposition;convergence;feature spaces;heterogeneous transfer learning;iterative method;machine learning paradigm;nonnegative collective matrix factorization;source domains;text-to-image transfer learning;Convergence;Data models;Iterative methods;Noise;Noise measurement;Robustness;Semantics;Text-to-image;heterogeneous transfer learning;noise removal;non-negative matrix;robust matrix factorization;sparsity},
+
+
+

@@ -1,0 +1,8 @@
+Color Sparse Representations for Image Processing: Review, Models, and Prospects,
+
+# Sparse representations have been extended to deal with color images composed of three channels. A review of dictionary-learning-based sparse representations for color images is made here, detailing the differences between the models, and comparing their results on the real and simulated data. These models are considered in a unifying framework that is based on the degrees of freedom of the linear filtering/transformation of the color channels. Moreover, this allows it to be shown that the scalar quaternionic linear model is equivalent to constrained matrix-based color filtering, which highlights the filtering implicitly applied through this model. Based on this reformulation, the new color filtering model is introduced, using unconstrained filters. In this model, spatial morphologies of color images are encoded by atoms, and colors are encoded by color filters. Color variability is no longer captured in increasing the dictionary size, but with color filters, this gives an efficient color representation.
+
+{image colour analysis;image filtering;image representation;matrix algebra;color channel;color filtering model;color image;color sparse representation;color variability;constrained matrix;degrees of freedom;dictionary-learning;image processing;linear filtering;linear transformation;scalar quaternionic linear model;spatial morphology;Algebra;Color;Colored noise;Data models;Dictionaries;Image color analysis;Quaternions;Sparse representation;color filter;color image;dictionary learning;model;quaternion},
+
+
+

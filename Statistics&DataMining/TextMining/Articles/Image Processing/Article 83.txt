@@ -1,0 +1,8 @@
+A Probabilistic Approach to Online Eye Gaze Tracking Without Explicit Personal Calibration,
+
+# Existing eye gaze tracking systems typically require an explicit personal calibration process in order to estimate certain person-specific eye parameters. For natural human computer interaction, such a personal calibration is often inconvenient and unnatural. In this paper, we propose a new probabilistic eye gaze tracking system without explicit personal calibration. Unlike the conventional eye gaze tracking methods, which estimate the eye parameter deterministically using known gaze points, our approach estimates the probability distributions of the eye parameter and eye gaze. Using an incremental learning framework, the subject does not need personal calibration before using the system. His/her eye parameter estimation and gaze estimation can be improved gradually when he/she is naturally interacting with the system. The experimental result shows that the proposed system can achieve <;3° accuracy for different people without explicit personal calibration.
+
+{calibration;gaze tracking;human computer interaction;image processing;parameter estimation;statistical distributions;gaze estimation;natural human computer interaction;online eye gaze tracking;person-specific eye parameter estimation;personal calibration;probabilistic eye gaze tracking system;probability distributions;Calibration;Estimation;Optical imaging;Probabilistic logic;Probability distribution;Three-dimensional displays;Visualization;Gaze estimation;dynamic Bayesian network;gaze calibration},
+
+
+

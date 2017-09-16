@@ -1,0 +1,8 @@
+Unsupervised Unmixing of Hyperspectral Images Accounting for Endmember Variability,
+
+# This paper presents an unsupervised Bayesian algorithm for hyperspectral image unmixing, accounting for endmember variability. The pixels are modeled by a linear combination of endmembers weighted by their corresponding abundances. However, the endmembers are assumed random to consider their variability in the image. An additive noise is also considered in the proposed model, generalizing the normal compositional model. The proposed algorithm exploits the whole image to benefit from both spectral and spatial information. It estimates both the mean and the covariance matrix of each endmember in the image. This allows the behavior of each material to be analyzed and its variability to be quantified in the scene. A spatial segmentation is also obtained based on the estimated abundances. In order to estimate the parameters associated with the proposed Bayesian model, we propose to use a Hamiltonian Monte Carlo algorithm. The performance of the resulting unmixing strategy is evaluated through simulations conducted on both synthetic and real data.
+
+{Monte Carlo methods;covariance matrices;geophysical image processing;image classification;image segmentation;unsupervised learning;Hamiltonian Monte Carlo algorithm;additive noise;covariance matrix;endmember variability;hyperspectral image unmixing;image classification;normal compositional model;unsupervised Bayesian algorithm;unsupervised unmixing;Additive noise;Bayes methods;Covariance matrices;Hyperspectral imaging;Image segmentation;Monte Carlo methods;Bayesian algorithm;Hamiltonian Monte-Carlo;Hyperspectral imagery;MCMC methods;endmember variability;image classification;spectral unmixing},
+
+
+

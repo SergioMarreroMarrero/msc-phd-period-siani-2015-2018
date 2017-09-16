@@ -1,0 +1,8 @@
+Inner and Inter Label Propagation: Salient Object Detection in the Wild,
+
+# In this paper, we propose a novel label propagation-based method for saliency detection. A key observation is that saliency in an image can be estimated by propagating the labels extracted from the most certain background and object regions. For most natural images, some boundary superpixels serve as the background labels and the saliency of other superpixels are determined by ranking their similarities to the boundary labels based on an inner propagation scheme. For images of complex scenes, we further deploy a three-cue-center-biased objectness measure to pick out and propagate foreground labels. A co-transduction algorithm is devised to fuse both boundary and objectness labels based on an inter propagation scheme. The compactness criterion decides whether the incorporation of objectness labels is necessary, thus greatly enhancing computational efficiency. Results on five benchmark data sets with pixelwise accurate annotations show that the proposed method achieves superior performance compared with the newest state-of-the-arts in terms of different evaluation metrics.
+
+{object detection;background labels;background regions;boundary superpixels;co-transduction algorithm;compactness criterion;computational efficiency;inner label propagation;interlabel propagation;label propagation-based method;natural images;object regions;pixelwise accurate annotations;salient object detection;three-cue-center-biased objectness measure;wild;Benchmark testing;Electronic mail;Feature extraction;Image color analysis;Object detection;Shape;Visualization;Label Propagation;Label propagation;Saliency Detection;saliency detection},
+
+
+

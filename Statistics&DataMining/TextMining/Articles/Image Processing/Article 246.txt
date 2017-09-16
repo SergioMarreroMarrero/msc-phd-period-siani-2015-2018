@@ -1,0 +1,8 @@
+Attentive Monitoring of Multiple Video Streams Driven by a Bayesian Foraging Strategy,
+
+# In this paper, we shall consider the problem of deploying attention to the subsets of the video streams for collating the most relevant data and information of interest related to a given task. We formalize this monitoring problem as a foraging problem. We propose a probabilistic framework to model observer's attentive behavior as the behavior of a forager. The forager, moment to moment, focuses its attention on the most informative stream/camera, detects interesting objects or activities, or switches to a more profitable stream. The approach proposed here is suitable to be exploited for multistream video summarization. Meanwhile, it can serve as a preliminary step for more sophisticated video surveillance, e.g., activity and behavior analysis. Experimental results achieved on the UCR Videoweb Activities Data Set, a publicly available data set, are presented to illustrate the utility of the proposed technique.
+
+{Bayes methods;Internet;object detection;video streaming;video surveillance;Bayesian foraging strategy;UCR Videoweb activities data set;attentive monitoring;foraging problem;multiple video streams;multistream video summarization;object detection;video surveillance;Bayes methods;Cameras;Observers;Streaming media;Surveillance;Visualization;Activity detection;Attentive vision;Cognitive Dynamic Surveillance;Foraging theory;Intelligent sensors;Multi-camera video surveillance;Multi-stream summarisation;activity detection;attentive vision;cognitive dynamic surveillance;foraging theory;intelligent sensors;multi-stream summarisation},
+
+
+

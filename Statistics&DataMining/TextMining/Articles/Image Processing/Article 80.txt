@@ -1,0 +1,8 @@
+Registration of Images With  N -Fold Dihedral Blur,
+
+# In this paper, we extend our recent registration method designed specifically for registering blurred images. The original method works for unknown blurs, assuming the blurring point-spread function (PSF) exhibits an N-fold rotational symmetry. Here, we also generalize the theory to the case of dihedrally symmetric blurs, which are produced by the PSFs having both rotational and axial symmetries. Such kind of blurs are often found in unfocused images acquired by digital cameras, as in out-of-focus shots the PSF typically mimics the shape of the shutter aperture. This makes our registration algorithm particularly well-suited in applications where blurred image registration must be used as a preprocess step of an image fusion algorithm, and where common registration methods fail, due to the amount of blur. We demonstrate that the proposed method leads to an improvement of the registration performance, and we show its applicability to real images by providing successful examples of blurred image registration followed by depth-of-field extension and multichannel blind deconvolution.
+
+{cameras;image fusion;image registration;optical transfer function;N-fold dihedral blur;N-fold rotational symmetry;PSF;axial symmetry;blurred image registration method;blurring point-spread function;depth-of-field extension;digital cameras;dihedrally symmetric blurs;image fusion algorithm;multichannel blind deconvolution;rotational symmetry;shutter aperture;Cameras;Correlation;Estimation;Fourier transforms;Noise;Robustness;Vectors;$N$ -fold rotational symmetry;Image registration;N-fold rotational symmetry;blurred images;dihedral symmetry;phase correlation},
+
+
+

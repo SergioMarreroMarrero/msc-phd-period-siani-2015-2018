@@ -1,0 +1,8 @@
+Impedance Imaging With First-Order TV Regularization,
+
+# EIT problem is a typical inverse problem with serious ill-posedness. In general, regularization techniques are necessary for such ill-posed inverse problems. To overcome ill-posedness, the total variation (TV) regularization is widely used and it is also successfully applied to EIT. For realtime monitoring, a fast and robust image reconstruction algorithm is required. By exploiting recent advances in optimization, we propose a first-order TV algorithm for EIT, which simply consists of matrix-vector multiplications and in which the sparse structure of the system can be easily exploited. Furthermore, a typical smoothing parameter to overcome nondifferentibility of the TV term is not needed and a closed form solution can be applied in part using soft thresholding. It shows a fast reconstruction in the beginning. Numerical experiments using simulated data and real experimental data support our claim.
+
+{electric impedance imaging;image reconstruction;inverse problems;medical image processing;patient monitoring;smoothing methods;two-dimensional electron gas;first-order total variation regularization;ill-posed inverse problems;image reconstruction algorithm;impedance imaging;matrix-vector multiplications;realtime monitoring;serious ill-posedness;smoothing parameter;soft thresholding;sparse structure;Conductivity;Electrodes;Image reconstruction;Noise;TV;Tomography;Alternating direction method of multipliers (ADMM);electrical impedance tomography (EIT);regularization, total variation (TV)},
+
+
+

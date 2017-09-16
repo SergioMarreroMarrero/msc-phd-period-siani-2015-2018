@@ -1,0 +1,8 @@
+4D Blood Flow Reconstruction Over the Entire Ventricle From Wall Motion and Blood Velocity Derived From Ultrasound Data,
+
+# We demonstrate a new method to recover 4D blood flow over the entire ventricle from partial blood velocity measurements using multiple 3D+t colour Doppler images and ventricular wall motion estimated using 3D+t BMode images. We apply our approach to realistic simulated data to ascertain the ability of the method to deal with incomplete data, as typically happens in clinical practice. Experiments using synthetic data show that the use of wall motion improves velocity reconstruction, shows more accurate flow patterns and improves mean accuracy particularly when coverage of the ventricle is poor. The method was applied to patient data from 6 congenital cases, producing results consistent with the simulations. The use of wall motion produced more plausible flow patterns and reduced the reconstruction error in all patients.
+
+{cardiology;echocardiography;haemodynamics;image reconstruction;medical image processing;ultrasonic imaging;3D-t Bmode imaging;4D blood flow reconstruction;accurate flow patterns;blood velocity measurements;multiple 3D-t colour Doppler imaging;patient data;plausible flow patterns;realistic simulated data;reconstruction error;synthetic data;ultrasound data;velocity reconstruction;ventricle;ventricular wall motion;wall motion;Blood;Doppler effect;Image color analysis;Image reconstruction;Splines (mathematics);Three-dimensional displays;Velocity measurement;Doppler measurement;echocardiography},
+
+
+

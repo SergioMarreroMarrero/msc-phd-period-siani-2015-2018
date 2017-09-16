@@ -1,0 +1,8 @@
+Joint Group Sparse PCA for Compressed Hyperspectral Imaging,
+
+# A sparse principal component analysis (PCA) seeks a sparse linear combination of input features (variables), so that the derived features still explain most of the variations in the data. A group sparse PCA introduces structural constraints on the features in seeking such a linear combination. Collectively, the derived principal components may still require measuring all the input features. We present a joint group sparse PCA (JGSPCA) algorithm, which forces the basic coefficients corresponding to a group of features to be jointly sparse. Joint sparsity ensures that the complete basis involves only a sparse set of input features, whereas the group sparsity ensures that the structural integrity of the features is maximally preserved. We evaluate the JGSPCA algorithm on the problems of compressed hyperspectral imaging and face recognition. Compressed sensing results show that the proposed method consistently outperforms sparse PCA and group sparse PCA in reconstructing the hyperspectral scenes of natural and man-made objects. The efficacy of the proposed compressed sensing method is further demonstrated in band selection for face recognition.
+
+{compressed sensing;face recognition;hyperspectral imaging;principal component analysis;JGSPCA algorithm;compressed hyperspectral imaging;compressed sensing;face recognition;joint group sparse PCA algorithm;sparse principal component analysis;structural integrity;Approximation algorithms;Compressed sensing;Hyperspectral imaging;Image coding;Joints;Principal component analysis;Principal component analysis;compressed sensing;hyperspectral imaging;image reconstruction},
+
+
+

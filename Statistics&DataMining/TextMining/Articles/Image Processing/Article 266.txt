@@ -1,0 +1,8 @@
+A Fast Single Image Haze Removal Algorithm Using Color Attenuation Prior,
+
+# Single image haze removal has been a challenging problem due to its ill-posed nature. In this paper, we propose a simple but powerful color attenuation prior for haze removal from a single input hazy image. By creating a linear model for modeling the scene depth of the hazy image under this novel prior and learning the parameters of the model with a supervised learning method, the depth information can be well recovered. With the depth map of the hazy image, we can easily estimate the transmission and restore the scene radiance via the atmospheric scattering model, and thus effectively remove the haze from a single image. Experimental results show that the proposed approach outperforms state-of-the-art haze removal algorithms in terms of both efficiency and the dehazing effect.
+
+{image colour analysis;image restoration;learning (artificial intelligence);atmospheric scattering model;color attenuation prior;depth information recovery;fast single image haze removal algorithm;linear model;scene depth modeling;scene radiance restoration;supervised learning method;Atmospheric modeling;Attenuation;Brightness;Image color analysis;Image restoration;Mathematical model;Scattering;Dehazing;defog;depth restoration;image restoration},
+
+
+

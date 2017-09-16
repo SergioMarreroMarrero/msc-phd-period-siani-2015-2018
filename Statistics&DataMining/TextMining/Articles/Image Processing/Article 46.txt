@@ -1,0 +1,8 @@
+A Novel SURE-Based Criterion for Parametric PSF Estimation,
+
+# We propose an unbiased estimate of a filtered version of the mean squared error - the blur-SURE (Stein's unbiased risk estimate)-as a novel criterion for estimating an unknown point spread function (PSF) from the degraded image only. The PSF is obtained by minimizing this new objective functional over a family of Wiener processings. Based on this estimated blur kernel, we then perform nonblind deconvolution using our recently developed algorithm. The SURE-based framework is exemplified with a number of parametric PSF, involving a scaling factor that controls the blur size. A typical example of such parametrization is the Gaussian kernel. The experimental results demonstrate that minimizing the blur-SURE yields highly accurate estimates of the PSF parameters, which also result in a restoration quality that is very similar to the one obtained with the exact PSF, when plugged into our recent multi-Wiener SURE-LET deconvolution algorithm. The highly competitive results obtained outline the great potential of developing more powerful blind deconvolution algorithms based on SURE-like estimates.
+
+{deconvolution;image restoration;mean square error methods;optical transfer function;stochastic processes;SURE-based criterion;Stein unbiased risk estimate;Wiener processing;blur kernel estimation;blur-SURE;degraded image;mean squared error;multiWiener SURE-LET deconvolution algorithm;nonblind deconvolution;objective functional minimization;parametric PSF estimation;restoration quality;scaling factor;Covariance matrices;Deconvolution;Estimation;Image restoration;Kernel;Minimization;Noise;Parametric PSF estimation;SURE;Wiener filtering;blur-SURE},
+
+
+

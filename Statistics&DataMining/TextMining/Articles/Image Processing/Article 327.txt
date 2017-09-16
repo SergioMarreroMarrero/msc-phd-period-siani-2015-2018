@@ -1,0 +1,8 @@
+Tone-Replacement Error Diffusion for Multitoning,
+
+# Error diffusion is an efficient halftone method for mainly being applied on printers. The promising high image quality and processing efficiency endorse it as a popular and competitive candidate in halftoning and multitoning applications. The multitoning is an extension of halftoning, adopting more than two-tone levels for the improvement of the similarity between an original image and the converted image. Yet, the banding effect, indicating the areas with discontinuous tone level, disturbs the visual perception, and thus seriously degrades image quality. To solve the banding effect, the tone-replacement strategy is proposed in this paper. As documented in the experimental results, excellent tone-similarity as that of the original image and promising reconstructed dot-distribution can be provided simultaneously. Comparing with the former banding-free methods, the apparent improvements/features suggest that the proposed method can be a very competitive candidate for multitoning applications.
+
+{image reconstruction;halftone method;image processing;image quality;image reconstruction dot-distribution;multitoning;tone-replacement error diffusion;visual perception;Electrical engineering;Image quality;Ink;Printing;Quantization (signal);Satellite broadcasting;Visual perception;Multitoning;anisotropy;banding effect;error diffusion;ordered dithering},
+
+
+

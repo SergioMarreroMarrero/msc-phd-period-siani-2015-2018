@@ -1,0 +1,8 @@
+Designing robust sensing matrix for image compression,
+
+# This paper deals with designing sensing matrix for compressive sensing systems. Traditionally, the optimal sensing matrix is designed so that the Gram of the equivalent dictionary is as close as possible to a target Gram with small mutual coherence. A novel design strategy is proposed, in which, unlike the traditional approaches, the measure considers of mutual coherence behavior of the equivalent dictionary as well as sparse representation errors of the signals. The optimal sensing matrix is defined as the one that minimizes this measure and hence is expected to be more robust against sparse representation errors. A closed-form solution is derived for the optimal sensing matrix with a given target Gram. An alternating minimization-based algorithm is also proposed for addressing the same problem with the target Gram searched within a set of relaxed equiangular tight frame Grams. The experiments are carried out and the results show that the sensing matrix obtained using the proposed approach outperforms those existing ones using a fixed dictionary in terms of signal reconstruction accuracy for synthetic data and peak signal-to-noise ratio for real images.
+
+{compressed sensing;data compression;image coding;image reconstruction;image representation;minimisation;sparse matrices;compressive sensing system;equivalent dictionary Gram;image compression;minimization-based algorithm;robust sensing matrix;signal reconstruction;signal sparse representation error;signal-to-noise ratio;Coherence;Dictionaries;Image processing;Minimization;Optimized production technology;Sensors;Sparse matrices;Compressive sensing;averaged mutual coherence;image compression;optimization techniques},
+
+
+

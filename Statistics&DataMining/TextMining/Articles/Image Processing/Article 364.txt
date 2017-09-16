@@ -1,0 +1,8 @@
+Cubic Convolution Scaler Optimized for Local Property of Image Data,
+
+# A scaler is one of the most important modules in various video applications, such as ultra-high definition TV and scalable video systems. A variety of scaling techniques have been used to increase the video quality when the resolution of the source image has to be up- and down-scaled. Some conventional schemes exploit the property of local block data. Others consider the edge information of the data to be scaled. In this paper, we formulate a scaling problem to minimize the information loss resulting from the resizing process. The loss is considered in both the spatial and the frequency domains, and then it is minimized to optimize the kernel of the scaler. The simulation results show that the proposed algorithm reduces the information loss more than conventional schemes. When compared with the conventional algorithms, the proposed method outperforms those with similar complexity.
+
+{convolution;frequency-domain analysis;image resolution;interpolation;minimisation;video signal processing;cubic convolution scaler optimization;frequency domain analysis;information loss minimisation;resizing process;scaling problem;source image resolution;spatial domain analysis;video quality;Convolution;Distortion;Frequency-domain analysis;Image resolution;Interpolation;Kernel;Tuning;Cubic Convolution Scaler;Interpolation;Optimization;cubic convolution scaler;optimization},
+
+
+

@@ -1,0 +1,8 @@
+Implicit B-Spline Surface Reconstruction,
+
+# This paper presents a fast and flexible curve, and surface reconstruction technique based on implicit B-spline. This representation does not require any parameterization and it is locally supported. This fact has been exploited in this paper to propose a reconstruction technique through solving a sparse system of equations. This method is further accelerated to reduce the dimension to the active control lattice. Moreover, the surface smoothness and user interaction are allowed for controlling the surface. Finally, a novel weighting technique has been introduced in order to blend small patches and smooth them in the overlapping regions. The whole framework is very fast and efficient and can handle large cloud of points with very low computational cost. The experimental results show the flexibility and accuracy of the proposed algorithm to describe objects with complex topologies. Comparisons with other fitting methods highlight the superiority of the proposed approach in the presence of noise and missing data.
+
+{image reconstruction;image representation;splines (mathematics);active control lattice;implicit B-spline surface reconstruction;overlapping regions;sparse system;surface smoothness;user interaction;weighting technique;Equations;Image reconstruction;Sparse matrices;Splines (mathematics);Surface reconstruction;Three-dimensional displays;Vectors;3L Algorithm;3L algorithm;Additional Constraints;Implicit B-Splines;Implicit Representation;Partition of Unity;Patch-based Representation;Surface Reconstruction;Surface reconstruction;additional constraints;implicit B-splines;implicit representation;partition of unity;patch-based representation},
+
+
+

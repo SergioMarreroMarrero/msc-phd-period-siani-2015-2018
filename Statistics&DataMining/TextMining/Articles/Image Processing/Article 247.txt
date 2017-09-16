@@ -1,0 +1,8 @@
+Image Quality Assessment Using Human Visual DOG Model Fused With Random Forest,
+
+# Objective image quality assessment (IQA) plays an important role in the development of multimedia applications. Prediction of IQA metric should be consistent with human perception. The release of the newest IQA database (TID2013) challenges most of the widely used quality metrics (e.g., peak-to-noise-ratio and structure similarity index). We propose a new methodology to build the metric model using a regression approach. The new IQA score is set to be the nonlinear combination of features extracted from several difference of Gaussian (DOG) frequency bands, which mimics the human visual system (HVS). Experimental results show that the random forest regression model trained by the proposed DOG feature is highly correspondent to the HVS and is also robust when tested by available databases.
+
+{feature extraction;image colour analysis;image fusion;learning (artificial intelligence);multimedia computing;regression analysis;IQA database;IQA metric prediction;TID2013;color distortion;difference-of-Gaussian frequency bands;feature extraction;human visual DOG model fusion;image quality assessment;multimedia applications;peak-to-noise-ratio;random forest regression model;structure similarity index;Computational modeling;Databases;Feature extraction;Image color analysis;Image quality;Measurement;Radio frequency;FSIM;Full reference image quality assessment (IQA);Full reference image quality assessment (IQA),;PSNR;SSIM;color distortion;difference of Gaussian (DOG);human visual system (HVS);random forest (RF)},
+
+
+

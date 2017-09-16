@@ -1,0 +1,8 @@
+Learning to Rank Image Tags With Limited Training Examples,
+
+# With an increasing number of images that are available in social media, image annotation has emerged as an important research topic due to its application in image matching and retrieval. Most studies cast image annotation into a multilabel classification problem. The main shortcoming of this approach is that it requires a large number of training images with clean and complete annotations in order to learn a reliable model for tag prediction. We address this limitation by developing a novel approach that combines the strength of tag ranking with the power of matrix recovery. Instead of having to make a binary decision for each tag, our approach ranks tags in the descending order of their relevance to the given image, significantly simplifying the problem. In addition, the proposed method aggregates the prediction models for different tags into a matrix, and casts tag ranking into a matrix recovery problem. It introduces the matrix trace norm to explicitly control the model complexity, so that a reliable prediction model can be learned for tag ranking even when the tag space is large and the number of training images is limited. Experiments on multiple well-known image data sets demonstrate the effectiveness of the proposed framework for tag ranking compared with the state-of-the-art approaches for image annotation and tag ranking.
+
+{image classification;learning (artificial intelligence);matrix algebra;image annotation;image tag ranking;learning;matrix recovery problem;Acceleration;Complexity theory;Optimization;Predictive models;Semantics;Training;Visualization;Automatic image annotation;automatic image annotation;low-rank;matrix recovery;tag ranking;trace norm},
+
+
+

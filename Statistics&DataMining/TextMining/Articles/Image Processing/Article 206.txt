@@ -1,0 +1,8 @@
+A Very Fast Algorithm for Simultaneously Performing Connected-Component Labeling and Euler Number Computing,
+
+# Labeling connected components and calculating the Euler number in a binary image are two fundamental processes for computer vision and pattern recognition. This paper presents an ingenious method for identifying a hole in a binary image in the first scan of connected-component labeling. Our algorithm can perform connected component labeling and Euler number computing simultaneously, and it can also calculate the connected component (object) number and the hole number efficiently. The additional cost for calculating the hole number is only O(H) , where H is the hole number in the image. Our algorithm can be implemented almost in the same way as a conventional equivalent-label-set-based connected-component labeling algorithm. We prove the correctness of our algorithm and use experimental results for various kinds of images to demonstrate the power of our algorithm.
+
+{computational complexity;computer vision;image recognition;set theory;Euler number computation;binary image;computer vision;equivalent-label-set-based connected-component labeling algorithm;pattern recognition;Algorithm design and analysis;Computer vision;Image analysis;Image resolution;Labeling;Object recognition;Pattern recognition;Computer vision;computer vision;image analysis;image feature;pattern recognition;the Euler number;the hole number},
+
+
+

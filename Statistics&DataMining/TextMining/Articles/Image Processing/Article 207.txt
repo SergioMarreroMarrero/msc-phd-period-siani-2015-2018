@@ -1,0 +1,8 @@
+Learning Compact Feature Descriptor and Adaptive Matching Framework for Face Recognition,
+
+# Dense feature extraction is becoming increasingly popular in face recognition tasks. Systems based on this approach have demonstrated impressive performance in a range of challenging scenarios. However, improvements in discriminative power come at a computational cost and with a risk of over-fitting. In this paper, we propose a new approach to dense feature extraction for face recognition, which consists of two steps. First, an encoding scheme is devised that compresses high-dimensional dense features into a compact representation by maximizing the intrauser correlation. Second, we develop an adaptive feature matching algorithm for effective classification. This matching method, in contrast to the previous methods, constructs and chooses a small subset of training samples for adaptive matching, resulting in further performance gains. Experiments using several challenging face databases, including labeled Faces in the Wild data set, Morph Album 2, CUHK optical-infrared, and FERET, demonstrate that the proposed approach consistently outperforms the current state of the art.
+
+{face recognition;feature extraction;image classification;image matching;image representation;optimisation;visual databases;adaptive feature matching algorithm;compact representation;dense feature extraction;face database;face recognition;image classification;intrauser correlation maximization;Correlation;Face;Face recognition;Facial features;Feature extraction;Image coding;Training;Face Recognition;Face recognition;Feature Descriptor;LFW;feature descriptor},
+
+
+

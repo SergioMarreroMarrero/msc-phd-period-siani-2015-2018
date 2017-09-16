@@ -1,0 +1,8 @@
+Direct 2-D Reconstructions of Conductivity and Permittivity From EIT Data on a Human Chest,
+
+# A novel direct D-bar reconstruction algorithm is presented for reconstructing a complex conductivity distribution from 2-D EIT data. The method is applied to simulated data and archival human chest data. Permittivity reconstructions with the aforementioned method and conductivity reconstructions with the previously existing nonlinear D-bar method for real-valued conductivities depicting ventilation and perfusion in the human chest are presented. This constitutes the first fully nonlinear D-bar reconstructions of human chest data and the first D-bar permittivity reconstructions of experimental data. The results of the human chest data reconstructions are compared on a circular domain versus a chest-shaped domain.
+
+{bioelectric potentials;electric impedance imaging;image reconstruction;medical image processing;permittivity;2D EIT data;D-bar permittivity reconstructions;archival human chest data;chest-shaped domain;circular domain;complex conductivity distribution;direct 2D reconstructions;novel direct D-bar reconstruction algorithm;perfusion;permittivity reconstructions;real-valued conductivities;simulated data;Approximation methods;Conductivity;Electrodes;Image reconstruction;Permittivity;Scattering;Transforms;D-bar method;electrical impedance tomography (EIT);perfusion;reconstruction algorithm;scattering transform;ventilation},
+
+
+

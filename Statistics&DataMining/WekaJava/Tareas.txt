@@ -1,0 +1,78 @@
+Tarea 1: 
+
+	-Crear los ficheros arff correspondientes a los conjuntos de datos:
+	 wine.data y wine.names
+	 segmentation.data, segmentation.test y segmentation.names
+	
+	- Escribir un programa en java que acepte el nombre de un fichero arff y muestre información
+	  acerca del mismo:
+		-numero de atributos
+		-numero de muestras
+		-estadisticas
+		-valores de los atributos nominales, etc
+	- Mostras la información de los ficheros wine.arff y segmentation.arff
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+Tarea 2: 
+
+A partir de los ficheros wine.arff y segmentation.arff creados en la practica anterior:
+	
+	- Crear dos nuevos ficheros wine-z-socre.arff y segmentation-z-score.arff donde se les
+	  haya aplicado a los atributos continuos una normalizacion z-score.
+
+	- Crear dos nuevos ficheros wine_normalizado.arff y segmentation_normalizado.arff donde se les
+	  haya aplicado a los atributos continuos una normalizacion lineal en el intervalor [-1,1]
+	
+	- Mostrar por programa los valores maximo, minimos, media y varianza de cada atributo.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+Tarea 3: 
+
+Para los datos segmentation:
+	
+	- Generar dos conjuntos de datos arff a partir de segmentation.data y segmentation.test.
+	- Realizar un programa en java que entrene los siguientes clasificadores con los datos data
+	  y obtenga la tasa de acierto con el conjunto de datos test.
+	- Clasificadores:
+		- Bayesiano
+		- Arbol de desicion C4.5
+		-K-Nearest Neighbor cno diferentes valores de k
+		-Perceptron Multicapa
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+Tarea 4: 
+
+Para los datos segmentation:
+	
+	- Generar dos conjuntos de datos arff a partir de segmentation.data y segmentation.test.
+	- Seleccionar los subconjuntos de tamaño 5,10,15 atributos para los conjuntos de train y test.
+	- Entrenar los siguientes clasificadores(conjunto train) y obtener la tasa de acierto (conjunto test)
+	- Clasificadores:
+		- Bayesiano
+		-K-Nearest Neighbor con k=1,5,10
+		-Perceptron Multicapa	
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Tarea 5: 
+
+Implementar los metodos:
+	
+	- double HoldOutEvaluation(Classifier clasi, Instances data, double train_percentage, bool corrected):
+		- Que calcule el error mediante la técnica hold out donde en el conjunto de train debe contener el 
+		  train_percentage de las muestras para el clasificador. Si el argumento corrected es true, debe
+		  dar estimación corregida.
+
+	- double BootstrapEvaluation(Classifier clasi, Instances data, int B) :
+
+		- Que calcule la estimación del error mediante el método bootstrap con B repeticiones del remuestreo 
+		  para el clasificador.
+
+
+
+

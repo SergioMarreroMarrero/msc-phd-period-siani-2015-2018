@@ -1,0 +1,8 @@
+Blind Inpainting Using  \ell _{0} and Total Variation Regularization,
+
+# In this paper, we address the problem of image reconstruction with missing pixels or corrupted with impulse noise, when the locations of the corrupted pixels are not known. A logarithmic transformation is applied to convert the multiplication between the image and binary mask into an additive problem. The image and mask terms are then estimated iteratively with total variation regularization applied on the image, and ℓ0 regularization on the mask term which imposes sparseness on the support set of the missing pixels. The resulting alternating minimization scheme simultaneously estimates the image and mask, in the same iterative process. The logarithmic transformation also allows the method to be extended to the Rayleigh multiplicative and Poisson observation models. The method can also be extended to impulse noise removal by relaxing the regularizer from the ℓ0 norm to the ℓ1 norm. Experimental results show that the proposed method can deal with a larger fraction of missing pixels than two phase methods, which first estimate the mask and then reconstruct the image.
+
+{image reconstruction;minimisation;transforms;ℓ0 regularization;Poisson observation models;Rayleigh multiplicative model;blind inpainting;image reconstruction;impulse noise;iterative process;logarithmic transformation;minimization scheme;total variation regularization;Additives;Gaussian noise;Image reconstruction;Noise measurement;Speckle;TV;Blind inpainting;blind inpainting;image reconstruction;impulse noise;iterative methods;total variation},
+
+
+

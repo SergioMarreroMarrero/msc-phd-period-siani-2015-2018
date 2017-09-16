@@ -1,0 +1,8 @@
+Accurate and Robust Line Segment Extraction Using Minimum Entropy With Hough Transform,
+
+# The Hough transform is a popular technique used in the field of image processing and computer vision. With a Hough transform technique, not only the normal angle and distance of a line but also the line-segment's length and midpoint (centroid) can be extracted by analysing the voting distribution around a peak in the Hough space. In this paper, a method based on minimum-entropy analysis is proposed to extract the set of parameters of a line segment. In each column around a peak in Hough space, the voting values specify probabilistic distributions. The corresponding entropies and statistical means are computed. The line-segment's normal angle and length are simultaneously computed by fitting a quadratic polynomial curve to the voting entropies. The line-segment's midpoint and normal distance are computed by fitting and interpolating a linear curve to the voting means. The proposed method is tested on simulated images for detection accuracy by providing comparative results. Experimental results on real-world images verify the method as well. The proposed method for line-segment detection is both accurate and robust in the presence of quantization error, background noise, or pixel disturbances.
+
+{Hough transforms;image processing;minimum entropy methods;Hough transform;background noise;computer vision;image processing;line segment extraction;linear curve;minimum entropy;pixel disturbances;quadratic polynomial curve;quantization error;voting distribution;Accuracy;Entropy;Image segmentation;Interpolation;Polynomials;Quantization (signal);Transforms;Hough transform;entropy;fitting and interpolation;line segment detection},
+
+
+

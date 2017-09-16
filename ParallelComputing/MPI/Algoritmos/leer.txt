@@ -1,0 +1,3 @@
+tarea1a.c : Contiene la implementación de la tarea 1 (ejercicio 3.6.a)
+
+tarea2.c : Contiene la implementación de la tarea 2 (ejercicio 13). Este codigo inclute las funciones para medir tiempos.

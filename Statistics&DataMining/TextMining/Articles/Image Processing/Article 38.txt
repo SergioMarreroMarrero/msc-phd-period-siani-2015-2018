@@ -1,0 +1,8 @@
+Robust Optical Flow Integration,
+
+# We analyze the problem of how to correctly construct dense point trajectories from optical flow fields. First, we show that simple Euler integration is unavoidably inaccurate, no matter how good is the optical flow estimator. Then, an inverse integration scheme is analyzed which is more robust to bias and input noise and shows better stability properties. Our contribution is threefold: 1) a theoretical analysis that demonstrates why and in what sense inverse integration is more accurate; 2) a rich experimental validation both on synthetic and real (image) data; and 3) an algorithm for approximate online inverse integration. This new technique is precious whether one is trying to propagate information densely available on a reference frame to the other frames in the sequence or, conversely, to assign information densely over each frame by pulling it from the reference.
+
+{image motion analysis;image sequences;integration;Euler integration;dense point trajectories;information propagation;online inverse integration;optical flow estimator;optical flow fields;real image data;reference frame;robust optical flow integration;sense inverse integration;stability properties;synthetic data;Adaptive optics;Computer vision;Estimation;Image motion analysis;Optical imaging;Trajectory;Vectors;Image motion analysis;optical flow;point tracking;trajectory estimation},
+
+
+

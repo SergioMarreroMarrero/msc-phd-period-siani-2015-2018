@@ -1,0 +1,8 @@
+A Comparison of Dense Region Detectors for Image Search and Fine-Grained Classification,
+
+# We consider a pipeline for image classification or search based on coding approaches like bag of words or Fisher vectors. In this context, the most common approach is to extract the image patches regularly in a dense manner on several scales. This paper proposes and evaluates alternative choices to extract patches densely. Beyond simple strategies derived from regular interest region detectors, we propose approaches based on superpixels, edges, and a bank of Zernike filters used as detectors. The different approaches are evaluated on recent image retrieval and fine-grained classification benchmarks. Our results show that the regular dense detector is outperformed by other methods in most situations, leading us to improve the state-of-the-art in comparable setups on standard retrieval and fined-grained benchmarks. As a byproduct of our study, we show that existing methods for blob and superpixel extraction achieve high accuracy if the patches are extracted along the edges and not around the detected regions.
+
+{feature extraction;filtering theory;image classification;Fisher vectors;Zernike filters;coding approaches;dense region detectors;fine-grained classification;fine-grained classification benchmarks;image classification;image patches;image search;superpixel extraction;Accuracy;Detectors;Feature extraction;Image edge detection;Image retrieval;Polynomials;Standards;Dense keypoints;Zernike polynomials;dense keypoints;fine-grained classification;image retrieval},
+
+
+

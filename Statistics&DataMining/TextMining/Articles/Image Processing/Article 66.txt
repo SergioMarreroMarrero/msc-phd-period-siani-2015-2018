@@ -1,0 +1,8 @@
+Comparing Noisy Patches for Image Denoising: A Double Noise Similarity Model,
+
+# This paper presents a concept of noise similarity (NS), which can be used to refine the comparison of noisy patch and enhance the denoising power of the nonlocal means (NLM) filter. The fact behind this concept is that the similarity of noisy patch should depend on not only the underlying signal (noise free patches), but also the noise. Based on the concept of noise similarity, we derived a double NS (DNS) model, which converts the denoising problem into the problem of reducing two kinds of noise: one is the superimposed additive noise; the other is the deviation error, defined as another kind of noise denoting the difference between similar pixels on their true intensities. The former corresponds to noise suppression, while the latter corresponds to the restoration of image details. To evaluate the effectiveness of the DNS model, we proposed an iterative version of the NLM filter, where the two noise similarities can work collaboratively in the framework of maximum a posterior. Finally, the experimental results demonstrate that the proposed approach can provide competitive performance when compared with other state-of-the-art NLM filters.
+
+{Gaussian noise;filtering theory;image denoising;image restoration;maximum likelihood estimation;DNS model;NLM filter;deviation error;double noise similarity model;image denoising;image detail restoration;maximum a posterior framework;noise suppression;nonlocal means filter;superimposed additive noise;AWGN;Educational institutions;Image denoising;Noise measurement;Noise reduction;Tin;Gaussian noise;Gaussian noise.;Patch similarity;image denoising;nonlocal means;patch similarity},
+
+
+

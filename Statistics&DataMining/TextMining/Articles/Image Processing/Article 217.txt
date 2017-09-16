@@ -1,0 +1,8 @@
+A Regularization Approach to Blind Deblurring and Denoising of QR Barcodes,
+
+# QR bar codes are prototypical images for which part of the image is a priori known (required patterns). Open source bar code readers, such as ZBar, are readily available. We exploit both these facts to provide and assess purely regularization-based methods for blind deblurring of QR bar codes in the presence of noise.
+
+{QR codes;image denoising;image restoration;QR bar code;ZBar;blind deblurring;blind denoising;open source bar code reader;prototypical image;regularization approach;Bar codes;Cameras;Kernel;Noise;Noise reduction;Standards;TV;QR bar code;TV flow;TV regularization;blind deblurring;finder pattern},
+
+
+

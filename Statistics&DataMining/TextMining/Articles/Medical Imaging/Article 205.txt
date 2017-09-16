@@ -1,0 +1,8 @@
+Retinal Artery-Vein Classification via Topology Estimation,
+
+# We propose a novel, graph-theoretic framework for distinguishing arteries from veins in a fundus image. We make use of the underlying vessel topology to better classify small and midsized vessels. We extend our previously proposed tree topology estimation framework by incorporating expert, domain-specific features to construct a simple, yet powerful global likelihood model. We efficiently maximize this model by iteratively exploring the space of possible solutions consistent with the projected vessels. We tested our method on four retinal datasets and achieved classification accuracies of 91.0%, 93.5%, 91.7%, and 90.9%, outperforming existing methods. Our results show the effectiveness of our approach, which is capable of analyzing the entire vasculature, including peripheral vessels, in wide field-of-view fundus photographs. This topology-based method is a potentially important tool for diagnosing diseases with retinal vascular manifestation.
+
+{biomedical optical imaging;blood vessels;eye;image classification;medical image processing;trees (mathematics);fundus image;graph-theoretic framework;likelihood model;retinal artery-vein classification;tree topology estimation framework;Arteries;Image color analysis;Labeling;Retina;Space exploration;Topology;Veins;Artery-vein classification;graph theory;image analysis;medical imaging;tree topology},
+
+
+

@@ -1,0 +1,8 @@
+Saliency-Based Color Accessibility,
+
+# Perception of color varies markedly between individuals because of differential expression of photopigments in retinal cones. However, it has been difficult to quantify the individual cognitive variation in colored scene and to predict its complex impacts on the behaviors. We developed a method for quantifying and visualizing information loss and gain resulting from individual differences in spectral sensitivity based on visual salience. We first modeled the visual salience for color-deficient observers, and found that the predicted losses and gains in local image salience derived from normal and color-blind models were correlated with the subjective judgment of image saliency in psychophysical experiments, i.e., saliency loss predicted reduced image preference in color-deficient observers. Moreover, saliency-guided image manipulations sufficiently compensated for individual differences in saliency. This visual saliency approach allows for quantification of information extracted from complex visual scenes and can be used as an image compensation to enhance visual accessibility by color-deficient individuals.
+
+{image colour analysis;color perception;color-blind models;color-deficient individuals;color-deficient observers;image compensation;image preference;image salience;photopigments;retinal cones;saliency-based color accessibility;saliency-guided image manipulations;visual accessibility;Biological system modeling;Computational modeling;Feature extraction;Image color analysis;Observers;Sensitivity;Visualization;Visual saliency;color vision;individual difference;visual saliency},
+
+
+

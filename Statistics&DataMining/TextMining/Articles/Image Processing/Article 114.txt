@@ -1,0 +1,8 @@
+Statistical Model of JPEG Noises and Its Application in Quantization Step Estimation,
+
+# In this paper, we present a statistical analysis of JPEG noises, including the quantization noise and the rounding noise during a JPEG compression cycle. The JPEG noises in the first compression cycle have been well studied; however, so far less attention has been paid on the statistical model of JPEG noises in higher compression cycles. Our analysis reveals that the noise distributions in higher compression cycles are different from those in the first compression cycle, and they are dependent on the quantization parameters used between two successive cycles. To demonstrate the benefits from the analysis, we apply the statistical model in JPEG quantization step estimation. We construct a sufficient statistic by exploiting the derived noise distributions, and justify that the statistic has several special properties to reveal the ground-truth quantization step. Experimental results demonstrate that the proposed estimator can uncover JPEG compression history with a satisfactory performance.
+
+{data compression;image coding;quantisation (signal);statistical analysis;JPEG compression cycle;JPEG compression history;JPEG noises;ground-truth quantization step;noise distributions;quantization noise;quantization parameters;quantization step estimation;rounding noise;statistical model;Discrete cosine transforms;Educational institutions;Estimation;Image coding;Noise;Quantization (signal);Transform coding;JPEG history;quantization noise;quantization step estimation;rounding noise;statistical inference},
+
+
+

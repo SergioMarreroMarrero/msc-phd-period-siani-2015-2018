@@ -1,0 +1,8 @@
+Generation of Spatial Orders and Space-Filling Curves,
+
+# Space-filling curves have been found useful for many applications in diverse fields. A space-filling curve is a path in a 2r×2r raster domain, which visits each location exactly once. In mathematical terms, space-filling curves linearize a 2D integer space, bijectively mapping the space to the integer line. An algorithm is presented, which generates a large number of space-filling curves/spatial orders. Functions are derived such that the code of each location can be calculated from its coordinates and, conversely, a location code can be decoded to yield the coordinates. The algorithm first generates generate 4×4 spatial orders; they subsequently may be scaled up to any desired domain of size 2r × 2r. The underlying theory of the algorithm, the processes for scaling up, encoding, and decoding are described in detail. The curves are generated as a set of incongruent curves, followed, if required, by the sets of associated congruent curves. A number of space-filling curves are illustrated.
+
+{curve fitting;decoding;encoding;2D integer space;associated congruent curves;decoding;diverse fields;encoding;incongruent curves;location code;raster domain;space filling curves;spatial order generation;spatial orders;Cryptography;Decoding;Image coding;Measurement;Signal processing algorithms;Spatial resolution;Gray-order;Spatial order;U-order;X-order;Z-order;location code;space-filling curve;spatial order},
+
+
+

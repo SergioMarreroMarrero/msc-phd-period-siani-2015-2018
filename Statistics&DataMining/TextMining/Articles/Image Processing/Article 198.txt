@@ -1,0 +1,8 @@
+Feature-Based Lucas–Kanade and Active Appearance Models,
+
+# Lucas-Kanade and active appearance models are among the most commonly used methods for image alignment and facial fitting, respectively. They both utilize nonlinear gradient descent, which is usually applied on intensity values. In this paper, we propose the employment of highly descriptive, densely sampled image features for both problems. We show that the strategy of warping the multichannel dense feature image at each iteration is more beneficial than extracting features after warping the intensity image at each iteration. Motivated by this observation, we demonstrate robust and accurate alignment and fitting performance using a variety of powerful feature descriptors. Especially with the employment of histograms of oriented gradient and scale-invariant feature transform features, our method significantly outperforms the current state-of-the-art results on in-the-wild databases.
+
+{feature extraction;active appearance model;facial fitting;feature descriptors;feature extraction;feature-based Lucas-Kanade model;histograms-of-oriented gradient feature;image alignment;image features;intensity image warping;intensity value;multichannel dense feature image;nonlinear gradient descent;scale-invariant feature transform features;Active appearance model;Face;Feature extraction;Integrated circuits;Optimization;Robustness;Shape;Active Appearance Models;Lucas-Kanade;active appearance models;dense image feature descriptors;denseimage feature descriptors;face alignment;face fitting},
+
+
+

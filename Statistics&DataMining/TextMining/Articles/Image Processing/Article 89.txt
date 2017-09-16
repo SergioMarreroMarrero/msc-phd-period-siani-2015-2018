@@ -1,0 +1,8 @@
+Accurate Stereo Matching by Two-Step Energy Minimization,
+
+# In stereo matching, cost-filtering methods and energy-minimization algorithms are considered as two different techniques. Due to their global extent, energy-minimization methods obtain good stereo matching results. However, they tend to fail in occluded regions, in which cost-filtering approaches obtain better results. In this paper, we intend to combine both the approaches with the aim to improve overall stereo matching results. We show that a global optimization with a fully connected model can be solved by cost-filtering methods. Based on this observation, we propose to perform stereo matching as a two-step energy-minimization algorithm. We consider two Markov random field (MRF) models: 1) a fully connected model defined on the complete set of pixels in an image and 2) a conventional locally connected model. We solve the energy-minimization problem for the fully connected model, after which the marginal function of the solution is used as the unary potential in the locally connected MRF model. Experiments on the Middlebury stereo data sets show that the proposed method achieves the state-of-the-arts results.
+
+{Markov processes;image filtering;minimisation;stereo image processing;Markov random field;cost filtering approach;energy minimization algorithm;global optimization;locally connected MRF model;marginal function;occluded region;stereo matching;Computational modeling;Message passing;Minimization methods;Optimization;Stereo vision;Transforms;Stereo matching;bilateral filter;energy minimization;fully connected MRF model},
+
+
+

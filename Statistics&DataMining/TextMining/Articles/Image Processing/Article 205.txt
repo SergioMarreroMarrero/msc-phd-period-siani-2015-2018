@@ -1,0 +1,8 @@
+Objective Quality Assessment for Multiexposure Multifocus Image Fusion,
+
+# There has been a growing interest in image fusion technologies, but how to objectively evaluate the quality of fused images has not been fully understood. Here, we propose a method for objective quality assessment of multiexposure multifocus image fusion based on the evaluation of three key factors of fused image quality: 1) contrast preservation; 2) sharpness; and 3) structure preservation. Subjective experiments are conducted to create an image fusion database, based on which, performance evaluation shows that the proposed fusion quality index correlates well with subjective scores, and gives a significant improvement over the existing fusion quality measures.
+
+{image fusion;multiexposure multifocus image fusion;objective quality assessment;Image fusion;Image quality;Indexes;Quality assessment;Sensors;Standards;Image fusion;image fusion;image quality assessment;local phase coherence;multi-exposure image fusion;multi-focus image fusion},
+
+
+

@@ -1,0 +1,8 @@
+Depth Superresolution by Transduction,
+
+# This paper presents a depth superresolution (SR) method that uses both of a low-resolution (LR) depth image and a high-resolution (HR) intensity image. We formulate depth SR as a graph-based transduction problem. In particular, the HR intensity image is represented as an undirected graph, in which pixels are characterized as vertices, and their relations are encoded as an affinity function. When the vertices initially labeled with certain depth hypotheses (from the LR depth image) are regarded as input queries, all the vertices are scored with respect to the relevances to these queries by a classifying function. Each vertex is then labeled with the depth hypothesis that receives the highest relevance score. We design the classifying function by considering the local and global structures of the HR intensity image. This approach enables us to address a depth bleeding problem that typically appears in current depth SR methods. Furthermore, input queries are assigned in a probabilistic manner, making depth SR robust to noisy depth measurements. We also analyze existing depth SR methods in the context of transduction, and discuss their theoretic relations. Intensive experiments demonstrate the superiority of the proposed method over state-of-the-art methods both qualitatively and quantitatively.
+
+{directed graphs;image resolution;depth bleeding problem;depth hypothesis;depth superresolution;graph-based transduction problem;high-resolution intensity image;low-resolution depth image;undirected graph;Complexity theory;Hemorrhaging;Labeling;Linear systems;Noise measurement;Robustness;Sparse matrices;Depth super-resolution;Depth super-resolution,;active range sensor;graph regularization;transduction},
+
+
+

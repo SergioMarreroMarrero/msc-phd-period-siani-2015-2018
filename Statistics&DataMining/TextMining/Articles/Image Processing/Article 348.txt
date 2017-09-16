@@ -1,0 +1,8 @@
+Dot-Diffused Halftoning With Improved Homogeneity,
+
+# Compared with the error diffusion, dot diffusion provides an additional pixel-level parallelism for digital halftoning. However, even though its periodic and blocking artifacts had been eased by the previous works, it was still far from satisfactory in terms of the blue noise spectrum perspective. In this paper, we strengthen the relation among the pixel locations of the same processing order by an iterative halftoning method, and the results demonstrate a significant improvement. Moreover, a new approach of deriving the averaged power spectrum density is proposed to avoid the regular sampling of the well-known Bartlett's procedure which inaccurately presents the halftone periodicity of certain halftoning techniques with parallelism. As a result, the proposed dot diffusion is substantially superior to the state-of-the-art parallel halftoning methods in terms of visual quality and artifact-free property, and competitive runtime to the theoretical fastest ordered dithering is offered simultaneously.
+
+{image watermarking;iterative methods;artifact-free property;averaged power spectrum density;blocking artifacts;blue noise spectrum perspective;competitive runtime;digital halftoning;dot diffusion;fastest ordered dithering;halftone periodicity;iterative halftoning method;pixel locations;pixel-level parallelism;visual quality;Computed tomography;Image color analysis;Iterative methods;Parallel processing;Printing;Rendering (computer graphics);Visualization;Dot diffusion;direct binary search;halftoning;ordered dithering;power spectrum density},
+
+
+

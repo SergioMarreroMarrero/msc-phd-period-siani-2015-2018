@@ -1,0 +1,8 @@
+Double Line Image Rotation,
+
+# This paper proposes a fast algorithm for rotating images while preserving their quality. The new approach rotates images based on vertical or horizontal lines in the original image and their rotated equation in the target image. The proposed method is a one-pass method that determines a based-line equation in the target image and extracts all corresponding pixels on the base-line. Floating-point multiplications are performed to calculate the base-line in the target image, and other line coordinates are calculated using integer addition or subtraction and logical justifications from the base-line pixel coordinates in the target image. To avoid a heterogeneous distance between rotated pixels in the target image, each line rotates to two adjacent lines. The proposed method yields good performance in terms of speed and quality according to the results of an analysis of the computation speed and accuracy.
+
+{floating point arithmetic;image representation;base-line pixel coordinates;based-line equation;double line image rotation;floating-point multiplications;heterogeneous distance;horizontal lines;image representation;one-pass method;vertical lines;Accuracy;Computer vision;Image processing;Interpolation;Mathematical model;Shearing;Transforms;DLR;Double-line rotation;image representation;image rotation;image transform;line rotation},
+
+
+

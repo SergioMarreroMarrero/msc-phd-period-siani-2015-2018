@@ -1,0 +1,8 @@
+STARE: Spatio-Temporal Attention Relocation for Multiple Structured Activities Detection,
+
+# We present a spatio-temporal attention relocation (STARE) method, an information-theoretic approach for efficient detection of simultaneously occurring structured activities. Given multiple human activities in a scene, our method dynamically focuses on the currently most informative activity. Each activity can be detected without complete observation, as the structure of sequential actions plays an important role on making the system robust to unattended observations. For such systems, the ability to decide where and when to focus is crucial to achieving high detection performances under resource bounded condition. Our main contributions can be summarized as follows: 1) information-theoretic dynamic attention relocation framework that allows the detection of multiple activities efficiently by exploiting the activity structure information and 2) a new high-resolution data set of temporally-structured concurrent activities. Our experiments on applications show that the STARE method performs efficiently while maintaining a reasonable level of accuracy.
+
+{computer vision;context-free grammars;resource allocation;STARE;information-theoretic approach;information-theoretic dynamic attention relocation framework;multiple structured activities detection;spatio-temporal attention relocation;Computational modeling;Feature extraction;Grammar;Hidden Markov models;Indexes;Production;Visualization;Activity detection;resource allocation;stochastic context-free grammars;visual attention},
+
+
+

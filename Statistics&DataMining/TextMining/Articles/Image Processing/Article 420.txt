@@ -1,0 +1,8 @@
+Inpainting for Fringe Projection Profilometry Based on Geometrically Guided Iterative Regularization,
+
+# Conventional fringe projection profilometry methods often have difficulty in reconstructing the 3D model of objects when the fringe images have the so-called highlight regions due to strong illumination from nearby light sources. Within a highlight region, the fringe pattern is often overwhelmed by the strong reflected light. Thus, the 3D information of the object, which is originally embedded in the fringe pattern, can no longer be retrieved. In this paper, a novel inpainting algorithm is proposed to restore the fringe images in the presence of highlights. The proposed method first detects the highlight regions based on a Gaussian mixture model. Then, a geometric sketch of the missing fringes is made and used as the initial guess of an iterative regularization procedure for regenerating the missing fringes. The simulation and experimental results show that the proposed algorithm can accurately reconstruct the 3D model of objects even when their fringe images have large highlight regions. It significantly outperforms the traditional approaches in both quantitative and qualitative evaluations.
+
+{Gaussian processes;image restoration;iterative methods;mixture models;3D information;3D model reconstruction;Gaussian mixture model;fringe image;fringe pattern;fringe projection profilometry;geometrically guided iterative regularization;highlight region;inpainting algorithm;light source;Cameras;Histograms;Image reconstruction;Lighting;Smoothing methods;Solid modeling;Three-dimensional displays;3D model reconstruction;Fringe projection profilometry;Fringe projection profilometry,;image inpainting;iterative regularization},
+
+
+

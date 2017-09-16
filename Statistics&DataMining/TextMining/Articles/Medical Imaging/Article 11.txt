@@ -1,0 +1,8 @@
+Automated Segmentation of Breast in 3-D MR Images Using a Robust Atlas,
+
+# This paper presents a robust atlas-based segmentation (ABS) algorithm for segmentation of the breast boundary in 3-D MR images. The proposed algorithm combines the well-known methodologies of ABS namely probabilistic atlas and atlas selection approaches into a single framework where two configurations are realized. The algorithm uses phase congruency maps to create an atlas which is robust to intensity variations. This allows an atlas derived from images acquired with one MR imaging sequence to be used to segment images acquired with a different MR imaging sequence and eliminates the need for intensity-based registration. Images acquired using a Dixon sequence were used to create an atlas which was used to segment both Dixon images (intra-sequence) and T1-weighted images (inter-sequence). In both cases, highly accurate results were achieved with the median Dice similarity coefficient values of 94% ±4% and 87±6.5%, respectively.
+
+{biological organs;biomedical MRI;image registration;image segmentation;image sequences;medical image processing;probability;3D MR images;Dixon images;Dixon sequence;MR image sequence;T1-weighted images;atlas selection approach;atlas-based segmentation algorithm;breast boundary segmentation;image acquisition;image segmentation;intensity variations;intensity-based registration;inter-sequence images;intra-sequence images;median Dice similarity coefficient;phase congruency maps;probabilistic atlas approach;Accuracy;Breast;Image segmentation;Magnetic resonance imaging;Probabilistic logic;Three-dimensional displays;Atlas-based segmentation;breast magnetic resonance imaging (MRI);image registration;image segmentation},
+
+
+

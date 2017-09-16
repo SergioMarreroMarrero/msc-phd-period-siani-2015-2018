@@ -1,0 +1,27 @@
+Clear
+
+
+
+!set datapath=C:\Users\aargu\Dropbox\andrea\SIMULACIONES\matlab
+
+set datapath=C:\Users\aargu\Desktop\Proyecto\OpenDSS
+set DefaultBaseFrequency=50
+
+New Circuit.IEEE_LV basekV=11 pu=1.05 angle=0 frequency=50 phases=3
+
+Edit Vsource.Source BasekV=11 pu=1.05  ISC3=3000  ISC1=5 
+
+Redirect  LineCodes.dss
+Redirect  LoadShapes.dss
+Redirect  Lines.dss
+Redirect  Transformer.dss
+Redirect  Loads.dss
+Redirect  Monitors.dss
+
+set controlmode=static
+set mode=yearly stepsize=1h number=8760
+
+Set VoltageBases = [11, 0.416]    ! ARRAY OF VOLTAGES IN KV
+CalcVoltageBases  ! PERFORMS ZERO LOAD POWER FLOW TO ESTIMATE VOLTAGE BASES
+
+BusCoords BusCoords.csv

@@ -1,0 +1,8 @@
+Adaptive-Rate Compressive Sensing Using Side Information,
+
+# We provide two novel adaptive-rate compressive sensing (CS) strategies for sparse, time-varying signals using side information. The first method uses extra cross-validation measurements, and the second one exploits extra low-resolution measurements. Unlike the majority of current CS techniques, we do not assume that we know an upper bound on the number of significant coefficients that comprises the images in the video sequence. Instead, we use the side information to predict the number of significant coefficients in the signal at the next time instant. We develop our techniques in the specific context of background subtraction using a spatially multiplexing CS camera such as the single-pixel camera. For each image in the video sequence, the proposed techniques specify a fixed number of CS measurements to acquire and adjust this quantity from image to image. We experimentally validate the proposed methods on real surveillance video sequences.
+
+{adaptive signal processing;cameras;compressed sensing;image resolution;image sequences;video surveillance;adaptive-rate CS strategy;adaptive-rate compressive sensing strategy;background subtraction;extra cross-validation measurement;extra low-resolution measurement;side information;sparse signal;spatially multiplexing CS camera;time-varying signal;video surveillance image sequence;Cameras;Compressed sensing;Decoding;Image coding;Image reconstruction;Sensors;Surveillance;Compressive sensing;background subtraction;cross validation;opportunistic sensing},
+
+
+

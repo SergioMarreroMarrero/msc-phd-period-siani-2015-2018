@@ -1,0 +1,8 @@
+An Innovative Lossless Compression Method for Discrete-Color Images,
+
+# In this paper, we present an innovative method for lossless compression of discrete-color images, such as map images, graphics, GIS, as well as binary images. This method comprises two main components. The first is a fixed-size codebook encompassing 8×8 bit blocks of two-tone data along with their corresponding Huffman codes and their relative probabilities of occurrence. The probabilities were obtained from a very large set of discrete color images which are also used for arithmetic coding. The second component is the row-column reduction coding, which will encode those blocks that are not in the codebook. The proposed method has been successfully applied on two major image categories: 1) images with a predetermined number of discrete colors, such as digital maps, graphs, and GIS images and 2) binary images. The results show that our method compresses images from both categories (discrete color and binary images) with 90% in most case and higher than the JBIG-2 by 5%-20% for binary images, and by 2%-6.3% for discrete color images on average.
+
+{image colour analysis;GIS images;Huffman codes;arithmetic coding;binary images;digital maps;discrete color images;fixed size codebook;graphics;innovative lossless compression method;map images;row column reduction coding;Block codes;Color;Context modeling;Entropy;Graphics;Image coding;Image color analysis;Binary image compression;Huffman coding;charts and graphs compression;color separation;digital map compression;discrete-color image compression;graph compression},
+
+
+

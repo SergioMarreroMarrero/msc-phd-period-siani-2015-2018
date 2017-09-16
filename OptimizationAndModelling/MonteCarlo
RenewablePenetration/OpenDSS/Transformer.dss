@@ -1,0 +1,5 @@
+ new transformer.TR1 buses=(SourceBus,1) conns=(delta,wye) kvs=(11, 0.400) kvas=(800, 800) tap=0.95 XHL=4 %Rs=(0.2, 0.2)
+
+
+
+! new transformer.TR1 buses=(SourceBus,1) conns=(delta,wye) kvs=(11, 0.400) kvas=(800, 800)  XHL=4 %Rs=(0.2, 0.2)

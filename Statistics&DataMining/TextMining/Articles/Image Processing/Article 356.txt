@@ -1,0 +1,8 @@
+Robust Visual Tracking via Sparsity-Induced Subspace Learning,
+
+# Target representation is a necessary component for a robust tracker. However, during tracking, many complicated factors may make the accumulated errors in the representation significantly large, leading to tracking drift. This paper aims to improve the robustness of target representation to avoid the influence of the accumulated errors, such that the tracker only acquires the information that facilitates tracking and ignores the distractions. We observe that the locally mutual relations between the feature observations of temporally obtained targets are beneficial to the subspace representation in visual tracking. Thus, we propose a novel subspace learning algorithm for visual tracking, which imposes joint row-wise sparsity structure on the target subspace to adaptively exclude distractive information. The sparsity is induced by exploiting the locally mutual relations between the feature observations during learning. To this end, we formulate tracking as a subspace sparsity inducing problem. A large number of experiments on various challenging video sequences demonstrate that our tracker outperforms many other state-of-the-art trackers.
+
+{image representation;learning (artificial intelligence);feature observations;robust visual tracking;row-wise sparsity structure;sparsity-induced subspace learning;subspace representation;subspace sparsity inducing problem;target representation;Indexes;Joints;Principal component analysis;Robustness;Target tracking;Visualization;Visual tracking;sparse representation;sparsity inducing;subspace learning},
+
+
+

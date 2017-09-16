@@ -1,0 +1,8 @@
+Spatially Sparse, Temporally Smooth MEG Via Vector  \ell _{0} ,
+
+# In this paper, we describe a new method for solving the magnetoencephalography inverse problem: temporal vector ℓ0-penalized least squares (TV-L0LS). The method calculates maximally sparse current dipole magnitudes and directions via spatial ℓ0 regularization on a cortically-distributed source grid, while constraining the solution to be smooth with respect to time. We demonstrate the utility of this method on real and simulated data by comparison to existing methods.
+
+{inverse problems;least squares approximations;magnetoencephalography;medical signal processing;cortically-distributed source grid;inverse problem;magnetoencephalography;maximally sparse current dipole magnitudes;spatial ℓ0 regularization;spatially sparse temporally smooth MEG;temporal vector ℓ0-penalized least squares;Brain modeling;Data models;Inverse problems;Sensor phenomena and characterization;Tuning;Vectors;Biomedical imaging;encephalography;optimization;sparsity},
+
+
+

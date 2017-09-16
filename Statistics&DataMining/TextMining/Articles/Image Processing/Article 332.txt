@@ -1,0 +1,8 @@
+Angular-Similarity-Preserving Binary Signatures for Linear Subspaces,
+
+# We propose a similarity-preserving binary signature method for linear subspaces. In computer vision and pattern recognition, linear subspace is a very important representation for many kinds of data, such as face images, action and gesture videos, and so on. When there is a large amount of subspace data and the ambient dimension is high, the cost of computing the pairwise similarity between the subspaces would be high and it requires a large storage space for storing the subspaces. In this paper, we first define the angular similarity and angular distance between the subspaces. Then, based on this similarity definition, we develop a similarity-preserving binary signature method for linear subspaces, which transforms a linear subspace into a compact binary signature, and the Hamming distance between two signatures provides an unbiased estimate of the angular similarity between the two subspaces. We also provide a lower bound of the signature length sufficient to guarantee uniform distance-preservation between every pair of subspaces in a set. Experiments on face recognition, gesture recognition, and action recognition verify the effectiveness of the proposed method.
+
+{computer vision;face recognition;gesture recognition;Hamming distance;action recognition;angular-similarity-preserving binary signature method;computer vision;face recognition;gesture recognition;linear subspace;pattern recognition;Face;Face recognition;Hamming distance;Linear matrix inequalities;Measurement;Nearest neighbor searches;Binary signature;angular similarity;binary signature;locality-sensitive hashing},
+
+
+

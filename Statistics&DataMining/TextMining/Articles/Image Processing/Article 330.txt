@@ -1,0 +1,8 @@
+Image Location Estimation by Salient Region Matching,
+
+# Nowadays, locations of images have been widely used in many application scenarios for large geo-tagged image corpora. As to images which are not geographically tagged, we estimate their locations with the help of the large geo-tagged image set by content-based image retrieval. In this paper, we exploit spatial information of useful visual words to improve image location estimation (or content-based image retrieval performances). We proposed to generate visual word groups by mean-shift clustering. To improve the retrieval performance, spatial constraint is utilized to code the relative position of visual words. We proposed to generate a position descriptor for each visual word and build fast indexing structure for visual word groups. Experiments show the effectiveness of our proposed approach.
+
+{content-based retrieval;image matching;image retrieval;pattern clustering;content-based image retrieval;image location estimation;large geotagged image corpora;mean-shift clustering;position descriptor;salient region matching;spatial constraint;Estimation;Feature extraction;Global Positioning System;Image coding;Image retrieval;Indexing;Visualization;Image retrieval;bag-of-words;image retrieval;mean-shift;salient area detection;spatial constraint},
+
+
+

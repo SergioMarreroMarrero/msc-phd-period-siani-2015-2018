@@ -1,0 +1,8 @@
+Exemplar-Based Inpainting: Technical Review and New Heuristics for Better Geometric Reconstructions,
+
+# This paper proposes a technical review of exemplar-based inpainting approaches with a particular focus on greedy methods. Several comparative and illustrative experiments are provided to deeply explore and enlighten these methods, and to have a better understanding on the state-of-the-art improvements of these approaches. From this analysis, three improvements over Criminisi et al. algorithm are then presented and detailed: 1) a tensor-based data term for a better selection of pixel candidates to fill in; 2) a fast patch lookup strategy to ensure a better global coherence of the reconstruction; and 3) a novel fast anisotropic spatial blending algorithm that reduces typical block artifacts using tensor models. Relevant comparisons with the state-of-the-art inpainting methods are provided that exhibit the effectiveness of our contributions.
+
+{feature selection;greedy algorithms;image restoration;tensors;exemplar-based inpainting;geometric reconstruction;greedy method;patch lookup strategy;pixel candidate selection;spatial blending algorithm;tensor-based data term;Algorithm design and analysis;Coherence;Decision support systems;Image reconstruction;Interpolation;Vectors;Exemplar-based image inpainting;Patch lookup strategy;Structure tensor analysis;anisotropic spatial patch blending;patch lookup strategy;structure tensor analysis},
+
+
+

@@ -1,0 +1,8 @@
+Minimum Risk Wavelet Shrinkage Operator for Poisson Image Denoising,
+
+# The pixel values of images taken by an image sensor are said to be corrupted by Poisson noise. To date, multiscale Poisson image denoising techniques have processed Haar frame and wavelet coefficients-the modeling of coefficients is enabled by the Skellam distribution analysis. We extend these results by solving for shrinkage operators for Skellam that minimizes the risk functional in the multiscale Poisson image denoising setting. The minimum risk shrinkage operator of this kind effectively produces denoised wavelet coefficients with minimum attainable L2 error.
+
+{Haar transforms;Poisson distribution;image denoising;wavelet transforms;Haar frame;Poisson noise;Skellam distribution analysis;image sensor;multiscale Poisson image denoising technique;risk functional minimization;risk wavelet coefficient shrinkage operator;AWGN;Estimation;Image denoising;Noise measurement;Wavelet transforms;Frame transform;Poisson distribution;Skellam distribution;wavelet transform},
+
+
+

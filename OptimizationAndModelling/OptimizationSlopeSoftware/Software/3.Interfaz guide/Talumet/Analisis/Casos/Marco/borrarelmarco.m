@@ -1,0 +1,10 @@
+try
+    delete(handles.lynea1);
+    delete(handles.lynea2);
+     delete(handles.lynea3);
+     delete(handles.lynea4);
+    delete(handles.punto1);
+    delete(handles.punto2);
+    delete(handles.punto3);
+    delete(handles.punto4);
+end

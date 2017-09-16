@@ -1,0 +1,8 @@
+Weighted Couple Sparse Representation With Classified Regularization for Impulse Noise Removal,
+
+# Many impulse noise (IN) reduction methods suffer from two obstacles, the improper noise detectors and imperfect filters they used. To address such issue, in this paper, a weighted couple sparse representation model is presented to remove IN. In the proposed model, the complicated relationships between the reconstructed and the noisy images are exploited to make the coding coefficients more appropriate to recover the noise-free image. Moreover, the image pixels are classified into clear, slightly corrupted, and heavily corrupted ones. Different data-fidelity regularizations are then accordingly applied to different pixels to further improve the denoising performance. In our proposed method, the dictionary is directly trained on the noisy raw data by addressing a weighted rank-one minimization problem, which can capture more features of the original data. Experimental results demonstrate that the proposed method is superior to several state-of-the-art denoising methods.
+
+{image denoising;image reconstruction;image resolution;impulse noise;minimisation;IN;data-fidelity regularizations;image denoising;image pixels;image reconstruction;imperfect filters;improper noise detectors;impulse noise reduction methods;impulse noise removal;weighted couple sparse representation model;weighted rank-one minimization problem;Detectors;Dictionaries;Image coding;Image reconstruction;Noise;Noise measurement;Noise reduction;Image denoising;classified regularization;couple sparse representation;dictionary learning;image denoising;impulse noise},
+
+
+

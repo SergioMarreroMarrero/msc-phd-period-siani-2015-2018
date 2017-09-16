@@ -1,0 +1,8 @@
+Objective Quality Assessment of Interpolated Natural Images,
+
+# Image interpolation techniques that create high-resolution images from low-resolution (LR) images are widely used in real world applications, but how to evaluate the quality of interpolated images is not a well-resolved issue. Subjective assessment methods are useful and reliable, but are also slow and expensive. Here, we propose an objective method to assess the quality of an interpolated natural image using the available LR image as a reference. Our method adopts a natural scene statistics (NSS) framework, where image quality degradation is gauged by the deviation of its statistical features from the NSS models trained upon high-quality natural images. Two distortion measures are proposed, namely, interpolated natural image distortion (IND) and weighted IND. Validations by subjective tests show that the proposed approach performs statistically equivalent or sometimes better than an average human subject. Moreover, we demonstrate the potential application of the proposed method in parameter tuning of image interpolation algorithms.
+
+{distortion;image resolution;interpolation;natural scenes;statistical testing;NSS model;distortion measure;interpoated IND;interpolated image quality evaluation;low resolution image;natural image distortion;natural image interpolation techniques;natural scene statistics;objective quality assessment;statistical feature;subjective assessment method;subjective test;weighted IND;Distortion;Image edge detection;Image quality;Interpolation;Quality assessment;Spatial resolution;Visualization;Image quality assessment;image interpolation;natural scene statistics},
+
+
+

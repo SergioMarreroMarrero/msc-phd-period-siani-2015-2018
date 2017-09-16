@@ -1,0 +1,8 @@
+Disparity Estimation on Stereo Mammograms,
+
+# We consider the problem of depth estimation on digital stereo mammograms. Being able to elucidate 3D information from stereo mammograms is an important precursor to conducting 3D digital analysis of data from this promising new modality. The problem is generally much harder than the classic stereo matching problem on visible light images of the natural world, since nearly all of the 3D structural information of interest exists as complex network of multilayered, heavily occluded curvilinear structures. Toward addressing this difficult problem, we formulate a new stereo model that minimizes a global energy functional to densely estimate disparity on stereo mammogram images, by introducing a new singularity index as a constraint to obtain better estimates of disparity along critical curvilinear structures. Curvilinear structures, such as vasculature and spicules, are particularly salient structures in the breast, and being able to accurately position them in 3D is a valuable goal. Experiments on synthetic images with known ground truth and on real stereo mammograms highlight the advantages of the proposed stereo model over the canonical stereo model.
+
+{mammography;medical image processing;minimisation;stereo image processing;3D digital analysis;3D structural information;breast;complex network;depth estimation;digital stereo mammogram;disparity estimation;global energy functional minimization;occluded curvilinear structure;singularity index;stereo model;Computational modeling;Estimation;Mammography;Optimization;Stereo image processing;Stereo mammography;disparity estimation;singularity index;stereo correspondance},
+
+
+

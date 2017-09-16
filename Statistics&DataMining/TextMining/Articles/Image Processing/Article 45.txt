@@ -1,0 +1,8 @@
+Pareto-Depth for Multiple-Query Image Retrieval,
+
+# Most content-based image retrieval systems consider either one single query, or multiple queries that include the same object or represent the same semantic information. In this paper, we consider the content-based image retrieval problem for multiple query images corresponding to different image semantics. We propose a novel multiple-query information retrieval algorithm that combines the Pareto front method with efficient manifold ranking. We show that our proposed algorithm outperforms state of the art multiple-query retrieval algorithms on real-world image databases. We attribute this performance improvement to concavity properties of the Pareto fronts, and prove a theoretical result that characterizes the asymptotic concavity of the fronts.
+
+{content-based retrieval;image retrieval;learning (artificial intelligence);Pareto front method;Pareto-depth;asymptotic concavity;concavity property;content-based image retrieval systems;image semantics;manifold ranking;multiple-query image retrieval algorithm;semantic information;Algorithm design and analysis;Image retrieval;Manifolds;Metasearch;Semantics;Pareto fronts;information retrieval;manifold ranking;multiple-query retrieval;multiplequery retrieval},
+
+
+

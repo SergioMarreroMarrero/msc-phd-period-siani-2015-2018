@@ -1,0 +1,8 @@
+Learning Super-Resolution Jointly From External and Internal Examples,
+
+# Single image super-resolution (SR) aims to estimate a high-resolution (HR) image from a low-resolution (LR) input. Image priors are commonly learned to regularize the, otherwise, seriously ill-posed SR problem, either using external LR-HR pairs or internal similar patterns. We propose joint SR to adaptively combine the advantages of both external and internal SR methods. We define two loss functions using sparse coding-based external examples, and epitomic matching based on internal examples, as well as a corresponding adaptive weight to automatically balance their contributions according to their reconstruction errors. Extensive SR results demonstrate the effectiveness of the proposed method over the existing state-of-the-art methods, and is also verified by our subjective evaluation study.
+
+{image coding;image matching;image reconstruction;image resolution;learning (artificial intelligence);epitomic matching;external LR-HR pair;high-resolution image estimation;ill-posed SR problem;image reconstruction error;learning superresolution;single image super resolution;sparse coding;Encoding;Image resolution;Interpolation;Joints;Manganese;Noise;Xenon;Super-resolution;epitome;example-based methods;sparse coding},
+
+
+

@@ -1,0 +1,8 @@
+Unsupervised Joint Feature Learning and Encoding for RGB-D Scene Labeling,
+
+# Most existing approaches for RGB-D indoor scene labeling employ hand-crafted features for each modality independently and combine them in a heuristic manner. There has been some attempt on directly learning features from raw RGB-D data, but the performance is not satisfactory. In this paper, we propose an unsupervised joint feature learning and encoding (JFLE) framework for RGB-D scene labeling. The main novelty of our learning framework lies in the joint optimization of feature learning and feature encoding in a coherent way, which significantly boosts the performance. By stacking basic learning structure, higher level features are derived and combined with lower level features for better representing RGB-D data. Moreover, to explore the nonlinear intrinsic characteristic of data, we further propose a more general joint deep feature learning and encoding (JDFLE) framework that introduces the nonlinear mapping into JFLE. The experimental results on the benchmark NYU depth dataset show that our approaches achieve competitive performance, compared with the state-of-the-art methods, while our methods do not need complex feature handcrafting and feature combination and can be easily applied to other data sets.
+
+{image coding;image colour analysis;unsupervised learning;JFLE framework;RGB-D scene labeling;nonlinear intrinsic characteristic;nonlinear mapping;unsupervised joint feature learning and encoding;Encoding;Feature extraction;Image coding;Joints;Labeling;Optimization;Three-dimensional displays;RGB-D scene labeling;RGB-D scene labeling,;joint feature learning and encoding;multi-modality;unsupervised feature learning},
+
+
+

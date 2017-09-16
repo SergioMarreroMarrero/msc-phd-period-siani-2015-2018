@@ -1,0 +1,8 @@
+Depth Map Coding Optimization Using Rendered View Distortion for 3D Video Coding,
+
+# In order to improve 3D video coding efficiency, we propose methods to estimate rendered view distortion in synthesized views as a function of the depth map quantization error. Our approach starts by calculating the geometric error caused by the depth map error based on the camera parameters. Then, we estimate the rendered view distortion based on the local video characteristics. The estimated rendered view distortion is used in the rate-distortion optimized mode selection for depth map coding. A Lagrange multiplier is derived using the proposed distortion metric, which is estimated based on an autoregressive model. Experimental results show the efficiency of the proposed methods, with average savings of 43% in depth map bitrate as compared with encoding the depth maps using the same coding tools but with the rate-distortion optimization based on the conventional distortion metric.
+
+{optimisation;quantisation (signal);video coding;3D video coding;Lagrange multiplier;autoregressive model;depth map coding optimization;depth map quantization error;rendered view distortion;Estimation;Image coding;Nonlinear distortion;Optimization;Quantization (signal);Video coding;Distortion measurement;distortion measurement;image quality;three dimensional TV;video coding},
+
+
+

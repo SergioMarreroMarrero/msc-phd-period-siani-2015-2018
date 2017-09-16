@@ -1,0 +1,8 @@
+Cross-Modal Subspace Learning via Pairwise Constraints,
+
+# In multimedia applications, the text and image components in a web document form a pairwise constraint that potentially indicates the same semantic concept. This paper studies cross-modal learning via the pairwise constraint and aims to find the common structure hidden in different modalities. We first propose a compound regularization framework to address the pairwise constraint, which can be used as a general platform for developing cross-modal algorithms. For unsupervised learning, we propose a multi-modal subspace clustering method to learn a common structure for different modalities. For supervised learning, to reduce the semantic gap and the outliers in pairwise constraints, we propose a cross-modal matching method based on compound ℓ21 regularization. Extensive experiments demonstrate the benefits of joint text and image modeling with semantically induced pairwise constraints, and they show that the proposed cross-modal methods can further reduce the semantic gap between different modalities and improve the clustering/matching accuracy.
+
+{Internet;image matching;multimedia computing;pattern clustering;unsupervised learning;Web document;compound ℓ21 regularization;compound regularization framework;cross-modal algorithms;cross-modal matching method;cross-modal subspace learning;image components;image modeling;multimedia applications;multimodal subspace clustering method;semantically induced pairwise constraints;supervised learning;text components;text modeling;unsupervised learning;Clustering algorithms;Clustering methods;Dictionaries;Multimedia communication;Semantics;Supervised learning;Multi modal;multi modal;pairwise constraint;subspace clustering},
+
+
+

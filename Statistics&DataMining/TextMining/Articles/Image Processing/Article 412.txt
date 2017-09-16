@@ -1,0 +1,8 @@
+Edge-Preserving Decomposition-Based Single Image Haze Removal,
+
+# Single image haze removal is under-constrained, because the number of freedoms is larger than the number of observations. In this paper, a novel edge-preserving decomposition-based method is introduced to estimate transmission map for a haze image so as to design a single image haze removal algorithm from the Koschmiedars law without using any prior. In particular, weighted guided image filter is adopted to decompose simplified dark channel of the haze image into a base layer and a detail layer. The transmission map is estimated from the base layer, and it is applied to restore the haze-free image. The experimental results on different types of images, including haze images, underwater images, and normal images without haze, show the performance of the proposed algorithm.
+
+{image filtering;image restoration;Koschmiedars law;edge-preserving decomposition-based single image haze removal;haze-free image restoration;transmission map estimation;weighted guided image filter;Atmospheric modeling;Image color analysis;Image edge detection;Mathematical model;Noise;Signal processing algorithms;Smoothing methods;Edge-preserving smoothing;Minimal color channel;Single image haze removal;Weighted guided image filtering;edge-preserving smoothing;minimal color channel;weighted guided image filtering},
+
+
+

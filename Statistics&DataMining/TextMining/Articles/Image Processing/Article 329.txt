@@ -1,0 +1,8 @@
+Transfer Function Model of Physiological Mechanisms Underlying Temporal Visual Discomfort Experienced When Viewing Stereoscopic 3D Images,
+
+# When viewing 3D images, a sense of visual comfort (or lack of) is developed in the brain over time as a function of binocular disparity and other 3D factors. We have developed a unique temporal visual discomfort model (TVDM) that we use to automatically predict the degree of discomfort felt when viewing stereoscopic 3D (S3D) images. This model is based on physiological mechanisms. In particular, TVDM is defined as a second-order system capturing relevant neuronal elements of the visual pathway from the eyes and through the brain. The experimental results demonstrate that the TVDM transfer function model produces predictions that correlate highly with the subjective visual discomfort scores contained in the large public databases. The transfer function analysis also yields insights into the perceptual processes that yield a stable S3D image.
+
+{brain;eye;neurophysiology;transfer functions;visual perception;3D factors;TVDM transfer function model;binocular disparity;brain;eyes;neuronal elements;perceptual processes;physiological mechanisms;public databases;second-order system;stable S3D image;stereoscopic 3D images;subjective visual discomfort;temporal visual discomfort model;transfer function model;visual pathway;Brain modeling;Muscles;Predictive models;Stereo image processing;Three-dimensional displays;Transfer functions;Visualization;Visual discomfort;accommodation and vergence (A/V) conflict;neural activity;stereoscopic 3D (S3D) image;temporal visual discomfort assessment;temporal visual discomfort model (TVDM)},
+
+
+

@@ -1,0 +1,8 @@
+Reflection Symmetry Detection Using Locally Affine Invariant Edge Correspondence,
+
+# Reflection symmetry detection receives increasing attentions in recent years. The state-of-the-art algorithms mainly use the matching of intensity-based features (such as the SIFT) within a single image to find symmetry axes. This paper proposes a novel approach by establishing the correspondence of locally affine invariant edge-based features, which are superior to the intensity based in the aspects that it is insensitive to illumination variations, and applicable to textureless objects. The locally affine invariance is achieved by simple linear algebra for efficient and robust computations, making the algorithm suitable for detections under object distortions like perspective projection. Commonly used edge detectors and a voting process are, respectively, used before and after the edge description and matching steps to form a complete reflection detection pipeline. Experiments are performed using synthetic and real-world images with both multiple and single reflection symmetry axis. The test results are compared with existing algorithms to validate the proposed method.
+
+{edge detection;feature extraction;image matching;linear algebra;edge description;edge detector;edge matching;image matching;intensity-based feature matching;linear algebra;locally affine invariant edge correspondence;reflection detection pipeline;reflection symmetry detection;single reflection symmetry axis;textureless object distortion detection;voting process;Detectors;Feature extraction;Image edge detection;Lighting;Materials;Pipelines;Robustness;Symmetry detection;affine invariance;edge descriptor;reflection symmetry},
+
+
+

@@ -1,0 +1,8 @@
+Depth From Water Reflection,
+
+# The scene in a water reflection image often exhibits bilateral symmetry. In this paper, we design a framework to reconstruct the depth from a single water reflection image. This problem can be regarded as a special case of two-view stereo vision. It is challenging to obtain correspondences from the real scene and the mirror scene due to their large appearance difference. We first propose an appearance adaptation method to transform the appearance of the mirror scene so that it is much closer to the real scene. We then present a stereo matching algorithm to obtain the disparity map of the real scene. Compared with other depth-from-symmetry work that deals with man-made objects, our algorithm can recover the depth maps of a variety of scenes, where both natural and man-made objects may exist.
+
+{image matching;image reconstruction;mirrors;stereo image processing;visual perception;appearance adaptation method;bilateral symmetry;depth image reconstruction;depth-from-symmetry;man-made object;mirror scene;natural object;single water reflection imaging;stereo matching algorithm;two-view stereo vision;Buildings;Cameras;Image reconstruction;Mirrors;Robustness;Three-dimensional displays;Transforms;Two-view stereo;appearance adaptation;dense stereo;depth-from-symmetry;water reflection},
+
+
+

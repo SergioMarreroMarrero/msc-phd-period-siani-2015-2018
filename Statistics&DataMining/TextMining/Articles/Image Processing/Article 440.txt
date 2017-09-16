@@ -1,0 +1,8 @@
+Personal object discovery in first-person videos,
+
+# People know and care for personal objects, which can be different for individuals. Automatically discovering personal objects is thus of great practical importance. We, in this paper, pursue this task with wearable cameras based on the common sense that personal objects generally company us in various scenes. With this clue, we exploit a new object-scene distribution for robust detection. Two technical challenges involved in estimating this distribution, i.e., scene extraction and unsupervised object discovery, are tackled. For scene extraction, we learn the latent representation instead of simply selecting a few frames from the videos. In object discovery, we build an interaction model to select frame-level objects and use nonparametric Bayesian clustering. Experiments verify the usefulness of our approach.
+
+{cameras;feature extraction;object detection;first-person videos;nonparametric Bayesian clustering;object-scene distribution;personal object discovery;scene extraction;unsupervised object discovery;wearable cameras;Bayes methods;Cameras;Dictionaries;Feature extraction;Image color analysis;Object detection;Videos;Object discovery;first-person vision and wearable camera;object detection;object discovery;scene understanding},
+
+
+

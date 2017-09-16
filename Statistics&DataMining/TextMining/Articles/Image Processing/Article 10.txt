@@ -1,0 +1,8 @@
+Weighted Guided Image Filtering,
+
+# It is known that local filtering-based edge preserving smoothing techniques suffer from halo artifacts. In this paper, a weighted guided image filter (WGIF) is introduced by incorporating an edge-aware weighting into an existing guided image filter (GIF) to address the problem. The WGIF inherits advantages of both global and local smoothing filters in the sense that: 1) the complexity of the WGIF is O(N) for an image with N pixels, which is same as the GIF and 2) the WGIF can avoid halo artifacts like the existing global smoothing filters. The WGIF is applied for single image detail enhancement, single image haze removal, and fusion of differently exposed images. Experimental results show that the resultant algorithms produce images with better visual quality and at the same time halo artifacts can be reduced/avoided from appearing in the final images with negligible increment on running times.
+
+{edge detection;filtering theory;image enhancement;WGIF;edge aware weighting;edge preserving smoothing techniques;exposed images;global smoothing filters;halo artifacts;image detail enhancement;image haze removal;local smoothing filters;visual quality;weighted guided image filtering;Complexity theory;Equations;Image edge detection;Mathematical model;Noise;Optimization;Smoothing methods;Edge-preserving smoothing;detail enhancement;edge-aware weighting;exposure fusion;haze removal;weighted guided image filter},
+
+
+

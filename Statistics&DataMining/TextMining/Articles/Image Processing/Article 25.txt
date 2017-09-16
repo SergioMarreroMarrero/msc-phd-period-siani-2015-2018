@@ -1,0 +1,8 @@
+Projection-Based Polygonality Measurement,
+
+# Measuring the degree to which a shape resembles a polygon (referred to as polygonality) is a difficult problem due to the intrinsic diversity in the form and distortion of shapes caused by digitization and similarity transformation. This paper proposes a generic approach for this problem by performing the measurement in the projection space where the Radon image of some primitive shapes, which compose the shape, becomes apparent. The obtained measures take value in (0, 1) with 1 corresponding to analytical polygons. They are robust to additive noise and boundary distortion, and is invariant to similarity transformation. The new framework generalizes existing polygonal measures such as triangularity and quadrangularity. In addition, the ability to estimate polygon's geometric quantities in the projection space allows approximating a shape by analytical polygons. The efficiency of the proposed approach is demonstrated through a number of experiments on both synthetic and real data sets.
+
+{Radon transforms;image processing;shape recognition;Radon image digitization;Radon image transformation;Radon transform;additive noise;boundary distortion;generic approach;intrinsic diversity;polygon geometric quantity estimation;projection space;projection-based polygonality measurement;real data set;shape approximation;shapes distortion;synthetic data set;Approximation methods;Distortion measurement;Extremities;Radio frequency;Shape;Shape measurement;Transforms;Polygonality measurement;Radon transform;geometric quantity estimation;polygonal approximation},
+
+
+

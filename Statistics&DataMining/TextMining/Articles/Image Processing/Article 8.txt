@@ -1,0 +1,8 @@
+3D Object Retrieval With Multitopic Model Combining Relevance Feedback and LDA Model,
+
+# View-based 3D model retrieval uses a set of views to represent each object. Discovering the complex relationship between multiple views remains challenging in 3D object retrieval. Recent progress in the latent Dirichlet allocation (LDA) model leads us to propose its use for 3D object retrieval. This LDA approach explores the hidden relationships between extracted primordial features of these views. Since LDA is limited to a fixed number of topics, we further propose a multitopic model to improve retrieval performance. We take advantage of a relevance feedback mechanism to balance the contributions of multiple topic models with specified numbers of topics. We demonstrate our improved retrieval performance over the state-of-the-art approaches.
+
+{feature extraction;image retrieval;relevance feedback;3D object retrieval;LDA model;latent Dirichlet allocation model;multitopic model;primordial feature extraction;relevance feedback mechanism;view-based 3D model retrieval;Databases;Feature extraction;Shape;Solid modeling;Three-dimensional displays;Vectors;Visualization;3D object retrieval;multi-topic model;relevance feedback},
+
+
+

@@ -1,0 +1,8 @@
+On Local Prediction Based Reversible Watermarking,
+
+# The use of local prediction in difference expansion reversible watermarking provides very good results, but at the cost of computing for each pixel a least square predictor in a square block centered on the pixel. This correspondence investigates the reduction of the mathematical complexity by computing distinct predictors not for pixels, but for groups of pixels. The same predictors are recovered at detection. Experimental results for the case of prediction on the rhombus defined by the four horizontal and vertical neighbors are provided. It is shown that by computing a predictor for a pair of pixels, the computational cost is halved without any loss in performance. A small loss appears for groups of three and four pixels with the advantage of reducing the mathematical complexity to a third and a fourth, respectively.
+
+{computational complexity;image watermarking;least squares approximations;least square predictor;local prediction based reversible watermarking;mathematical complexity;Computational complexity;Context;Equations;Gain;Materials;Watermarking;Reversible watermarking;computational complexity;local prediction;reversible watermarking},
+
+
+

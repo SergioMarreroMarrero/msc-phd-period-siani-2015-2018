@@ -1,0 +1,8 @@
+Distinguishing Local and Global Edits for Their Simultaneous Propagation in a Uniform Framework,
+
+# In propagating edits for image editing, some edits are intended to affect limited local regions, while others act globally over the entire image. However, the ambiguity problem in propagating edits is not adequately addressed in existing methods. Thus, tedious user input requirements remain since the user must densely or repeatedly input control samples to suppress ambiguity. In this paper, we address this challenge to propagate edits suitably by marking edits for local or global propagation and determining their reasonable propagation scopes automatically. Thus, our approach avoids propagation conflicts, effectively resolving the ambiguity problem. With the reduction of ambiguity, our method allows fewer and less-precise control samples than existing methods. Furthermore, we provide a uniform framework to propagate local and global edits simultaneously, helping the user to quickly obtain the intended results with reduced labor. With our unified framework, the potentially ambiguous interaction between local and global edits (evident in existing methods that propagate these two edit types in series) is resolved. We experimentally demonstrate the effectiveness of our method compared with existing methods.
+
+{image processing;ambiguity problem;global edits;image editing;local edits;Cost function;Histograms;Image color analysis;Image edge detection;Image segmentation;Solids;Edit propagation;edit propagation;image editing;unambiguity},
+
+
+

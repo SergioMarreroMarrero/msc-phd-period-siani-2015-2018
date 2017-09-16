@@ -1,0 +1,8 @@
+Adaptive Skin Classification Using Face and Body Detection,
+
+# In this paper, we propose a skin classification method exploiting faces and bodies automatically detected in the image, to adaptively initialize individual ad hoc skin classifiers. Each classifier is initialized by a face and body couple or by a single face, if no reliable body is detected. Thus, the proposed method builds an ad hoc skin classifier for each person in the image, resulting in a classifier less dependent from changes in skin color due to tan levels, races, genders, and illumination conditions. The experimental results on a heterogeneous data set of labeled images show that our proposal outperforms the state-of-the-art methods, and that this improvement is statistically significant.
+
+{face recognition;image classification;image colour analysis;object detection;adaptive skin classification method;body detection;face detection;genders;heterogeneous data set;illumination conditions;individual ad hoc skin classifiers;labeled images;races;skin color;tan levels;Adaptation models;Detectors;Face;Image color analysis;Reliability;Skin;Training;Skin classification;body detection;face detection},
+
+
+

@@ -1,0 +1,8 @@
+The STOne Transform: Multi-Resolution Image Enhancement and Compressive Video,
+
+# Compressive sensing enables the reconstruction of high-resolution signals from under-sampled data. While the compressive methods simplify data acquisition, they require the solution of difficult recovery problems to make use of the resulting measurements. This paper presents a new sensing framework that combines the advantages of both the conventional and the compressive sensing. Using the proposed sum-to-one transform, the measurements can be reconstructed instantly at the Nyquist rates at any power-of-two resolution. The same data can then be enhanced to higher resolutions using the compressive methods that leverage sparsity to beat the Nyquist limit. The availability of a fast direct reconstruction enables the compressive measurements to be processed on small embedded devices. We demonstrate this by constructing a real-time compressive video camera.
+
+{compressed sensing;data acquisition;image enhancement;image reconstruction;image resolution;transforms;video signal processing;Nyquist limit;Nyquist rate;STOne transform;compressive measurements;compressive sensing;compressive video camera;data acquisition;high-resolution signal reconstruction;multiresolution image enhancement;power-of-two resolution;small embedded devices;sum-to-one transform;Cameras;Image coding;Image reconstruction;Image resolution;Sensors;Streaming media;Transforms;Mathematics;compressed sensing;sampling methods},
+
+
+

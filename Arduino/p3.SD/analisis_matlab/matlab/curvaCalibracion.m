@@ -1,0 +1,179 @@
+clear
+clc
+[time, voltage] = readSamples('voltSamples.txt');
+
+distances = [10:10:70]'; 
+Ts = 100; 
+Tm = 10e3;     
+nOfSamplesPerMeasure = Tm/Ts; 
+%slotsMatrix = zeros([nOfMeasures,2]);
+alpha = .25;
+nOfSamplesPerSlot = ceil((1 - 2*alpha)*nOfSamplesPerMeasure);
+
+index_init_slot = floor(((distances/10 -1) + alpha) * nOfSamplesPerMeasure);
+nOfMeasures = 7;
+
+%%
+slotsMatrix(:,1) = index_init_slot;
+slotsMatrix(:,2) = index_init_slot + nOfSamplesPerSlot -1;
+putVerticalLines(slotsMatrix, time)
+%%
+% %% Calculamos los tiempos
+% for measure = distances
+%     initTime_ms = (measure -(1 - alpha))*factor;
+%     %initTime_ms = (sample -(alpha))*factor;
+%     slotsMatrix(sample,1) = index_init_slot
+%     %slotsMatrix(sample,2) = find(time <= last * factor,1,'last');
+%     slotsMatrix(sample,2) =  slotsMatrix(sample,1) +
+% end
+%%
+matrixOfVoltages = nan(nOfSamplesPerSlot,numel(distances));
+for col = 1:7
+matrixOfVoltages(:,col) = voltage(slotsMatrix(col,1):slotsMatrix(col,2));
+end
+figure(4)
+boxplot(matrixOfVoltages)
+xlabel('time (ms)')
+ylabel('voltage(mV)')
+title('Boxplot de las medidas')
+%% Hacemos media y varianza
+statistics = zeros([nOfMeasures,2]);
+% numberOfSamplesBySlot =
+
+nOfSamplesBySlot = nan(nOfMeasures,1);
+for row = 1:nOfMeasures
+    statistics(row,1) = mean(voltage(slotsMatrix(row,1):slotsMatrix(row,2)));
+    statistics(row,2) = std(voltage(slotsMatrix(row,1):slotsMatrix(row,2)));
+    nOfSamplesBySlot(row) = length(voltage(slotsMatrix(row,1):slotsMatrix(row,2)));
+end
+
+
+
+
+%% media WASP
+figure(2)
+mediaWaspMote = statistics(:,1);
+d = 0:0.1:70;
+plot(distances,statistics(:,1),'*g')
+hold on
+
+% Ajuste WASP n = 2
+pW = polyfit(distances,mediaWaspMote,2);
+yW = polyval(pW,d);
+plot(d, yW,'g')
+hold on
+
+%% Grafia de Dani
+load measuredVout.mat
+mediaDani = (mean(measuredVout)*1e3)';
+plot(distances,mediaDani,'ob')
+hold on
+
+%% Ajuste DANI n = 2
+pD = polyfit(distances,mediaDani,2);
+yD = polyval(pD,d);
+plot(d, yD,'b')
+hold on
+
+% axis([0,75,0, 2100])
+% xlabel('distance (cm)')
+% ylabel('voltage(mV)')
+% title('Ajuste de curva con n= 1')
+
+
+d = 10:0.1:70;
+%% Estudio de no linealidad
+% Ajuste WASP n = 1
+
+pW1 = polyfit(distances,mediaWaspMote,1);
+pW2 = polyfit(distances,mediaWaspMote,2);
+
+% Coeficiente de No Linealidad
+
+xMaxErr = (pW1(1) - pW2(2))/(2 * pW2(1));
+yLinErr = polyval(pW1,xMaxErr);
+yCuadErr = polyval(pW2,xMaxErr);
+
+coefNoLin = abs(yLinErr - yCuadErr);
+
+% Curva tangente
+pWtan = [pW1(1) pW1(2) - coefNoLin ];
+
+%% Representacion del valor absoluto
+pWerr = [pW2(1) , pW2(2) - pW1(1) , pW2(3) - pW1(2)];
+yWerr = polyval(pWerr,d);
+yWerrAbs = abs(yWerr);
+[maxError, indMaxError] = max(yWerrAbs);
+
+%% Representacion de valores extremos
+pWerrUp = [pW1(1) , pW1(2) + maxError];
+yWerrUp = polyval(pWerrUp,d);
+
+pWerrBotton = [pW1(1) , pW1(2) - maxError];
+yWerrBotton = polyval(pWerrBotton,d);
+
+%% Plot graficas de la no linealidad
+yW1 = polyval(pW1,d);
+yW2 = polyval(pW2,d);
+%yW = polyval(pWtan,d);
+
+figure(5)
+subplot(1.5,1,1)
+plot(d, yW1,'b')
+hold on
+plot(d, yW2,'g')
+plot(d, yWerrUp,'k:')
+plot(d, yWerrBotton,'k:')
+xlabel('distance (cm)')
+ylabel('voltage(mV)')
+title('Análisis de no linealidad')
+subplot(3,1,3)
+plot(d, yWerrAbs,'k:')
+xlabel('distance (cm)')
+ylabel('voltage(mV)')
+title('Error absoluto respecto del modelo lineal')
+%axis([10,75,-200, 2100])
+
+
+
+%% Estudio de sensibilidad
+% expresion de la sensibilidad
+pWsens = [2 * pW2(1) pW2(2)];  
+
+%% Representacion de la sensibilidad frente al polinomio
+yWsens = polyval(pWsens , d);
+
+figure(6)
+subplot(2,1,1);
+plot(d , yW2, 'g');
+xlabel('distance (cm)')
+ylabel('voltage(mV)')
+title('Modelo cuadrático')
+subplot(2,1,2);
+plot(d , yWsens, 'b');
+xlabel('distance (cm)')
+ylabel('mV/cm')
+title('Sensibilidad del sensor')
+
+
+
+%yW1 = polyval(pW1,d);
+%plot(d, yW1,'k')
+%hold on
+% hold off
+% figure(2)
+% mediaWaspMote = statistics(:,1);
+% 
+% plot(distances,statistics(:,1),'*g')
+% hold on
+%%
+
+% % Ajuste WASP n = 2
+% pW2 = polyfit(distances,mediaWaspMote,2);
+% 
+% plot(d, yW2,'b')
+% hold on
+
+
+
+

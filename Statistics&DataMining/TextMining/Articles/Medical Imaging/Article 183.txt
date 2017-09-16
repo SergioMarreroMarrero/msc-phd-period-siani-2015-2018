@@ -1,0 +1,8 @@
+Computer-Aided Prostate Cancer Detection Using Ultrasound RF Time Series: In Vivo Feasibility Study,
+
+# This paper presents the results of a computer-aided intervention solution to demonstrate the application of RF time series for characterization of prostate cancer, in vivo. Methods: We pre-process RF time series features extracted from 14 patients using hierarchical clustering to remove possible outliers. Then, we demonstrate that the mean central frequency and wavelet features extracted from a group of patients can be used to build a nonlinear classifier which can be applied successfully to differentiate between cancerous and normal tissue regions of an unseen patient. Results: In a cross-validation strategy, we show an average area under receiver operating characteristic curve (AUC) of 0.93 and classification accuracy of 80%. To validate our results, we present a detailed ultrasound to histology registration framework. Conclusion: Ultrasound RF time series results in differentiation of cancerous and normal tissue with high AUC.
+
+{biological tissues;biomedical ultrasonics;cancer;feature extraction;image classification;medical image processing;time series;cancerous tissue regions;computer-aided intervention solution;computer-aided prostate cancer detection;feature extraction;hierarchical clustering;in vivo feasibility study;nonlinear classifier;normal tissue regions;ultrasound RF time series;wavelet features;Biopsy;Cancer;Feature extraction;In vivo;Radio frequency;Time series analysis;Ultrasonic imaging;Prostate cancer;RF time series;tissue characterization},
+
+
+

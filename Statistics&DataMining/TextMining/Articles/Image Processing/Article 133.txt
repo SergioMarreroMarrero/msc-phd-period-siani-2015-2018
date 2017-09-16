@@ -1,0 +1,8 @@
+Undersampled Face Recognition via Robust Auxiliary Dictionary Learning,
+
+# In this paper, we address the problem of robust face recognition with undersampled training data. Given only one or few training images available per subject, we present a novel recognition approach, which not only handles test images with large intraclass variations such as illumination and expression. The proposed method is also to handle the corrupted ones due to occlusion or disguise, which is not present during training. This is achieved by the learning of a robust auxiliary dictionary from the subjects not of interest. Together with the undersampled training data, both intra and interclass variations can thus be successfully handled, while the unseen occlusions can be automatically disregarded for improved recognition. Our experiments on four face image datasets confirm the effectiveness and robustness of our approach, which is shown to outperform state-of-the-art sparse representation-based methods.
+
+{face recognition;image representation;learning (artificial intelligence);robust auxiliary dictionary learning;robust face recognition;sparse representation-based methods;undersampled face recognition;undersampled training data;unseen occlusions;Dictionaries;Face;Face recognition;Image reconstruction;Robustness;Training;Training data;Dictionary learning;face recognition;sparse representation},
+
+
+

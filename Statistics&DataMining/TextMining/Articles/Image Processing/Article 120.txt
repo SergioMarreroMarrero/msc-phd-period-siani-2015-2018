@@ -1,0 +1,8 @@
+Tree Leaves Extraction in Natural Images: Comparative Study of Preprocessing Tools and Segmentation Methods,
+
+# In this paper, we propose a comparative study of various segmentation methods applied to the extraction of tree leaves from natural images. This study follows the design of a mobile application, developed by Cerutti et al. (published in ReVeS Participation-Tree Species Classification Using Random Forests and Botanical Features. CLEF 2012), to highlight the impact of the choices made for segmentation aspects. All the tests are based on a database of 232 images of tree leaves depicted on natural background from smartphones acquisitions. We also propose to study the improvements, in terms of performance, using preprocessing tools, such as the interaction between the user and the application through an input stroke, as well as the use of color distance maps. The results presented in this paper shows that the method developed by Cerutti et al. (denoted Guided Active Contour), obtains the best score for almost all observation criteria. Finally, we detail our online benchmark composed of 14 unsupervised methods and 6 supervised ones.
+
+{biology computing;botany;feature extraction;image colour analysis;image segmentation;mobile computing;smart phones;visual databases;color distance maps;guided active contour;image database;mobile application;natural images;preprocessing tools;segmentation method;smartphones acquisitions;tree leaves extraction;Active contours;Clustering algorithms;Image color analysis;Image segmentation;Indexes;Vegetation;Comparative Study;Distance Map;Guided Active Con- tour;Pre-Processing Tools;Tree Leaves Segmentation;Tree leaves segmentation;comparative study;distance map;guided active contour;pre-processing tools},
+
+
+

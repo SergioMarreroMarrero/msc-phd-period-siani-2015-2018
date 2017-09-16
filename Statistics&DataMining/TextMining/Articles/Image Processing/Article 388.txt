@@ -1,0 +1,8 @@
+Compact and Discriminative Descriptor Inference Using Multi-Cues,
+
+# Feature descriptors around local interest points are widely used in human action recognition both for images and videos. However, each kind of descriptors describes the local characteristics around the reference point only from one cue. To enhance the descriptive and discriminative ability from multiple cues, this paper proposes a descriptor learning framework to optimize the descriptors at the source by learning a projection from multiple descriptors' spaces to a new Euclidean space. In this space, multiple cues and characteristics of different descriptors are fused and complemented for each other. In order to make the new descriptor more discriminative, we learn the multi-cue projection by the minimization of the ratio of within-class scatter to between-class scatter, and therefore, the discriminative ability of the projected descriptor is enhanced. In the experiment, we evaluate our framework on the tasks of action recognition from still images and videos. Experimental results on two benchmark image and two benchmark video data sets demonstrate the effectiveness and better performance of our method.
+
+{image recognition;inference mechanisms;learning (artificial intelligence);Euclidean space;action recognition;compact descriptor inference;descriptor learning framework;discriminative descriptor inference;feature descriptors;human action recognition;local interest points;multicue projection;Context;Image color analysis;Image recognition;Linear programming;Optimization;Shape;Videos;Action recognition;descriptor learning;multi-view embedding},
+
+
+

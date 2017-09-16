@@ -1,0 +1,8 @@
+Objective Quality Assessment for Color-to-Gray Image Conversion,
+
+# Color-to-gray (C2G) image conversion is the process of transforming a color image into a grayscale one. Despite its wide usage in real-world applications, little work has been dedicated to compare the performance of C2G conversion algorithms. Subjective evaluation is reliable but is also inconvenient and time consuming. Here, we make one of the first attempts to develop an objective quality model that automatically predicts the perceived quality of C2G converted images. Inspired by the philosophy of the structural similarity index, we propose a C2G structural similarity (C2G-SSIM) index, which evaluates the luminance, contrast, and structure similarities between the reference color image and the C2G converted image. The three components are then combined depending on image type to yield an overall quality measure. Experimental results show that the proposed C2G-SSIM index has close agreement with subjective rankings and significantly outperforms existing objective quality metrics for C2G conversion. To explore the potentials of C2G-SSIM, we further demonstrate its use in two applications: 1) automatic parameter tuning for C2G conversion algorithms and 2) adaptive fusion of C2G converted images.
+
+{image colour analysis;C2G conversion algorithms;C2G structural similarity index;C2G-SSIM index;automatic parameter tuning;color-to-gray image conversion;objective quality assessment;Color;Correlation;Gray-scale;Image color analysis;Indexes;Quality assessment;Image quality assessment;color-to-gray conversion;perceptual image processing;structural similarity},
+
+
+

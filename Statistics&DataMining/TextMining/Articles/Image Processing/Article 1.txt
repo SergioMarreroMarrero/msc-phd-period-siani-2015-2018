@@ -1,0 +1,8 @@
+An Efficient MRF Embedded Level Set Method for Image Segmentation,
+
+# This paper presents a fast and robust level set method for image segmentation. To enhance the robustness against noise, we embed a Markov random field (MRF) energy function to the conventional level set energy function. This MRF energy function builds the correlation of a pixel with its neighbors and encourages them to fall into the same region. To obtain a fast implementation of the MRF embedded level set model, we explore algebraic multigrid (AMG) and sparse field method (SFM) to increase the time step and decrease the computation domain, respectively. Both AMG and SFM can be conducted in a parallel fashion, which facilitates the processing of our method for big image databases. By comparing the proposed fast and robust level set method with the standard level set method and its popular variants on noisy synthetic images, synthetic aperture radar (SAR) images, medical images, and natural images, we comprehensively demonstrate the new method is robust against various kinds of noises. In particular, the new level set method can segment an image of size 500 × 500 within 3 s on MATLAB R2010b installed in a computer with 3.30-GHz CPU and 4-GB memory.
+
+{Markov processes;image segmentation;set theory;visual databases;AMG;MATLAB R2010b;MRF embedded level set method;Markov random field;SFM;algebraic multigrid;big image databases;energy function;image segmentation;medical images;natural images;noisy synthetic images;robust level set method;sparse field method;synthetic aperture radar image;Active contours;Computational modeling;Equations;Image segmentation;Level set;Mathematical model;Noise;Level set;Markov random field;algebraic multigrid;sparse field method},
+
+
+

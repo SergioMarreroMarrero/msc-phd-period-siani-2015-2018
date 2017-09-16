@@ -1,0 +1,8 @@
+Persistent Homology in Sparse Regression and Its Application to Brain Morphometry,
+
+# Sparse systems are usually parameterized by a tuning parameter that determines the sparsity of the system. How to choose the right tuning parameter is a fundamental and difficult problem in learning the sparse system. In this paper, by treating the the tuning parameter as an additional dimension, persistent homological structures over the parameter space is introduced and explored. The structures are then further exploited in drastically speeding up the computation using the proposed soft-thresholding technique. The topological structures are further used as multivariate features in the tensor-based morphometry (TBM) in characterizing white matter alterations in children who have experienced severe early life stress and maltreatment. These analyses reveal that stress-exposed children exhibit more diffuse anatomical organization across the whole white matter region.
+
+{brain;learning (artificial intelligence);neurophysiology;paediatrics;patient treatment;regression analysis;sparse matrices;TBM;brain morphometry;diffuse anatomical organization;early life stress;learning;maltreated children;parameter space;persistent homological structures;soft-thresholding technique;sparse regression;sparse system;stress-exposed children;tensor-based morphometry;topological structures;white matter alterations;white matter region;Brain modeling;Computational modeling;Correlation;Covariance matrices;Numerical models;Optimization;Sparse matrices;GLASSO;maltreated children;persistent homology;sparse brain networks;sparse correlations;tensor-based morphometry},
+
+
+

@@ -1,0 +1,8 @@
+Online Kernel Slow Feature Analysis for Temporal Video Segmentation and Tracking,
+
+# Slow feature analysis (SFA) is a dimensionality reduction technique which has been linked to how visual brain cells work. In recent years, the SFA was adopted for computer vision tasks. In this paper, we propose an exact kernel SFA (KSFA) framework for positive definite and indefinite kernels in Krein space. We then formulate an online KSFA which employs a reduced set expansion. Finally, by utilizing a special kind of kernel family, we formulate exact online KSFA for which no reduced set is required. We apply the proposed system to develop a SFA-based change detection algorithm for stream data. This framework is employed for temporal video segmentation and tracking. We test our setup on synthetic and real data streams. When combined with an online learning tracking system, the proposed change detection approach improves upon tracking setups that do not utilize change detection.
+
+{computer vision;feature extraction;object detection;object tracking;set theory;unsupervised learning;video signal processing;Krein space;SFA-based change detection algorithm;computer vision tasks;dimensionality reduction technique;exact kernel SFA framework;exact online KSFA;online kernel slow feature analysis;online learning tracking system;positive definite kernels;positive indefinite kernels;reduced set expansion;stream data;temporal video segmentation;temporal video tracking;unsupervised learning technique;visual brain cells;Eigenvalues and eigenfunctions;Feature extraction;Hilbert space;Image segmentation;Kernel;Matrix decomposition;Streaming media;Slow feature analysis;change detection;online kernel learning;temporal segmentation;tracking},
+
+
+

@@ -1,0 +1,8 @@
+A New Quaternion-Based Encryption Method for DICOM Images,
+
+# In this paper, a new quaternion-based lossless encryption technique for digital image and communication on medicine (DICOM) images is proposed. We have scrutinized and slightly modified the concept of the DICOM network to point out the best location for the proposed encryption scheme, which significantly improves speed of DICOM images encryption in comparison with those originally embedded into DICOM advanced encryption standard and triple data encryption standard algorithms. The proposed algorithm decomposes a DICOM image into two 8-bit gray-tone images in order to perform encryption. The algorithm implements Feistel network like the scheme proposed by Sastry and Kumar. It uses special properties of quaternions to perform rotations of data sequences in 3D space for each of the cipher rounds. The images are written as Lipschitz quaternions, and modular arithmetic was implemented for operations with the quaternions. A computer-based analysis has been carried out, and the obtained results are shown at the end of this paper.
+
+{cryptography;medical image processing;medicine;3D space;DICOM images encryption;DICOM network;Feistel network;Lipschitz quaternions;advanced encryption standard;cipher rounds;computer based analysis;data sequences;digital image and communication on medicine;gray-tone images;modular arithmetic;quaternion-based lossless encryption;triple data encryption standard;DICOM;Encryption;Quaternions;Standards;Cryptography;DICOM;image processing;lossless scheme;medical data;quaternion rotation;security},
+
+
+

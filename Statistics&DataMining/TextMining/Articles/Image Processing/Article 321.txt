@@ -1,0 +1,8 @@
+A Douglas–Rachford Splitting Approach to Compressed Sensing Image Recovery Using Low-Rank Regularization,
+
+# In this paper, we study the compressed sensing (CS) image recovery problem. The traditional method divides the image into blocks and treats each block as an independent sub-CS recovery task. This often results in losing global structure of an image. In order to improve the CS recovery result, we propose a nonlocal (NL) estimation step after the initial CS recovery for denoising purpose. The NL estimation is based on the well-known NL means filtering that takes an advantage of self-similarity in images. We formulate the NL estimation as the low-rank matrix approximation problem, where the low-rank matrix is formed by the NL similarity patches. An efficient algorithm, nonlocal Douglas-Rachford (NLDR), based on Douglas-Rachford splitting is developed to solve this low-rank optimization problem constrained by the CS measurements. Experimental results demonstrate that the proposed NLDR algorithm achieves significant performance improvements over the state-of-the-art in CS image recovery.
+
+{compressed sensing;image denoising;image filtering;matrix algebra;optimisation;CS image recovery problem;Douglas-Rachford splitting algorithm;NL filtering;NL similarity patch;NLDR algorithm;compressed sensing image recovery problem;image denoising;low-rank matrix approximation problem;low-rank optimization problem;low-rank regularization;nonlocal Douglas-Rachford splitting algorithm;nonlocal estimation;Approximation algorithms;Approximation methods;Compressed sensing;Estimation;Image reconstruction;Noise reduction;Optimization;Compressed sensing;Douglas-Rachford splitting;image recovery;low-rank estimation;nonlocal filtering},
+
+
+

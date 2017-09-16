@@ -1,0 +1,8 @@
+Graph Matching Based on Stochastic Perturbation,
+
+# This paper presents a novel perspective on characterizing the spectral correspondence between the nodes of weighted graphs for image matching applications. The algorithm is based on the principal feature components obtained by stochastic perturbation of a graph. There are three areas of contributions in this paper. First, a stochastic normalized Laplacian matrix of a weighted graph is obtained by perturbing the matrix of a sensed graph model. Second, we obtain the eigenvectors based on an eigen-decomposition approach, where representative elements of each row of this matrix can be considered to be the feature components of a feature point. Third, correct correspondences are determined in a low-dimensional principal feature component space between the graphs. In order to further enhance image matching, we also exploit the random sample consensus algorithm, as a post-processing step, to eliminate mismatches in feature correspondences. The experiments on synthetic and real-world images demonstrate the effectiveness and accuracy of the proposed method.
+
+{eigenvalues and eigenfunctions;graph theory;image matching;matrix algebra;principal component analysis;eigen-decomposition approach;graph matching;image matching applications;principal feature components;random sample consensus algorithm;stochastic normalized Laplacian matrix;stochastic perturbation;weighted graph;Eigenvalues and eigenfunctions;Feature extraction;Image matching;Laplace equations;Matrix decomposition;Singular value decomposition;Stochastic processes;Graph matching;image matching;principal feature component;random sample consensus (RANSAC);stochastic perturbation},
+
+
+

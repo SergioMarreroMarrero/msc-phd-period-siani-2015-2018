@@ -1,0 +1,8 @@
+The  L_{0} Regularized Mumford–Shah Model for Bias Correction and Segmentation of Medical Images,
+
+# We propose a new variant of the Mumford-Shah model for simultaneous bias correction and segmentation of images with intensity inhomogeneity. First, based on the model of images with intensity inhomogeneity, we introduce an L0 gradient regularizer to model the true intensity and a smooth regularizer to model the bias field. In addition, we derive a new data fidelity using the local intensity properties to allow the bias field to be influenced by its neighborhood. Second, we use a two-stage segmentation method, where the fast alternating direction method is implemented in the first stage for the recovery of true intensity and bias field and a simple thresholding is used in the second stage for segmentation. Different from most of the existing methods for simultaneous bias correction and segmentation, we estimate the bias field and true intensity without fixing either the number of the regions or their values in advance. Our method has been validated on medical images of various modalities with intensity inhomogeneity. Compared with the state-of-art approaches and the well-known brain software tools, our model is fast, accurate, and robust with initializations.
+
+{image segmentation;medical image processing;Mumford-Shah model;bias correction;fast alternating direction method;gradient regularizer;intensity inhomogeneity;medical image segmentation;two-stage segmentation method;Approximation methods;Brain modeling;Computational modeling;Image segmentation;Level set;Minimization;Nonhomogeneous media;$L_{0}$ gradient minimization;Intensity inhomogeneity;L0 gradient minimization;Mumford-Shah model;bias correction;image segmentation},
+
+
+

@@ -1,0 +1,8 @@
+Total Variation Regularization via Continuation to Recover Compressed Hyperspectral Images,
+
+# In this paper, we investigate a low-complexity scheme for decoding compressed hyperspectral image data. We have exploited the simplicity of the subgradient method by modifying a total variation-based regularization problem to include a residual constraint, employing convex optimality conditions to provide equivalency between the original and reformed problem statements. A scheme that utilizes spectral smoothness by calculating informed starting points to improve the rate of convergence is introduced. We conduct numerical experiments, using both synthetic and real hyperspectral data, to demonstrate the effectiveness of the reconstruction algorithm and the validity of our method for exploiting spectral smoothness. Evidence from these experiments suggests that the proposed methods have the potential to improve the quality and run times of the future compressed hyperspectral image reconstructions.
+
+{convergence of numerical methods;convex programming;decoding;gradient methods;hyperspectral imaging;image coding;image reconstruction;smoothing methods;convergence rate improvement;hyperspectral image compression recovery;image quality improvement;image reconstruction algorithm;low-complexity scheme;numerical experiment;real hyperspectral data;residual constraint;subgradient method;synthetic hyperspectral data;total variation regularization;variation-based regularization problem;Hyperspectral imaging;Image coding;Image reconstruction;Materials;Optimization;TV;Compressed sensing;Hyperspectral imaging;Inverse problems;hyperspectral imaging;inverse problems},
+
+
+

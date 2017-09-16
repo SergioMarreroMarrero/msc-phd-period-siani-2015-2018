@@ -1,0 +1,8 @@
+Block-Based Spatial Prediction and Transforms Based on 2D Markov Processes for Image and Video Compression,
+
+# Conventional intraframe coding is performed in two steps. First, a block of pixels are predicted by copying previously reconstructed neighbor pixels of the block along an angular direction inside the block. Then, the prediction residual block is transform coded with the well-known 2D discrete cosine transform (DCT). Recently, it has been shown that transforming the intraprediction residuals with the odd type-3 discrete sine transform along the prediction direction and the DCT along the perpendicular direction improves the compression performance. More recently, a recursive prediction approach has been proposed to improve intra prediction performance. Both of these recent approaches utilize Markov processes to develop improvements in either the transform or the prediction step but not in both. In this paper, both the intraprediction and the transform steps are obtained based on 2D Markov processes. The derived overall intraframe coding approaches can generalize the mentioned two approaches, provide improved coding gains and produce less blocking effects at low bitrates.
+
+{Markov processes;discrete cosine transforms;image coding;video coding;2D Markov process;2D discrete cosine transform;block-based spatial prediction;image compression;intraframe coding approach;recursive prediction approach;video compression;Discrete cosine transforms;Image coding;Image reconstruction;Markov processes;Prediction algorithms;Predictive models;Discrete Cosine Transforms;Image coding;Video coding;discrete cosine transforms;linear prediction;markov processes;video coding},
+
+
+

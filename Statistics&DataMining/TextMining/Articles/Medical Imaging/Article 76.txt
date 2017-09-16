@@ -1,0 +1,8 @@
+Brain Activity: Connectivity, Sparsity, and Mutual Information,
+
+# We develop a new approach to functional brain connectivity analysis, which deals with four fundamental aspects of connectivity not previously jointly treated. These are: temporal correlation, spurious spatial correlation, sparsity, and network construction using trajectory (as opposed to marginal) Mutual Information. We call the new method Sparse Conditional Trajectory Mutual Information (SCoTMI). We demonstrate SCoTMI on simulated and real fMRI data, showing that SCoTMI gives more accurate and more repeatable detection of network links than competing network estimation methods.
+
+{biomedical MRI;brain;network theory (graphs);neurophysiology;SCoTMI;Sparse Conditional Trajectory Mutual Information;functional brain connectivity analysis;mutual information;network construction;network estimation methods;network links;real fMRI data;sparsity;spurious spatial correlation;temporal correlation;Analytical models;Computational modeling;Correlation;Data models;Mutual information;Reactive power;Time series analysis;Mutual information;network theory (graphs);time series analysis},
+
+
+

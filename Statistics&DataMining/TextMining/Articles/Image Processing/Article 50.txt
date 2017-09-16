@@ -1,0 +1,8 @@
+Smoothed Low Rank and Sparse Matrix Recovery by Iteratively Reweighted Least Squares Minimization,
+
+# This paper presents a general framework for solving the low-rank and/or sparse matrix minimization problems, which may involve multiple nonsmooth terms. The iteratively reweighted least squares (IRLSs) method is a fast solver, which smooths the objective function and minimizes it by alternately updating the variables and their weights. However, the traditional IRLS can only solve a sparse only or low rank only minimization problem with squared loss or an affine constraint. This paper generalizes IRLS to solve joint/mixed low-rank and sparse minimization problems, which are essential formulations for many tasks. As a concrete example, we solve the Schatten-p norm and ℓ2,q-norm regularized low-rank representation problem by IRLS, and theoretically prove that the derived solution is a stationary point (globally optimal if p, q ≥ 1). Our convergence proof of IRLS is more general than previous one that depends on the special properties of the Schatten-p norm and ℓ2,q-norm. Extensive experiments on both synthetic and real data sets demonstrate that our IRLS is much more efficient.
+
+{iterative methods;learning (artificial intelligence);least squares approximations;matrix decomposition;minimisation;IRLS method;Schatten-p norm;affine constraint;iteratively reweighted least squares minimization;l2,q-norm regularized low-rank representation;matrix minimization;objective function;smoothed low rank matrix recovery;sparse matrix recovery;Acceleration;Algorithm design and analysis;Convergence;Linear programming;Minimization;Robustness;Sparse matrices;Iteratively Reweighted Least Squares;Low-rank and sparse minimization;iteratively reweighted least squares},
+
+
+

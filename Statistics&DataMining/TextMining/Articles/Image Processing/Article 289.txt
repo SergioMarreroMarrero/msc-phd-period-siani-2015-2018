@@ -1,0 +1,8 @@
+Optimized Kaiser–Bessel Window Functions for Computed Tomography,
+
+# Kaiser-Bessel window functions are frequently used to discretize tomographic problems because they have two desirable properties: 1) their short support leads to a low computational cost and 2) their rotational symmetry makes their imaging transform independent of the direction. In this paper, we aim at optimizing the parameters of these basis functions. We present a formalism based on the theory of approximation and point out the importance of the partition-of-unity condition. While we prove that, for compact-support functions, this condition is incompatible with isotropy, we show that minimizing the deviation from the partition of unity condition is highly beneficial. The numerical results confirm that the proposed tuning of the Kaiser-Bessel window functions yields the best performance.
+
+{approximation theory;computerised tomography;approximation theory;basis functions;compact-support functions;computed tomography;optimized Kaiser-Bessel window functions;partition-of-unity condition;rotational symmetry;Approximation methods;Computed tomography;Image reconstruction;Transforms;X-ray imaging;Approximation theory;Generalized sampling;Inverse problem;Kaiser-Bessel window function;Tomography;approximation theory;generalized sampling;inverse problem;tomography},
+
+
+

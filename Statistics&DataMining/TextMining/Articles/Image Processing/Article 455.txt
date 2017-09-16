@@ -1,0 +1,8 @@
+Simultaneous Camera Path Optimization and Distraction Removal for Improving Amateur Video,
+
+# A major difference between amateur and professional video lies in the quality of camera paths. Previous work on video stabilization has considered how to improve amateur video by smoothing the camera path. In this paper, we show that additional changes to the camera path can further improve video aesthetics. Our new optimization method achieves multiple simultaneous goals: 1) stabilizing video content over short time scales; 2) ensuring simple and consistent camera paths over longer time scales; and 3) improving scene composition by automatically removing distractions, a common occurrence in amateur video. Our approach uses an L1 camera path optimization framework, extended to handle multiple constraints. Two passes of optimization are used to address both low-level and high-level constraints on the camera path. The experimental and user study results show that our approach outputs video that is perceptually better than the input, or the results of using stabilization only.
+
+{image sensors;optimisation;video signal processing;camera path;camera paths;distraction removal;improving amateur video;optimization method;professional video;simultaneous camera path optimization;video aesthetics;video content;video stabilization;Cameras;Motion segmentation;Optical imaging;Optimization;Planning;Tracking;Visualization;Camera path;cinematography;distraction;video editing},
+
+
+

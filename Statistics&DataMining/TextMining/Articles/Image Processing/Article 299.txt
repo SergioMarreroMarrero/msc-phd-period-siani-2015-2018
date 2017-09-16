@@ -1,0 +1,8 @@
+Towards a Full-Reference Quality Assessment for Color Images Using Directional Statistics,
+
+# This paper presents a novel computational model for quantifying the perceptual quality of color images consistently with subjective evaluations. The proposed full-reference color metric, namely, a directional statistics-based color similarity index, is designed to consistently perform well over commonly encountered chromatic and achromatic distortions. In order to accurately predict the visual quality of color images, we make use of local color descriptors extracted from three perceptual color channels: 1) hue; 2) chroma; and 3) lightness. In particular, directional statistical tools are employed to properly process hue data by considering their periodicities. Moreover, two weighting mechanisms are exploited to accurately combine locally measured comparison scores into a final score. Extensive experimentation performed on large-scale databases indicates that the proposed metric is effective across a wide range of chromatic and achromatic distortions, making it better suited for the evaluation and optimization of color image processing algorithms.
+
+{feature extraction;image colour analysis;optimisation;visual perception;chromatic distortions;color image processing algorithms;directional statistics-based color similarity index;hue;lightness;local color descriptors;perceptual quality;Color;Distortion;Image color analysis;Image quality;Indexes;Measurement;Visualization;Color image;chromatic distortion;directional data;directional statistics;hue;perceptual image quality},
+
+
+

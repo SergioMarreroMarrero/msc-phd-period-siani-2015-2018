@@ -1,0 +1,8 @@
+Nonlinear and Nonseparable Bidimensional Multiscale Representation Based on Cell-Average Representation,
+
+# The aim of this paper is to construct a new nonlinear and nonseparable multiscale representation of piecewise continuous bidimensional functions. This representation is based on the definition of a linear projection and a nonlinear prediction operator, which locally adapts to the function to be represented. This adaptivity of the prediction operator proves to be very interesting for image encoding in that it enables a considerable reduction in the number of significant coefficients compared with other representations. Applications of this new nonlinear multiscale representation to image compression and super-resolution conclude this paper.
+
+{data compression;image coding;image representation;image resolution;cell average representation;image compression;image encoding;image super resolution;linear projection;nonlinear bidimensional multiscale representation;nonlinear prediction operator;nonseparable bidimensional multiscale representation;piecewise continuous bidimensional functions;Approximation methods;Estimation;Image coding;Image edge detection;Image resolution;Nuclear magnetic resonance;Polynomials;Nonlinear prediction;cell-average interpolation;image compression;nonlinear prediction;super-resolution},
+
+
+

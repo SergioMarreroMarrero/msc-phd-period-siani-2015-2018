@@ -1,0 +1,8 @@
+Factorization-Based Texture Segmentation,
+
+# This paper introduces a factorization-based approach that efficiently segments textured images. We use local spectral histograms as features, and construct an M × N feature matrix using M-dimensional feature vectors in an N-pixel image. Based on the observation that each feature can be approximated by a linear combination of several representative features, we factor the feature matrix into two matrices-one consisting of the representative features and the other containing the weights of representative features at each pixel used for linear combination. The factorization method is based on singular value decomposition and nonnegative matrix factorization. The method uses local spectral histograms to discriminate region appearances in a computationally efficient way and at the same time accurately localizes region boundaries. The experiments conducted on public segmentation data sets show the promise of this simple yet powerful approach.
+
+{feature extraction;image resolution;image segmentation;image texture;singular value decomposition;vectors;M × N feature matrix;M-dimensional feature vectors;N-pixel image;factorization-based texture segmentation;local spectral histograms;nonnegative matrix factorization;public segmentation data sets;region appearance discrimination;region boundary localization;singular value decomposition;Accuracy;Algorithm design and analysis;Histograms;Image segmentation;Least squares approximations;Matrix decomposition;Matrix factorization;spectral histogram;texture segmentation},
+
+
+

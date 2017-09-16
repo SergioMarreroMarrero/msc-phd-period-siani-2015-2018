@@ -1,0 +1,8 @@
+Dimensionality Reduction by Integrating Sparse Representation and Fisher Criterion and its Applications,
+
+# Sparse representation shows impressive results for image classification, however, it cannot well characterize the discriminant structure of data, which is important for classification. This paper aims to seek a projection matrix such that the low-dimensional representations well characterize the discriminant structure embedded in high-dimensional data and simultaneously well fit sparse representation-based classifier (SRC). To be specific, Fisher discriminant criterion (FDC) is used to extract the discriminant structure, and sparse representation is simultaneously considered to guarantee that the projected data well satisfy the SRC. Thus, our method, called SRC-FDC, characterizes both the spatial Euclidean distribution and local reconstruction relationship, which enable SRC to achieve better performance. Extensive experiments are done on the AR, CMU-PIE, Extended Yale B face image databases, the USPS digit database, and COIL20 database, and results illustrate that the proposed method is more efficient than other feature extraction methods based on SRC.
+
+{feature extraction;image classification;image representation;CMU-PIE;COIL20 database;Euclidean distribution;Fisher discriminant criterion;SRC-FDC;USPS digit database;dimensionality reduction;discriminant structure;extended Yale B face image database;feature extraction;image classification;projection matrix;sparse representation integration;sparse representation-based classifier;Face recognition;Feature extraction;Kernel;Linear programming;Manifolds;Nickel;Training;Discriminant analysis;dimensionality reduction;image recognition;sparse representation},
+
+
+

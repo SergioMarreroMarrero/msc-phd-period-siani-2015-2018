@@ -1,0 +1,8 @@
+Robust Face Alignment Under Occlusion via Regional Predictive Power Estimation,
+
+# Face alignment has been well studied in recent years, however, when a face alignment model is applied on facial images with heavy partial occlusion, the performance deteriorates significantly. In this paper, instead of training an occlusion-aware model with visibility annotation, we address this issue via a model adaptation scheme that uses the result of a local regression forest (RF) voting method. In the proposed scheme, the consistency of the votes of the local RF in each of several oversegmented regions is used to determine the reliability of predicting the location of the facial landmarks. The latter is what we call regional predictive power (RPP). Subsequently, we adapt a holistic voting method (cascaded pose regression based on random ferns) by putting weights on the votes of each fern according to the RPP of the regions used in the fern tests. The proposed method shows superior performance over existing face alignment models in the most challenging data sets (COFW and 300-W). Moreover, it can also estimate with high accuracy (72.4% overlap ratio) which image areas belong to the face or nonface objects, on the heavily occluded images of the COFW data set, without explicit occlusion modeling.
+
+{face recognition;regression analysis;COFW;RPP;facial landmark;holistic voting method;model adaptation scheme;nonface objects;occlusion aware model;oversegmented region;regional predictive power estimation;regression forest voting method;robust face alignment model;visibility annotation;Adaptation models;Estimation;Face;Radio frequency;Robustness;Shape;Training;Face alignment;cascaded pose regression;model adaptation;occlusion;random forest},
+
+
+

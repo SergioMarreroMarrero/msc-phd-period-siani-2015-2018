@@ -1,0 +1,8 @@
+Topical video object discovery from key frames by modeling word co-occurrence prior,
+
+# A topical video object refers to an object, that is, frequently highlighted in a video. It could be, e.g., the product logo and the leading actor/actress in a TV commercial. We propose a topic model that incorporates a word co-occurrence prior for efficient discovery of topical video objects from a set of key frames. Previous work using topic models, such as latent Dirichelet allocation (LDA), for video object discovery often takes a bag-of-visual-words representation, which ignored important co-occurrence information among the local features. We show that such data driven co-occurrence information from bottom-up can conveniently be incorporated in LDA with a Gaussian Markov prior, which combines top-down probabilistic topic modeling with bottom-up priors in a unified model. Our experiments on challenging videos demonstrate that the proposed approach can discover different types of topical objects despite variations in scale, view-point, color and lighting changes, or even partial occlusions. The efficacy of the co-occurrence prior is clearly demonstrated when compared with topic models without such priors.
+
+{Gaussian distribution;Markov processes;object detection;video recording;Gaussian Markov prior;bag-of-visual-words representation;co-occurrence information;key frames;latent Dirichelet allocation;local features;top-down probabilistic topic modeling;topical video object discovery;word co-occurrence prior;Computational modeling;Data models;Feature extraction;Image segmentation;Markov processes;Resource management;Visualization;Bottom-up;Gaussian Markov;LDA;Top-down;video object discovery;word co-occurrence prior},
+
+
+

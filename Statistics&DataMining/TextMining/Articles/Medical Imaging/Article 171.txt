@@ -1,0 +1,8 @@
+Bayesian Model Selection for Pathological Neuroimaging Data Applied to White Matter Lesion Segmentation,
+
+# In neuroimaging studies, pathologies can present themselves as abnormal intensity patterns. Thus, solutions for detecting abnormal intensities are currently under investigation. As each patient is unique, an unbiased and biologically plausible model of pathological data would have to be able to adapt to the subject's individual presentation. Such a model would provide the means for a better understanding of the underlying biological processes and improve one's ability to define pathologically meaningful imaging biomarkers. With this aim in mind, this work proposes a hierarchical fully unsupervised model selection framework for neuroimaging data which enables the distinction between different types of abnormal image patterns without pathological a priori knowledge. Its application on simulated and clinical data demonstrated the ability to detect abnormal intensity clusters, resulting in a competitive to improved behavior in white matter lesion segmentation when compared to three other freely-available automated methods.
+
+{Bayes methods;biomedical MRI;brain;image segmentation;medical image processing;Bayesian model selection;MRI;abnormal intensity patterns;fully unsupervised model selection;hierarchical model selection;pathological neuroimaging data;white matter lesion segmentation;Adaptation models;Data models;Image segmentation;Lesions;Magnetic resonance imaging;Pathology;Vectors;Bayesian inference criterion (BIC);Gaussian mixture model (GMM);brain segmentation;magnetic resonance imaging (MRI);split-and-merge (SM) strategy;white matter lesion (WML)},
+
+
+

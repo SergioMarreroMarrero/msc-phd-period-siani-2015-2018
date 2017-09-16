@@ -1,0 +1,8 @@
+Winding Number Constrained Contour Detection,
+
+# Salient contour detection can benefit from the integration of both contour cues and region cues. However, this task is difficult due to different nature of region representations and contour representations. To solve this problem, this paper proposes an energy minimization framework based on winding number constraints. In this framework, both region cues, such as color/texture homogeneity, and contour cues, such as local contrast and continuity, are represented in a joint objective function, which has both region and contour labels. The key problem is how to design constraints that ensure the topological consistency of the two kinds of labels. Our technique is based on the topological concept of winding number. Using a fast method for winding number computation, a small number of linear constraints are derived to ensure label consistency. Our method is instantiated by ratio-based energy functions. By successfully integrating both region and contour cues, our method shows advantages over competitive methods. Our method is extended to incorporate user interaction, which leads to further improvements.
+
+{image representation;minimisation;contour cues;contour representation;design constraints;energy minimization framework;ratio-based energy functions;region cues;region representation;salient contour detection;topological consistency;user interaction;winding number constrained contour detection;Image edge detection;Image segmentation;Indexes;Linear programming;Materials;Minimization;Windings;Contour detection;contour detection;image segmentation},
+
+
+

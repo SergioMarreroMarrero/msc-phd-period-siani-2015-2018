@@ -1,0 +1,8 @@
+2D Discrete Fourier Transform on Sliding Windows,
+
+# Discrete Fourier transform (DFT) is the most widely used method for determining the frequency spectra of digital signals. In this paper, a 2D sliding DFT (2D SDFT) algorithm is proposed for fast implementation of the DFT on 2D sliding windows. The proposed 2D SDFT algorithm directly computes the DFT bins of the current window using the precalculated bins of the previous window. Since the proposed algorithm is designed to accelerate the sliding transform process of a 2D input signal, it can be directly applied to computer vision and image processing applications. The theoretical analysis shows that the computational requirement of the proposed 2D SDFT algorithm is the lowest among existing 2D DFT algorithms. Moreover, the output of the 2D SDFT is mathematically equivalent to that of the traditional DFT at all pixel positions.
+
+{computer vision;discrete Fourier transforms;2D SDFT algorithm;2D discrete fourier transform;DFT;computer vision;digital signal frequency spectra;image processing;pixel position;sliding transform process;sliding windows;Acceleration;Algorithm design and analysis;Approximation algorithms;Complexity theory;Discrete Fourier transforms;Vectors;2D algorithm;Discrete Fourier transform;discrete orthogonal transform;sliding window;two dimensional algorithm},
+
+
+

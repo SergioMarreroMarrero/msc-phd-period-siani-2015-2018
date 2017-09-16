@@ -1,0 +1,8 @@
+Photoacoustic Tomography,
+
+# Photoacoustic imaging (PAI) represents a hybrid, nonionizing modality, which has been of particular interest because of its satisfactory spatial resolution and high soft-tissue contrast. PAI has the potential to provide both functional and molecular imaging in vivo since optical absorption is sensitive to physiological parameters. The field has experienced tremendous growth over the last decade and therefore this book is a timely effort to introduce readers to recent developments. The author comprehensively examines the Principles and Fundamentals of PA with a particular emphasis on image reconstruction, instrumentation, mathematics and some level of animal applications and probe design. The book is comprised of eight chapters, bibliographic information and index to systematically discuss mainly the works done by the author and his collaborators in this field.
+
+{Book reviews;Optical imaging;Optical sensors;Photoacoustic effects;Photoacoustic imaging},
+
+
+

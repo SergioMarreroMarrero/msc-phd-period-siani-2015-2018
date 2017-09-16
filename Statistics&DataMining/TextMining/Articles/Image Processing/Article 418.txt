@@ -1,0 +1,8 @@
+Transforms for Intra Prediction Residuals Based on Prediction Inaccuracy Modeling,
+
+# In intra video coding and image coding, the directional intra prediction is used to reduce spatial redundancy. Intra prediction residuals are encoded with transforms. In this paper, we develop transforms for directional intra prediction residuals. In particular, we observe that the directional intra prediction is most effective in smooth regions and edges with a particular direction. In the ideal case, edges can be predicted fairly accurately with an accurate prediction direction. In practice, an accurate prediction direction is hard to obtain. Based on the inaccuracy of prediction direction that arises in the design of many practical video coding systems, we can estimate the residual covariance and propose a class of transforms based on the estimated covariance function. The proposed method is evaluated by the energy compaction property. The experimental results show that, with the proposed method, the same amount of energy in directional intra prediction residuals can be preserved with a significantly smaller number of transform coefficients.
+
+{covariance analysis;prediction theory;redundancy;transform coding;video coding;directional intraprediction residual;energy compaction property evaluation;intraimage coding;intravideo coding;prediction inaccuracy model;residual covariance function estimation;spatial redundancy reduction;transform coefficients;Compaction;Estimation;Image coding;Mathematical model;Predictive models;Transforms;Video coding;Image Coding;Intra Coding;Intra Prediction Residuals;Intra coding;Karhunen Lo??ve transform;Karhunen Loeve Transform;Transform;image coding;intra prediction residuals;transform},
+
+
+

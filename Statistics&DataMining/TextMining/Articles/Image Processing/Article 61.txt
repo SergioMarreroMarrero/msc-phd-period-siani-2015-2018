@@ -1,0 +1,8 @@
+A New Multivariate Statistical Model for Change Detection in Images Acquired by Homogeneous and Heterogeneous Sensors,
+
+# Remote sensing images are commonly used to monitor the earth surface evolution. This surveillance can be conducted by detecting changes between images acquired at different times and possibly by different kinds of sensors. A representative case is when an optical image of a given area is available and a new image is acquired in an emergency situation (resulting from a natural disaster for instance) by a radar satellite. In such a case, images with heterogeneous properties have to be compared for change detection. This paper proposes a new approach for similarity measurement between images acquired by heterogeneous sensors. The approach exploits the considered sensor physical properties and specially the associated measurement noise models and local joint distributions. These properties are inferred through manifold learning. The resulting similarity measure has been successfully applied to detect changes between many kinds of images, including pairs of optical images and pairs of optical-radar images.
+
+{geophysical image processing;optical images;remote sensing;sensors;statistical analysis;surveillance;change detection;earth surface evolution;heterogeneous property;heterogeneous sensor;homogeneous sensor;local joint distribution;measurement noise model;multivariate statistical model;natural disaster;optical radar images;radar satellite;remote sensing images;sensor physical property;surveillance;Adaptive optics;Image sensors;Noise;Optical imaging;Optical sensors;Synthetic aperture radar;EM algorithm;Optical images;SAR images;change detection;manifold learning;mixture models},
+
+
+

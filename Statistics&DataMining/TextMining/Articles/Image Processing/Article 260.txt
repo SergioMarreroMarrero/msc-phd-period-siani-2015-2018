@@ -1,0 +1,8 @@
+Image Annotation by Latent Community Detection and Multikernel Learning,
+
+# Automatic image annotation is an attractive service for users and administrators of online photo sharing websites. In this paper, we propose an image annotation approach that exploits latent semantic community of labels and multikernel learning (LCMKL). First, a concept graph is constructed for labels indicating the relationship between the concepts. Based on the concept graph, semantic communities are explored using an automatic community detection method. For an image to be annotated, a multikernel support vector machine is used to determine the image's latent community from its visual features. Then, a candidate label ranking based approach is determined by intracommunity and intercommunity ranking. Experiments on the NUS-WIDE database and IAPR TC-12 data set demonstrate that LCMKL outperforms some state-of-the-art approaches.
+
+{Web sites;feature extraction;graph theory;learning (artificial intelligence);support vector machines;IAPR TC-12 data set;LCMKL;NUS-WIDE database;automatic image annotation;candidate label ranking based approach;concept graph;latent community detection;multikernel learning;multikernel support vector machine;online photo sharing Website;semantic community;visual feature detection;Communities;Feature extraction;Kernel;Semantics;Support vector machines;Training;Visualization;Community Detection;Concept Graph;Image Annotation;Image annotation;Multiple-kernel Learning;community detection;concept graph;multiple-kernel learning},
+
+
+

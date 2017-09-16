@@ -1,0 +1,128 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "mpi.h"
+#define dimVector 10000
+
+/* Programa para multiplicar una matriz b de mxn por un vector c de nx1 - Versión secuencial*/
+
+int main(int argc, char *argv[]) {
+
+int myrank, nprocs; //  Identificador de proecsos y numero total de procesos
+int *sendcounts;    // Contendra el numero que se enviara a cada procesos
+int *displs;	  // Lotes en los que se enviara
+
+int vector[dimVector],vector2[dimVector]; // Vector que queremos enviar
+int bufreception[dimVector],bufreception2[dimVector]; // Creamos el buffer de recepcion (esta sobre dimensionado)
+double Inicio, Fin;
+
+int sum=0;
+
+unsigned long mult=0;
+int k=10;
+unsigned long dotfinal;
+unsigned long dotreceive;
+
+int q,i,source=0,tag=1; // Fuente y tag
+MPI_Status Stat;
+
+MPI_Init(NULL, NULL);
+MPI_Comm_size(MPI_COMM_WORLD, &nprocs);
+MPI_Comm_rank(MPI_COMM_WORLD, &myrank);
+
+/* Inicialización del vector */
+if (myrank==0){
+
+for (i=0; i<dimVector; i++) {
+	vector[i] = i;
+	vector2[i] = 5*i;
+	/*printf("  %i , %i",vector[i],vector2[i]);*/
+	}
+printf(" \n\n");
+}
+
+int rem=dimVector%nprocs; // Resto 
+
+
+sendcounts=malloc(sizeof(int)*nprocs); // Terminamos de crear el vector sendcounts
+// sencounts lo deben
+displs=malloc(sizeof(int)*nprocs); // Terminamos de crear el vector displs
+
+
+
+// Calculamos sendcounts y displs
+for (i = 0; i < nprocs; i++) {
+    sendcounts[i] = dimVector/nprocs;
+     if (rem > 0) {
+         sendcounts[i]++;
+         rem--;
+     }
+
+     displs[i] = sum; 
+     sum += sendcounts[i];
+}
+
+/*// Observamos los resultados obtenidos
+if (myrank == source) {
+    for (i = 0; i < nprocs; i++) {
+        printf("sendcounts[%d] = %d\tdispls[%d] = %d\n", i, sendcounts[i], i, displs[i]);
+    }
+}*/
+
+if (myrank==source){
+	Inicio = MPI_Wtime(); // Comienza la cuenta
+}
+
+MPI_Scatterv(vector, sendcounts, displs, MPI_INT, bufreception, dimVector, MPI_INT, source, MPI_COMM_WORLD);
+MPI_Scatterv(vector2, sendcounts, displs, MPI_INT, bufreception2, dimVector, MPI_INT, source, MPI_COMM_WORLD);
+
+//Multiplicacion
+
+
+for (i=0; i<sendcounts[myrank];i++) {
+mult+=bufreception[i]*bufreception2[i];
+}
+
+// Reunimos con la suma
+MPI_Reduce(&mult, &dotreceive, 1, MPI_UNSIGNED_LONG, MPI_SUM, source, MPI_COMM_WORLD);
+
+
+
+if (myrank==0){
+dotfinal=k*dotreceive; //Multiplicamos por un escalar
+Fin = MPI_Wtime(); // Finaliza la cuenta
+
+printf("\n\nEl producto escalar es: %lu\n\n",dotfinal);
+printf("\n\nTiempo de las operaciones: %10.8f milesismas de segundo\n\n ",(Fin-Inicio)*1000);
+}
+
+/*Modulo de lectura de resultados
+if (myrank !=0){
+MPI_Send(bufreception, dimVector, MPI_INT, source, tag, MPI_COMM_WORLD);
+} else {
+
+	printf("Proceso %d of %d \n", myrank, nprocs);
+		for (i=0; i<sendcounts[myrank]; i++) {
+		printf("%i\n",bufreception[i]);
+		}
+		for (q = 1; q < nprocs; q++) {
+			MPI_Recv(bufreception,dimVector, MPI_INT, q, tag, MPI_COMM_WORLD, &Stat);
+			printf("Processo: %i of %d \n",Stat.MPI_SOURCE,nprocs);
+			for (i=0; i<sendcounts[(int) Stat.MPI_SOURCE]; i++) {
+				printf("%i\n",bufreception[i]);
+			}
+		}
+	}
+*/
+
+
+
+MPI_Finalize();
+
+}
+
+
+
+
+
+
+

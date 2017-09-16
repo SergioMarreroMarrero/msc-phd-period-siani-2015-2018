@@ -1,0 +1,8 @@
+Interactive Cosegmentation Using Global and Local Energy Optimization,
+
+# We propose a novel interactive cosegmentation method using global and local energy optimization. The global energy includes two terms: 1) the global scribbled energy and 2) the interimage energy. The first one utilizes the user scribbles to build the Gaussian mixture model and improve the cosegmentation performance. The second one is a global constraint, which attempts to match the histograms of common objects. To minimize the local energy, we apply the spline regression to learn the smoothness in a local neighborhood. This energy optimization can be converted into a constrained quadratic programming problem. To reduce the computational complexity, we propose an iterative optimization algorithm to decompose this optimization problem into several subproblems. The experimental results show that our method outperforms the state-of-the-art unsupervised cosegmentation and interactive cosegmentation methods on the iCoseg and MSRC benchmark data sets.
+
+{Gaussian processes;image segmentation;iterative methods;mixture models;quadratic programming;Gaussian mixture model;MSRC benchmark data sets;global scribbled energy;iCoseg;interactive cosegmentation methods;interimage energy;iterative optimization algorithm;quadratic programming problem;spline regression;unsupervised cosegmentation;Histograms;Image color analysis;Image segmentation;Minimization;Optimization;Splines (mathematics);Co-segmentation;Gaussian mixture model;histogram matching;local spline regression;optimization},
+
+
+

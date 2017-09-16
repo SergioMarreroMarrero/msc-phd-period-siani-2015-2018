@@ -1,0 +1,8 @@
+Efficient Monte Carlo Image Analysis for the Location of Vascular Entity,
+
+# Tubular shaped networks appear not only in medical images like X-ray-, time-of-flight MRI- or CT-angiograms but also in microscopic images of neuronal networks. We present EMILOVE (Efficient Monte-Carlo Image-analysis for the Location Of Vascular Entity), a novel modeling algorithm for tubular networks in biomedical images. The model is constructed using tablet shaped particles and edges connecting them. The particles encode the intrinsic information of tubular structure, including position, scale and orientation. The edges connecting the particles determine the topology of the networks. For simulated data, EMILOVE was able to accurately extract the tubular network. EMILOVE showed high performance in real data as well; it successfully modeled vascular networks in real cerebral X-ray and time-of-flight MRI angiograms. We also show some promising, preliminary results on microscopic images of neurons.
+
+{Monte Carlo methods;biomedical MRI;blood vessels;computerised tomography;diagnostic radiography;edge detection;image coding;medical image processing;neurophysiology;CT-angiograms;EMILOVE;X-ray angiograms;biomedical images;edge connection;efficient Monte Carlo image analysis;location-of-vascular entity;microscopic images;network topology;neuronal networks;particle encoding;simulated data;tablet shaped particles;time-of-flight MRI-angiograms;tubular shaped networks;tubular structure orientation;tubular structure position;tubular structure scale;Green products;Image edge detection;Monte Carlo methods;Network topology;Proposals;Sockets;Topology;Angiography;Monte Carlo methods;neuronal networks;tubular network;vessel detection},
+
+
+

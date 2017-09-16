@@ -1,0 +1,8 @@
+Gradient Domain Guided Image Filtering,
+
+# Guided image filter (GIF) is a well-known local filter for its edge-preserving property and low computational complexity. Unfortunately, the GIF may suffer from halo artifacts, because the local linear model used in the GIF cannot represent the image well near some edges. In this paper, a gradient domain GIF is proposed by incorporating an explicit first-order edge-aware constraint. The edge-aware constraint makes edges be preserved better. To illustrate the efficiency of the proposed filter, the proposed gradient domain GIF is applied for single-image detail enhancement, tone mapping of high dynamic range images and image saliency detection. Both theoretical analysis and experimental results prove that the proposed gradient domain GIF can produce better resultant images, especially near the edges, where halos appear in the original GIF.
+
+{computational complexity;image enhancement;image filtering;image recognition;GIF;computational complexity;edge-preserving property;first-order edge-aware constraint;gradient domain guided image filtering;high dynamic range images;image saliency detection;single-image detail enhancement;tone mapping;well-known local filter;Computational modeling;Cost function;Dynamic range;Image edge detection;Signal processing algorithms;Smoothing methods;Guided image filter;detail enhancement;edge-preserving;edgepreserving;gradient domain;high dynamic range;saliency detection},
+
+
+

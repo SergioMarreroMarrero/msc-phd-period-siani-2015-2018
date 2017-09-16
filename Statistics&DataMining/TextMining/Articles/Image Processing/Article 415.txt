@@ -1,0 +1,8 @@
+Image-Specific Prior Adaptation for Denoising,
+
+# Image priors are essential to many image restoration applications, including denoising, deblurring, and inpainting. Existing methods use either priors from the given image (internal) or priors from a separate collection of images (external). We find through statistical analysis that unifying the internal and external patch priors may yield a better patch prior. We propose a novel prior learning algorithm that combines the strength of both internal and external priors. In particular, we first learn a generic Gaussian mixture model from a collection of training images and then adapt the model to the given image by simultaneously adding additional components and refining the component parameters. We apply this image-specific prior to image denoising. The experimental results show that our approach yields better or competitive denoising results in terms of both the peak signal-to-noise ratio and structural similarity.
+
+{Gaussian processes;image denoising;image restoration;learning (artificial intelligence);mixture models;statistical analysis;external patch;generic Gaussian mixture model;image deblurring;image denoising;image inpainting;image restoration applications;image-specific prior adaptation;internal patch;peak signal-to-noise ratio;prior learning algorithm;statistical analysis;structural similarity;training image separate collection;Adaptation models;Gaussian mixture model;Noise;Noise measurement;Noise reduction;Training;Image denoising;Internal and external denoising;Online-GMM;Patch-based denoising;internal and external denoising;online-GMM;patch-based denoising},
+
+
+

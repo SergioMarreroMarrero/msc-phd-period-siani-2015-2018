@@ -1,0 +1,8 @@
+Spinal Navigation and Imaging: History, Trends, and Future,
+
+# The clinical practice of spine navigation has rapidly grown with the development of image-based guidance. In this paper, a brief history of spinal navigation is presented and a review of clinical outcomes for pedicle screws placed using the latest technology in the sacral, lumbar and thoracic regions. The clinical evidence demonstrate that intraoperative 3D image guided surgery has a 96.8% success rate. A concluding section detailing existing barriers that limit more widespread adoption and future development efforts is presented.
+
+{bone;diagnostic radiography;image registration;medical image processing;surgery;clinical practice;image-based guidance;intraoperative 3D image guided surgery;lumbar regions;sacral regions;spinal imaging;spinal navigation;thoracic regions;Accuracy;Computed tomography;Fasteners;Navigation;Surgery;Three-dimensional displays;Computer assisted surgery;image guided surgery;navigation;registration;spine;three-dimensional (3D) image guided interventions},
+
+
+

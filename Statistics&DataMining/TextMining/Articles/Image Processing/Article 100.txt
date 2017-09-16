@@ -1,0 +1,8 @@
+Variable-Length Signature for Near-Duplicate Image Matching,
+
+# We propose a variable-length signature for near-duplicate image matching in this paper. An image is represented by a signature, the length of which varies with respect to the number of patches in the image. A new visual descriptor, viz., probabilistic center-symmetric local binary pattern, is proposed to characterize the appearance of each image patch. Beyond each individual patch, the spatial relationships among the patches are captured. In order to compute the similarity between two images, we utilize the earth mover's distance which is good at handling variable-length signatures. The proposed image signature is evaluated in two different applications, i.e., near-duplicate document image retrieval and near-duplicate natural image detection. The promising experimental results demonstrate the validity and effectiveness of the proposed variable-length signature.
+
+{image matching;image representation;image retrieval;natural scenes;object detection;earth mover distance;image patch;image representation;image signature;near duplicate document image retrieval;near duplicate image matching;near duplicate natural image detection;probabilistic center symmetric local binary pattern;variable length signature;visual descriptor;Binary codes;Histograms;Image matching;Image representation;Probabilistic logic;Vectors;Visualization;Variable-length image signature;near-duplicate image detection;near-duplicate image retrieval},
+
+
+

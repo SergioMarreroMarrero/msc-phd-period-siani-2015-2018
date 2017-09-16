@@ -1,0 +1,8 @@
+Penrose Demosaicking,
+
+# The Penrose pixel layout, an aperiodic pixel layout in rhombus Penrose tiling, has been shown to substantially outperform the existing square pixel layout in super-resolution. However, it was tested only on grayscale images. To study its performance on color images, we have to reconstruct regular color images from Penrose raw images, i.e., images with only one color component at each Penrose pixel, resulting in the problem of demosaicking from Penrose pixels. Penrose demosaicking is more difficult than regular demosaicking, because none of the color components of the reconstructed regular color images are available. Therefore, most of the traditional demosaicking methods do not apply. We develop a sparse representation-based method for Penrose demosaicking. Extensive experiments show that Penrose pixel layout outperforms regular pixel layouts in terms of both perceptual evaluation and S-CIELAB. The Penrose pixel layout is unique among all irregular layouts because it is uniformly three-colorable and it has only two pixel shapes, thick and thin rhombi, making its manufacturing relatively easy.
+
+{image colour analysis;image reconstruction;image segmentation;Penrose demosaicking;Penrose pixel layout;S-CIELAB;grayscale images;perceptual evaluation;regular color image reconstruction;rhombus Penrose tiling;Color;Educational institutions;Image color analysis;Image reconstruction;Layout;Retina;Sensors;Penrose;alternating direction method (ADM);color filter array;demosaicking;sparse representation},
+
+
+

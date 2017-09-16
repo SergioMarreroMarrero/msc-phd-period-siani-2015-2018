@@ -1,0 +1,8 @@
+Entropy-Based Evaluation of Context Models for Wavelet-Transformed Images,
+
+# Entropy is a measure of a message uncertainty. Among others aspects, it serves to determine the minimum coding rate that practical systems may attain. This paper defines an entropy-based measure to evaluate context models employed in wavelet-based image coding. The proposed measure is defined considering the mechanisms utilized by modern coding systems. It establishes the maximum performance achievable with each context model. This helps to determine the adequateness of the model under different coding conditions and serves to predict with high precision the coding rate achieved by practical systems. Experimental results evaluate four well-known context models using different types of images, coding rates, and transform strategies. They reveal that, under specific coding conditions, some widely-spread context models may not be as adequate as it is generally thought. The hints provided by this analysis may help to design simpler and more efficient wavelet-based image codecs.
+
+{codecs;entropy;image coding;wavelet transforms;coding conditions;context models;entropy-based evaluation;message uncertainty;minimum coding rate;wavelet-based image codecs;wavelet-based image coding;wavelet-transformed images;Context;Context modeling;Encoding;Entropy;Image coding;Transform coding;Wavelet transforms;Context models;JPEG2000;bitplane image coding;image entropy;wavelet transform},
+
+
+

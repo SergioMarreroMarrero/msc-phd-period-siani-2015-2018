@@ -1,0 +1,8 @@
+Max-Confidence Boosting With Uncertainty for Visual Tracking,
+
+# The challenges in visual tracking call for a method which can reliably recognize the subject of interests in an environment, where the appearance of both the background and the foreground change with time. Many existing studies model this problem as tracking by classification with online updating of the classification models, however, most of them overlook the ambiguity in visual modeling and do not consider the prior information in the tracking process. In this paper, we present a novel visual tracking method called max-confidence boosting (MCB), which explores a new way of online updating ambiguous visual phenomenon. The MCB framework models uncertainty in prior knowledge utilizing the indeterministic labels, which are used in updating models from previous frames and the new frame. Our proposed MCB tracker allows ambiguity in the tracking process and can effectively alleviate the drift problem. Many experimental results in challenging video sequences verify the success of our method, and our MCB tracker outperforms a number of the state-of-the-art tracking by classification methods.
+
+{image classification;target tracking;uncertainty handling;MCB tracker;classification tracking;max-confidence boosting;visual modeling;visual tracking method;Algorithm design and analysis;Boosting;Cost function;Lighting;Semisupervised learning;Tracking;Visualization;Max-Confidence Boosting;Max-confidence boosting;Visual Tracking;semi-supervised learning;visual tracking},
+
+
+

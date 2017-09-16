@@ -1,0 +1,8 @@
+Interface Detection Using a Quenched-Noise Version of the Edwards–Wilkinson Equation,
+
+# We report here a multipurpose dynamic-interface-based segmentation tool, suitable for segmenting planar, cylindrical, and spherical surfaces in 3D. The method is fast enough to be used conveniently even for large images. Its implementation is straightforward and can be easily realized in many environments. Its memory consumption is low, and the set of parameters is small and easy to understand. The method is based on the Edwards-Wilkinson equation, which is traditionally used to model the equilibrium fluctuations of a propagating interface under the influence of temporally and spatially varying noise. We report here an adaptation of this equation into multidimensional image segmentation, and its efficient discretization.
+
+{image segmentation;Edwards-Wilkinson equation;interface detection;multidimensional image segmentation;multipurpose dynamic-interface-based segmentation tool;quenched-noise version;Gray-scale;Image segmentation;Mathematical model;Noise;Surface morphology;Surface topography;Three-dimensional displays;3D image processing;image edge detection;object detection},
+
+
+

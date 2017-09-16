@@ -1,0 +1,8 @@
+Alternating Direction Method of Multipliers for Nonlinear Image Restoration Problems,
+
+# In this paper, we address the total variation (TV)-based nonlinear image restoration problems. In nonlinear image restoration problems, an original image is corrupted by a spatially-invariant blur, the build-in nonlinearity in imaging system, and the additive Gaussian white noise. We study the objective function consisting of the nonlinear least squares data-fitting term and the TV regularization term of the restored image. By making use of the structure of the objective function, an efficient alternating direction method of multipliers can be developed for solving the proposed model. The convergence of the numerical scheme is also studied. Numerical examples, including nonlinear image restoration and high-dynamic range imaging are reported to demonstrate the effectiveness of the proposed model and the efficiency of the proposed numerical scheme.
+
+{convergence of numerical methods;image restoration;least squares approximations;TV-based nonlinear image restoration problems;alternating direction method;build-in nonlinearity;convergence;high-dynamic range imaging;least squares data-fitting term;multipliers;numerical scheme;objective function;spatially-invariant blur;total variation regularization term;Convergence;Image restoration;Imaging;Linear programming;Mathematical model;PSNR;TV;Nonlinearity;alternating direction method of multipliers;high-dynamic range imaging;image restoration;total variation},
+
+
+

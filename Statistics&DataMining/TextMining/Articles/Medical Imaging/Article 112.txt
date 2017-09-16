@@ -1,0 +1,8 @@
+3-D Adaptive Sparsity Based Image Compression With Applications to Optical Coherence Tomography,
+
+# We present a novel general-purpose compression method for tomographic images, termed 3D adaptive sparse representation based compression (3D-ASRC). In this paper, we focus on applications of 3D-ASRC for the compression of ophthalmic 3D optical coherence tomography (OCT) images. The 3D-ASRC algorithm exploits correlations among adjacent OCT images to improve compression performance, yet is sensitive to preserving their differences. Due to the inherent denoising mechanism of the sparsity based 3D-ASRC, the quality of the compressed images are often better than the raw images they are based on. Experiments on clinical-grade retinal OCT images demonstrate the superiority of the proposed 3D-ASRC over other well-known compression methods.
+
+{eye;image coding;medical image processing;optical tomography;3D ASRC algorithm;3D ASRC application;3D adaptive sparsity based image compression;3D ophthalmic OCT image compression;compressed image quality;compression method;inherent denoising mechanism;optical coherence tomography;raw images;tomographic images;Correlation;Dictionaries;Educational institutions;Image coding;Three-dimensional displays;Transform coding;Vectors;Compression;denoising;image reconstruction;ophthalmic imaging;optical coherence tomography;retina;sparse representation;tomography},
+
+
+

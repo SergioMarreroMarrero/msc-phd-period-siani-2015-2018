@@ -1,0 +1,8 @@
+Texture Classification Using Local Pattern Based on Vector Quantization,
+
+# Local binary pattern (LBP) is a simple and effective descriptor for texture classification. However, it has two main disadvantages: (1) different structural patterns sometimes have the same binary code and (2) it is sensitive to noise. In order to overcome these disadvantages, we propose a new local descriptor named local vector quantization pattern (LVQP). In LVQP, different kinds of texture images are chosen to train a local pattern codebook, where each different structural pattern is described by a unique codeword index. Contrarily to the original LBP and its many variants, LVQP does not quantize each neighborhood pixel separately to 0/1, but aims at quantizing the whole difference vector between the central pixel and its neighborhood pixels. Since LVQP deals with the structural pattern as a whole, it has a high discriminability and is less sensitive to noise. Our experimental results, achieved by using four representative texture databases of Outex, UIUC, CUReT, and Brodatz, show that the proposed LVQP method can improve classification accuracy significantly and is more robust to noise.
+
+{binary codes;image classification;image coding;image texture;vector quantisation;Brodatz;CUReT;LBP;LVQP;Outex representative texture database;UIUC;binary code;image texture classification;local binary pattern;local descriptor;local pattern codebook;local vector quantization pattern;unique codeword index;Accuracy;Histograms;Lighting;Noise;Robustness;Training;Vector quantization;Texture image;classification accuracy;local binary pattern (LBP);local vector quantization pattern (LVQP);noise robustness},
+
+
+

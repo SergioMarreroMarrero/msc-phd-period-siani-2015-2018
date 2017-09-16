@@ -1,0 +1,8 @@
+Adjoint Active Surfaces for Localization and Imaging,
+
+# This paper addresses the problem of localizing and segmenting regions embedded within a surrounding medium by characterizing their boundaries, as opposed to imaging the entirety of the volume. Active surfaces are used to directly reconstruct the shape of the region of interest. We describe the procedure for finding the optimal surface, which is computed iteratively via gradient descent that exploits the sensitivity of an error minimization functional to changes of the active surface. In doing so, we introduce the adjoint model to compute the sensitivity, and in this respect, the method shares common ground with several other disciplines, such as optimal control. Finally, we illustrate the proposed active surface technique in the framework of wave propagation governed by the scalar Helmholtz equation. Potential applications include electromagnetics, acoustics, geophysics, nondestructive testing, and medical imaging.
+
+{Helmholtz equations;gradient methods;image denoising;image reconstruction;image segmentation;shape recognition;acoustic application;adjoint active surface localization technique;electromagnetic application;error minimization functional sensitivity;geophysics application;gradient descent;iterative method;medical imaging application;nondestructive testing application;region segmentation;scalar Helmholtz equation;shape reconstruction;wave propagation;Boundary conditions;Equations;Green's function methods;Mathematical model;Scattering;Sensitivity;Shape;Image reconstruction;active shape model;level set;reconstruction algorithms},
+
+
+

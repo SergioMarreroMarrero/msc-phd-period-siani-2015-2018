@@ -1,0 +1,8 @@
+Optimized Quasi-Interpolators for Image Reconstruction,
+
+# We propose new quasi-interpolators for the continuous reconstruction of sampled images, combining a narrowly supported piecewise-polynomial kernel and an efficient digital filter. In other words, our quasi-interpolators fit within the generalized sampling framework and are straightforward to use. We go against standard practice and optimize for approximation quality over the entire Nyquist range, rather than focusing exclusively on the asymptotic behavior as the sample spacing goes to zero. In contrast to previous work, we jointly optimize with respect to all degrees of freedom available in both the kernel and the digital filter. We consider linear, quadratic, and cubic schemes, offering different tradeoffs between quality and computational cost. Experiments with compounded rotations and translations over a range of input images confirm that, due to the additional degrees of freedom and the more realistic objective function, our new quasi-interpolators perform better than the state of the art, at a similar computational cost.
+
+{digital filters;image filtering;image reconstruction;image sampling;interpolation;optimisation;piecewise polynomial techniques;Nyquist range;cubic schemes;degrees of freedom;digital filter;generalized sampling framework;image reconstruction;piecewise-polynomial kernel;quasiinterpolator optimization;Convolution;Generators;Image reconstruction;Interpolation;Kernel;Polynomials;Image reconstruction;image reconstruction;quasi-interpolation},
+
+
+

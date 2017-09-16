@@ -1,0 +1,8 @@
+Stochastic Blind Motion Deblurring,
+
+# Blind motion deblurring from a single image is a highly under-constrained problem with many degenerate solutions. A good approximation of the intrinsic image can, therefore, only be obtained with the help of prior information in the form of (often nonconvex) regularization terms for both the intrinsic image and the kernel. While the best choice of image priors is still a topic of ongoing investigation, this research is made more complicated by the fact that historically each new prior requires the development of a custom optimization method. In this paper, we develop a stochastic optimization method for blind deconvolution. Since this stochastic solver does not require the explicit computation of the gradient of the objective function and uses only efficient local evaluation of the objective, new priors can be implemented and tested very quickly. We demonstrate that this framework, in combination with different image priors produces results with Peak Signal-to-Noise Ratio (PSNR) values that match or exceed the results obtained by much more complex state-of-the-art blind motion deblurring algorithms.
+
+{deconvolution;image motion analysis;optimisation;stochastic processes;PSNR;blind deconvolution;blind motion deblurring algorithms;custom optimization method;intrinsic image;peak signal-to-noise ratio;regularization;stochastic blind motion deblurring;stochastic optimization method;stochastic solver;Cameras;Deconvolution;Image edge detection;Kernel;Noise;Optimization;Stochastic processes;Motion deblur;Poisson noise;blind deconvolution;chromatic kernel;cross channel prior;saturated pixels;stochastic random walk},
+
+
+

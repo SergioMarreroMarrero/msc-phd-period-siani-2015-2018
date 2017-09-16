@@ -1,0 +1,8 @@
+Template-Free Wavelet-Based Detection of Local Symmetries,
+
+# Our goal is to detect and group different kinds of local symmetries in images in a scale- and rotation-invariant way. We propose an efficient wavelet-based method to determine the order of local symmetry at each location. Our algorithm relies on circular harmonic wavelets which are used to generate steerable wavelet channels corresponding to different symmetry orders. To give a measure of local symmetry, we use the F-test to examine the distribution of the energy across different channels. We provide experimental results on synthetic images, biological micrographs, and electron-microscopy images to demonstrate the performance of the algorithm.
+
+{image processing;wavelet transforms;biological micrograph;circular harmonic wavelet;electron-microscopy imaging;local symmetry measurement;rotation-invariant way;scale-invariant way;steerable wavelet channel generation;synthetic imaging;template-free wavelet-based detection;Algorithm design and analysis;Correlation;Harmonic analysis;Junctions;Stochastic processes;Wavelet transforms;F-test;Local symmetries;circular harmonic wavelets;junction detection;local symmetries},
+
+
+

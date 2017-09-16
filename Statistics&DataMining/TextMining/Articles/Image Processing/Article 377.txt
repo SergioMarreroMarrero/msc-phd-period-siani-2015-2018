@@ -1,0 +1,8 @@
+A Probabilistic Method for Image Enhancement With Simultaneous Illumination and Reflectance Estimation,
+
+# In this paper, a new probabilistic method for image enhancement is presented based on a simultaneous estimation of illumination and reflectance in the linear domain. We show that the linear domain model can better represent prior information for better estimation of reflectance and illumination than the logarithmic domain. A maximum a posteriori (MAP) formulation is employed with priors of both illumination and reflectance. To estimate illumination and reflectance effectively, an alternating direction method of multipliers is adopted to solve the MAP problem. The experimental results show the satisfactory performance of the proposed method to obtain reflectance and illumination with visually pleasing enhanced results and a promising convergence rate. Compared with other testing methods, the proposed method yields comparable or better results on both subjective and objective assessments.
+
+{image enhancement;lighting;maximum likelihood estimation;optimisation;probability;MAP problem;alternating direction method-of-multipliers;convergence rate;image enhancement;linear domain model;logarithmic domain;maximum-a-posteriori formulation;probabilistic method;simultaneous illumination estimation;simultaneous reflectance estimation;Computational modeling;Estimation;Image color analysis;Image enhancement;Lighting;Mathematical model;Probabilistic logic;Image enhancement;illumination;image enhancement;maximum posterior probability (MAP);optimization methods;reflectance},
+
+
+

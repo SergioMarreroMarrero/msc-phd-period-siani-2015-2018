@@ -1,0 +1,8 @@
+Texture Synthesis Using the Structure Tensor,
+
+# This paper proposes a two-stage texture synthesis algorithm. At the first stage, a structure tensor map carrying information about the local orientation is synthesized from the exemplar's data and used at the second stage to constrain the synthesis of the texture. Keeping in mind that the algorithm should be able to reproduce as faithfully as possible the visual aspect, statistics, and morphology of the input sample, the method is tested on various textures and compared objectively with existing methods, highlighting its strength in successfully synthesizing the output texture in many situations where traditional algorithms fail to reproduce the exemplar's patterns. The promising results pave the way towards the synthesis of accurately large and multi-scale patterns as it is the case for carbon material samples showing laminar structures, for example.
+
+{image texture;nonparametric statistics;tensors;carbon material samples;exemplar data;exemplar pattern reproduction;input sample morphology;laminar structure;local orientation information;nonparametric texture synthesis algorithm;statistics;structure tensor map;two-stage texture synthesis algorithm;visual aspect;Algorithm design and analysis;Kernel;Markov random fields;Noise;Tensile stress;Three-dimensional displays;Causal neighborhood;carbon simulation;exemplar-based synthesis;multi-scale;non-parametric texture synthesis;structure tensor field},
+
+
+

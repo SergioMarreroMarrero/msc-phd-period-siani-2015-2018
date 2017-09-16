@@ -1,0 +1,8 @@
+A Reconstruction-Classification Method for Multifrequency Electrical Impedance Tomography,
+
+# Multifrequency Electrical Impedance Tomography is an imaging technique which distinguishes biological tissues by their unique conductivity spectrum. Recent results suggest that the use of spectral constraints can significantly improve image quality. We present a combined reconstruction-classification method for estimating the spectra of individual tissues, whilst simultaneously reconstructing the conductivity. The advantage of this method is that a priori knowledge of the spectra is not required to be exact in that the constraints are updated at each step of the reconstruction. In this paper, we investigate the robustness of the proposed method to errors in the initial guess of the tissue spectra, and look at the effect of introducing spatial smoothing. We formalize and validate a frequency-difference variant of reconstruction-classification, and compare the use of absolute and frequency-difference data in the case of a phantom experiment.
+
+{biological tissues;electric impedance imaging;image classification;image reconstruction;medical image processing;phantoms;biological tissues;frequency-difference data;image quality;multifrequency electrical impedance tomography;phantom experiment;reconstruction-classification method;spatial smoothing;tissue spectra;unique conductivity spectrum;Conductivity;Finite element analysis;Frequency measurement;Image reconstruction;Tomography;Voltage measurement;Electrical impedance tomography;electrophysical imaging;image reconstruction—iterative;inverse methods;machine learning},
+
+
+

@@ -1,0 +1,8 @@
+Shadow Remover: Image Shadow Removal Based on Illumination Recovering Optimization,
+
+# In this paper, we present a novel shadow removal system for single natural images as well as color aerial images using an illumination recovering optimization method. We first adaptively decompose the input image into overlapped patches according to the shadow distribution. Then, by building the correspondence between the shadow patch and the lit patch based on texture similarity, we construct an optimized illumination recovering operator, which effectively removes the shadows and recovers the texture detail under the shadow patches. Based on coherent optimization processing among the neighboring patches, we finally produce high-quality shadow-free results with consistent illumination. Our shadow removal system is simple and effective, and can process shadow images with rich texture types and nonuniform shadows. The illumination of shadow-free results is consistent with that of surrounding environment. We further present several shadow editing applications to illustrate the versatility of the proposed method.
+
+{image colour analysis;image texture;optimisation;coherent optimization processing;color aerial images;illumination recovering optimization;image shadow removal;lit patch;neighboring patches;nonuniform shadows;overlapped patches;rich texture types;shadow distribution;shadow editing;shadow patch;shadow remover;single natural images;texture similarity;Buildings;Image color analysis;Image edge detection;Lighting;Optimization methods;Shape;Shadow detection;aerial images;patch matching;shadow detection;shadow matting;shadow removal},
+
+
+

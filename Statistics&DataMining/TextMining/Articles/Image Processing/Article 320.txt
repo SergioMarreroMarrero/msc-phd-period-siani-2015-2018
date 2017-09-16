@@ -1,0 +1,8 @@
+An Efficient Adaptive Binary Arithmetic Coder Based on Logarithmic Domain,
+
+# This paper proposes an efficient adaptive binary arithmetic coder based on a logarithmic domain (LBAC) and a probability estimation based on the LBAC (P-LBAC). Both the LBAC and the P-LBAC achieve a high data-compression ratio with low complexity and a hardware-efficient structure. They introduce a mapping mechanism between the logarithmic domain and the original domain for both the coding process and the probability estimation. The proposed schemes have high accuracy and constitute an efficient BAC. The proposed LBAC and P-LBAC do not use either multiplication and division operations or lookup tables, and only addition and shifting operations are required. The proposed LBAC is designed to favor the coding of multiple symbols and has high throughput. The proposed P-LBAC achieves a good tradeoff between accuracy and speed in probability estimation through a single parameter. When the proposed algorithms are implemented on H.265/HEVC platforms, and they achieve a compression efficiency equivalent to that of CABAC.
+
+{adaptive codes;arithmetic codes;binary codes;data compression;probability;video coding;H.265-HEVC platform;P-LBAC;adaptive binary arithmetic coder;data compression ratio;logarithmic domain;mapping mechanism;multiple symbol coding;probability estimation;Accuracy;Complexity theory;Encoding;Estimation;Image coding;Switches;Table lookup;AEC;AVS;Arithmetic coding;CABAC;H.265/HEVC;LBAC;M-Coder;logarithmic arithmetic coding;probability estimation},
+
+
+

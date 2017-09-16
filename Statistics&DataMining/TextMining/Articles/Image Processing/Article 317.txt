@@ -1,0 +1,8 @@
+Consistent Video Saliency Using Local Gradient Flow Optimization and Global Refinement,
+
+# We present a novel spatiotemporal saliency detection method to estimate salient regions in videos based on the gradient flow field and energy optimization. The proposed gradient flow field incorporates two distinctive features: 1) intra-frame boundary information and 2) inter-frame motion information together for indicating the salient regions. Based on the effective utilization of both intra-frame and inter-frame information in the gradient flow field, our algorithm is robust enough to estimate the object and background in complex scenes with various motion patterns and appearances. Then, we introduce local as well as global contrast saliency measures using the foreground and background information estimated from the gradient flow field. These enhanced contrast saliency cues uniformly highlight an entire object. We further propose a new energy function to encourage the spatiotemporal consistency of the output saliency maps, which is seldom explored in previous video saliency methods. The experimental results show that the proposed algorithm outperforms state-of-the-art video saliency detection methods.
+
+{gradient methods;video signal processing;consistent video saliency;energy optimization;global contrast saliency measurement;global refinement;gradient flow field;interframe motion information;intraframe boundary information;local gradient flow optimization;motion patterns;salient region estimation;spatiotemporal consistency;spatiotemporal saliency detection method;Estimation;Image color analysis;Optical imaging;Spatiotemporal phenomena;Video sequences;Visualization;Video saliency;energy optimization;gradient flow field;spatiotemporal saliency energy},
+
+
+

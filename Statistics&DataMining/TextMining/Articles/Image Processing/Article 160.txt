@@ -1,0 +1,8 @@
+Fractal Analysis for Reduced Reference Image Quality Assessment,
+
+# In this paper, multifractal analysis is adapted to reduced-reference image quality assessment (RR-IQA). A novel RR-QA approach is proposed, which measures the difference of spatial arrangement between the reference image and the distorted image in terms of spatial regularity measured by fractal dimension. An image is first expressed in Log-Gabor domain. Then, fractal dimensions are computed on each Log-Gabor subband and concatenated as a feature vector. Finally, the extracted features are pooled as the quality score of the distorted image using ℓ1 distance. Compared with existing approaches, the proposed method measures image quality from the perspective of the spatial distribution of image patterns. The proposed method was evaluated on seven public benchmark data sets. Experimental results have demonstrated the excellent performance of the proposed method in comparison with state-of-the-art approaches.
+
+{feature extraction;fractals;image representation;RR-IQA;distorted image;extracted features;feature vector concatenation;fractal dimensions;image patterns;log-Gabor domain;log-Gabor subband;multifractal analysis;public benchmark data sets;reduced reference image quality assessment;spatial arrangement;spatial distribution;spatial regularity;Distortion measurement;Feature extraction;Fractals;Frequency-domain analysis;GSM;Image quality;Visualization;Image quality assessment;Log-Gabor representation;fractal dimension;image quality assessment;similarity of spatial arrangements},
+
+
+

@@ -1,0 +1,8 @@
+Face Liveness Detection From a Single Image via Diffusion Speed Model,
+
+# Spoofing using photographs or videos is one of the most common methods of attacking face recognition and verification systems. In this paper, we propose a real-time and nonintrusive method based on the diffusion speed of a single image to address this problem. In particular, inspired by the observation that the difference in surface properties between a live face and a fake one is efficiently revealed in the diffusion speed, we exploit antispoofing features by utilizing the total variation flow scheme. More specifically, we propose defining the local patterns of the diffusion speed, the so-called local speed patterns, as our features, which are input into the linear SVM classifier to determine whether the given face is fake or not. One important advantage of the proposed method is that, in contrast to previous approaches, it accurately identifies diverse malicious attacks regardless of the medium of the image, e.g., paper or screen. Moreover, the proposed method does not require any specific user action. Experimental results on various data sets show that the proposed method is effective for face liveness detection as compared with previous approaches proposed in studies in the literature.
+
+{face recognition;support vector machines;diffusion speed model;face liveness detection;face recognition;face verification systems;linear SVM classifier;malicious attacks;Face;Feature extraction;Lighting;Security;Smart phones;TV;Videos;Spoofing;diffusion speed;face liveness detection;local speed pattern;total variation flow},
+
+
+

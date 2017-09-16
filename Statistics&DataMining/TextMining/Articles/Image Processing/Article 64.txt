@@ -1,0 +1,8 @@
+Exploiting Information Geometry to Improve the Convergence of Nonparametric Active Contours,
+
+# This paper presents a fast converging Riemannian steepest descent method for nonparametric statistical active contour models, with application to image segmentation. Unlike other fast algorithms, the proposed method is general and can be applied to any statistical active contour model from the exponential family, which comprises most of the models considered in the literature. This is achieved by first identifying the intrinsic statistical manifold associated with this class of active contours, and then constructing a steepest descent on that manifold. A key contribution of this paper is to derive a general and tractable closed-form analytic expression for the manifold's Riemannian metric tensor, which allows computing discrete gradient flows efficiently. The proposed methodology is demonstrated empirically and compared with other state of the art approaches on several standard test images, a phantom positron-emission-tomography scan and a B-mode echography of in-vivo human dermis.
+
+{image segmentation;statistical analysis;tensors;B-mode echography;Riemannian metric tensor;closed-form analytic expression;exponential family;fast converging Riemannian steepest descent method;image segmentation;in-vivo human dermis;information geometry;nonparametric statistical active contour models;phantom positron-emission-tomography scan;statistical manifold;Active contours;Algorithm design and analysis;Convergence;Image segmentation;Information geometry;Manifolds;Smoothing methods;Active contours;active contours;information geometry;level sets;variational methods on Riemannian manifolds},
+
+
+

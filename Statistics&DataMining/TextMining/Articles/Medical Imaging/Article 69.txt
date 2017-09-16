@@ -1,0 +1,8 @@
+Optimal Frequency-Based Weighting for Spectral X-Ray Projection Imaging,
+
+# The purpose of this work is to derive a weighting scheme that maximizes the frequency-dependent ideal observer signal-difference-to-noise ratio, commonly referred to as detectability index or Hotelling-SDNR, for spectral X-ray projection imaging. Starting from basic statistical decision theory, optimal frequency-dependent weights are derived for a multiple-bin system and the Hotelling-SDNR calculated. A 28% increase in detectability index is found for high frequency objects when applying optimal frequency-dependent weights instead of pixel-based weights to a simplified model of a silicon detector, decreasing towards 0% for low frequency objects. Simulation results indicate a potentially large increase in detectability for high-frequency object imaging using silicon detectors, thus meriting further evaluations on a real system.
+
+{computerised tomography;diagnostic radiography;photon counting;statistical analysis;Hotelling-SDNR;basic statistical decision theory;detectability index;frequency-dependent ideal observer signal-difference-to-noise ratio;high frequency objects;high-frequency object imaging;low frequency objects;multiple-bin system;optimal frequency-based weighting;optimal frequency-dependent weights;pixel-based weights;silicon detector;spectral X-ray projection imaging;Detectors;Discrete Fourier transforms;Imaging;Indexes;Photonics;Silicon;Detectability index;Hotelling SDNR;multiple-bin;photon counting;spectral X-ray imaging},
+
+
+

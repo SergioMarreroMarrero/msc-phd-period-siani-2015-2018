@@ -1,0 +1,8 @@
+Waterpixels,
+
+# Many approaches for image segmentation rely on a first low-level segmentation step, where an image is partitioned into homogeneous regions with enforced regularity and adherence to object boundaries. Methods to generate these superpixels have gained substantial interest in the last few years, but only a few have made it into applications in practice, in particular because the requirements on the processing time are essential but are not met by most of them. Here, we propose waterpixels as a general strategy for generating superpixels which relies on the marker controlled watershed transformation. We introduce a spatially regularized gradient to achieve a tunable tradeoff between the superpixel regularity and the adherence to object boundaries. The complexity of the resulting methods is linear with respect to the number of image pixels. We quantitatively evaluate our approach on the Berkeley segmentation database and compare it against the state-of-the-art.
+
+{image segmentation;image partitioning;image waterpixel;low-level image Berkeley segmentation;marker controlled watershed transformation;regularized gradient;superpixel regularity;Art;Complexity theory;Cost function;Databases;Image segmentation;Iterative methods;Shape;Superpixels;segmentation;watershed},
+
+
+

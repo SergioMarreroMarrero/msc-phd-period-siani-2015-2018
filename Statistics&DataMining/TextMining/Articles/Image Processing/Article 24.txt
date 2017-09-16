@@ -1,0 +1,8 @@
+Optimal Transition Probability of Reversible Data Hiding for General Distortion Metrics and Its Applications,
+
+# Recently, a recursive code construction (RCC) approaching the rate-distortion bound of reversible data hiding (RDH) was proposed. However, to estimate the rate-distortion bound or execute RCC, one should first estimate the optimal transition probability matrix (OTPM). By previous methods, OTPM can be effectively estimated only for some specific distortion metrics, such as square error distortion or L1 -Norm. In this paper, we proposed a unified framework of estimating the OTPM for general distortion metrics, with which we can calculate the rate-distortion bound of RDH for general cases and extend RCC to improve state-of-the-art RDH schemes based on any distortion metrics.
+
+{data encapsulation;image coding;matrix algebra;rate distortion theory;recursive estimation;OTPM estimation;RCC approach;RDH rate-distortion bound;general distortion metrix;image coding;optimal transition probability matrix estimation;recursive code construction approach;reversible data hiding;Entropy;Equations;Histograms;Image coding;Indexes;Measurement;Rate-distortion;Lagrange duality;Reversible data hiding;convex optimization;distortion;embedding rate;recursive code construction},
+
+
+

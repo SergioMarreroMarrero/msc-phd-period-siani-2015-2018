@@ -1,0 +1,8 @@
+Context-Aware Patch-Based Image Inpainting Using Markov Random Field Modeling,
+
+# In this paper, we first introduce a general approach for context-aware patch-based image inpainting, where textural descriptors are used to guide and accelerate the search for well-matching (candidate) patches. A novel top-down splitting procedure divides the image into variable size blocks according to their context, constraining thereby the search for candidate patches to nonlocal image regions with matching context. This approach can be employed to improve the speed and performance of virtually any (patch-based) inpainting method. We apply this approach to the so-called global image inpainting with the Markov random field (MRF) prior, where MRF encodes a priori knowledge about consistency of neighboring image patches. We solve the resulting optimization problem with an efficient low-complexity inference method. Experimental results demonstrate the potential of the proposed approach in inpainting applications like scratch, text, and object removal. Improvement and significant acceleration of a related global MRF-based inpainting method is also evident.
+
+{Markov processes;image matching;image texture;ubiquitous computing;MRF prior;Markov random field modeling;context-aware patch-based image inpainting method;global image inpainting;low-complexity inference method;matching context;neighboring image patches;nonlocal image regions;optimization problem;textural descriptors;top-down splitting procedure;variable size blocks;Context;Context modeling;Histograms;Image segmentation;Lattices;Optimization;Vectors;Gabor filtering;Inpainting;context-aware;inpainting;patch-based;texture features},
+
+
+

@@ -1,0 +1,8 @@
+MToS: A Tree of Shapes for Multivariate Images,
+
+# The topographic map of a gray-level image, also called tree of shapes, provides a high-level hierarchical representation of the image contents. This representation, invariant to contrast changes and to contrast inversion, has been proved very useful to achieve many image processing and pattern recognition tasks. Its definition relies on the total ordering of pixel values, so this representation does not exist for color images, or more generally, multivariate images. Common workarounds, such as marginal processing, or imposing a total order on data, are not satisfactory and yield many problems. This paper presents a method to build a tree-based representation of multivariate images, which features marginally the same properties of the gray-level tree of shapes. Briefly put, we do not impose an arbitrary ordering on values, but we only rely on the inclusion relationship between shapes in the image definition domain. The interest of having a contrast invariant and self-dual representation of multivariate image is illustrated through several applications (filtering, segmentation, and object recognition) on different types of data: color natural images, document images, satellite hyperspectral imaging, multimodal medical imaging, and videos.
+
+{image colour analysis;image representation;pattern recognition;shape recognition;MToS;color images;contrast inversion;gray level image;image contents;image processing;multivariate images;pattern recognition;shape trees;topographic map;tree based representation;Image reconstruction;Image segmentation;Level set;Shape;Silicon;TV;Tree of shapes;connected operators;mathematical morphology;multivariate images},
+
+
+

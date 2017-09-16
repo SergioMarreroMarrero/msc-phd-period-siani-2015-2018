@@ -1,0 +1,8 @@
+Video Deraining and Desnowing Using Temporal Correlation and Low-Rank Matrix Completion,
+
+# A novel algorithm to remove rain or snow streaks from a video sequence using temporal correlation and low-rank matrix completion is proposed in this paper. Based on the observation that rain streaks are too small and move too fast to affect the optical flow estimation between consecutive frames, we obtain an initial rain map by subtracting temporally warped frames from a current frame. Then, we decompose the initial rain map into basis vectors based on the sparse representation, and classify those basis vectors into rain streak ones and outliers with a support vector machine. We then refine the rain map by excluding the outliers. Finally, we remove the detected rain streaks by employing a low-rank matrix completion technique. Furthermore, we extend the proposed algorithm to stereo video deraining. Experimental results demonstrate that the proposed algorithm detects and removes rain or snow streaks efficiently, outperforming conventional algorithms.
+
+{frame based representation;image representation;image sequences;matrix algebra;rain;snow;stereo image processing;support vector machines;consecutive frames;low-rank matrix completion;optical flow estimation;rain streaks;sparse representation;stereo video deraining;support vector machine;temporal correlation;video desnowing;video sequence;warped frames;Dictionaries;Heuristic algorithms;Image color analysis;Image reconstruction;Optical imaging;Rain;Support vector machines;Video deraining;desnowing;low rank matrix completion;low rank matrix completion and sparse representation;rain streak removal;sparse representation},
+
+
+

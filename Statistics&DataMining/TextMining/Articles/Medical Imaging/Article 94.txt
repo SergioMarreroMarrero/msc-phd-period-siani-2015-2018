@@ -1,0 +1,8 @@
+Magnetic Particle Imaging With Tailored Iron Oxide Nanoparticle Tracers,
+
+# Magnetic particle imaging (MPI) shows promise for medical imaging, particularly in angiography of patients with chronic kidney disease. As the first biomedical imaging technique that truly depends on nanoscale materials properties, MPI requires highly optimized magnetic nanoparticle tracers to generate quality images. Until now, researchers have relied on tracers optimized for MRI T2*-weighted imaging that are sub-optimal for MPI. Here, we describe new tracers tailored to MPI's unique physics, synthesized using an organic-phase process and functionalized to ensure biocompatibility and adequate in vivo circulation time. Tailored tracers showed up to 3 × greater signal-to-noise ratio and better spatial resolution than existing commercial tracers in MPI images of phantoms.
+
+{biomedical MRI;diseases;image resolution;iron compounds;kidney;magnetic particles;medical image processing;nanomagnetics;nanomedicine;nanoparticles;phantoms;Fe3O4;MPI images;MRI T2*-weighted imaging;adequate in vivo circulation time;biocompatibility;biomedical imaging;chronic kidney disease;image quality;magnetic particle imaging;nanoscale material properties;optimized magnetic nanoparticle tracers;organic-phase process;phantoms;signal-to-noise ratio;spatial resolution;tailored iron oxide nanoparticle tracers;Image reconstruction;Iron;Magnetic cores;Magnetic field measurement;Magnetic resonance imaging;Phantoms;Biomedical imaging;magnetic particle imaging;superparamagnetic iron oxides},
+
+
+

@@ -1,0 +1,8 @@
+Face Recognition Across Non-Uniform Motion Blur, Illumination, and Pose,
+
+# Existing methods for performing face recognition in the presence of blur are based on the convolution model and cannot handle non-uniform blurring situations that frequently arise from tilts and rotations in hand-held cameras. In this paper, we propose a methodology for face recognition in the presence of space-varying motion blur comprising of arbitrarily-shaped kernels. We model the blurred face as a convex combination of geometrically transformed instances of the focused gallery face, and show that the set of all images obtained by non-uniformly blurring a given image forms a convex set. We first propose a nonuniform blur-robust algorithm by making use of the assumption of a sparse camera trajectory in the camera motion space to build an energy function with l1-norm constraint on the camera motion. The framework is then extended to handle illumination variations by exploiting the fact that the set of all images obtained from a face image by non-uniform blurring and changing the illumination forms a bi-convex set. Finally, we propose an elegant extension to also account for variations in pose.
+
+{compressed sensing;face recognition;image motion analysis;image restoration;pose estimation;arbitrarily-shaped kernels;biconvex set;camera motion space;convex combination;face recognition;focused gallery face;illumination;nonuniform blur-robust algorithm;nonuniform motion blur;pose;sparse camera trajectory;Cameras;Convolution;Face;Face recognition;Image recognition;Lighting;Probes;Face recognition;illumination;non-uniform blur;pose;sparsity},
+
+
+
