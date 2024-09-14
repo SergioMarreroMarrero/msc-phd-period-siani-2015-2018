@@ -1,4 +1,4 @@
-# OldWorks
+# Resume of topics/exercises/projects developed in this repo
 These are some old works. The folder are:
 
 1) **Arduino**: Actually Waspmote (very similar to arduino). Some scripts developed.
